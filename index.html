@@ -67,8 +67,14 @@
         .controls {
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 1rem;
             flex-wrap: wrap;
+        }
+
+        .controls label {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
         }
 
         select, button {
@@ -90,7 +96,12 @@
             background-repeat: no-repeat;
             background-position: right 1rem center;
             background-size: 1rem;
-            min-width: 250px;
+            min-width: 180px;
+        }
+
+        select option {
+            background-color: #ffffff;
+            color: #000000;
         }
 
         select:hover, button:hover {
@@ -157,7 +168,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 2rem;
+            margin-bottom: 1.2rem;
             font-weight: 500;
             color: var(--text-secondary);
         }
@@ -168,6 +179,18 @@
             padding: 0.4rem 1rem;
             border-radius: 999px;
             border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .source-tag {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 0.2rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
         }
 
         .question-text {
@@ -311,12 +334,50 @@
             border-top: 1px solid var(--glass-border);
         }
 
+        /* Result screen */
+        .result-container {
+            display: none;
+            text-align: center;
+            padding: 3rem 2rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 1.5rem;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .result-container h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .result-score {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 1.5rem 0;
+            color: var(--correct);
+        }
+
+        .result-container p {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
         @media (max-width: 600px) {
             .quiz-container {
                 padding: 1.5rem;
             }
             .option-btn {
                 padding: 1rem;
+            }
+            h1 {
+                font-size: 1.5rem;
             }
         }
     </style>
@@ -326,24 +387,12 @@
     <header>
         <h1>英語精選題庫練習系統</h1>
         <div class="controls">
-            <select id="paper-select">
-                <option value="" disabled selected>請選擇一份試卷...</option>
-                <!-- 檔案列表 -->
-                <option value="114中區_單題解析.json">114中區</option>
-                <option value="114中興附中_單題解析.json">114中興附中</option>
-                <option value="114台北國中_單題解析.json">114台北國中</option>
-                <option value="114台南國中_單題解析.json">114台南國中</option>
-                <option value="114台南女中_單題解析.json">114台南女中</option>
-                <option value="114基隆_單題解析.json">114基隆</option>
-                <option value="114師大附中_單題解析.json">114師大附中</option>
-                <option value="114新北國中_單題解析.json">114新北國中</option>
-                <option value="114桃園國中_單題解析.json">114桃園國中</option>
-                <option value="115台中一中_單題解析.json">115台中一中</option>
-                <option value="115嘉科實中_單題解析.json">115嘉科實中</option>
-                <option value="115成德高中_單題解析.json">115成德高中</option>
-                <option value="115松山家商_單題解析.json">115松山家商</option>
-                <option value="115陽明交大_單題解析.json">115陽明交大</option>
-                <option value="115麗山高中_單題解析.json">115麗山高中</option>
+            <label>練習題數：</label>
+            <select id="count-select">
+                <option value="10">10 題</option>
+                <option value="20">20 題</option>
+                <option value="30">30 題</option>
+                <option value="all">全部題目</option>
             </select>
             <button id="start-btn" class="primary">開始練習</button>
         </div>
@@ -355,7 +404,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg>
             <h2>歡迎來到英語精選題庫練習</h2>
-            <p>請在上方選擇一份試卷以開始學習。系統將為您提供即時解答與詳細解析。</p>
+            <p>選擇題數後按「開始練習」，系統將從所有試卷中隨機出題。<br>每題均會顯示來源試卷，並提供即時解答與詳細解析。</p>
         </div>
 
         <div class="loading" id="loading">
@@ -368,6 +417,8 @@
                 <span id="question-counter">Question 1 / 10</span>
                 <span class="score-badge" id="score-display">得分: 0 / 0</span>
             </div>
+
+            <div class="source-tag" id="source-tag">來源：—</div>
 
             <div class="question-text" id="question-text">
                 Loading question...
@@ -385,6 +436,13 @@
                 <button id="next-btn" class="primary">下一題 ➔</button>
             </div>
         </div>
+
+        <div class="result-container" id="result-container">
+            <h2>🎉 練習完成！</h2>
+            <div class="result-score" id="result-score">—</div>
+            <p id="result-msg"></p>
+            <button class="primary" id="restart-btn">再練一次</button>
+        </div>
     </main>
 
     <footer>
@@ -392,18 +450,43 @@
     </footer>
 
     <script>
-        const paperSelect = document.getElementById('paper-select');
-        const startBtn = document.getElementById('start-btn');
-        const welcomeState = document.getElementById('welcome-state');
-        const loadingState = document.getElementById('loading');
-        const quizContainer = document.getElementById('quiz-container');
-        
-        const questionCounter = document.getElementById('question-counter');
-        const scoreDisplay = document.getElementById('score-display');
-        const questionText = document.getElementById('question-text');
-        const optionsGrid = document.getElementById('options-grid');
-        const explanationDiv = document.getElementById('explanation');
-        const nextBtn = document.getElementById('next-btn');
+        // ── 設定：所有試卷檔名與對應顯示名稱 ──
+        const BASE_URL = 'https://edwina-english-class.github.io/past-papers-teacher-english/';
+        const PAPERS = [
+            { file: '114中區_單題解析.json',   name: '114 中區' },
+            { file: '114中興附中_單題解析.json', name: '114 中興附中' },
+            { file: '114台北國中_單題解析.json', name: '114 台北國中' },
+            { file: '114台南國中_單題解析.json', name: '114 台南國中' },
+            { file: '114台南女中_單題解析.json', name: '114 台南女中' },
+            { file: '114基隆_單題解析.json',   name: '114 基隆' },
+            { file: '114師大附中_單題解析.json', name: '114 師大附中' },
+            { file: '114新北國中_單題解析.json', name: '114 新北國中' },
+            { file: '114桃園國中_單題解析.json', name: '114 桃園國中' },
+            { file: '115台中一中_單題解析.json', name: '115 台中一中' },
+            { file: '115嘉科實中_單題解析.json', name: '115 嘉科實中' },
+            { file: '115成德高中_單題解析.json', name: '115 成德高中' },
+            { file: '115松山家商_單題解析.json', name: '115 松山家商' },
+            { file: '115陽明交大_單題解析.json', name: '115 陽明交大' },
+            { file: '115麗山高中_單題解析.json', name: '115 麗山高中' },
+        ];
+
+        // ── DOM ──
+        const countSelect      = document.getElementById('count-select');
+        const startBtn         = document.getElementById('start-btn');
+        const welcomeState     = document.getElementById('welcome-state');
+        const loadingState     = document.getElementById('loading');
+        const quizContainer    = document.getElementById('quiz-container');
+        const resultContainer  = document.getElementById('result-container');
+        const questionCounter  = document.getElementById('question-counter');
+        const scoreDisplay     = document.getElementById('score-display');
+        const sourceTag        = document.getElementById('source-tag');
+        const questionText     = document.getElementById('question-text');
+        const optionsGrid      = document.getElementById('options-grid');
+        const explanationDiv   = document.getElementById('explanation');
+        const nextBtn          = document.getElementById('next-btn');
+        const resultScore      = document.getElementById('result-score');
+        const resultMsg        = document.getElementById('result-msg');
+        const restartBtn       = document.getElementById('restart-btn');
 
         let currentQuestions = [];
         let currentIndex = 0;
@@ -412,120 +495,149 @@
 
         startBtn.addEventListener('click', loadQuiz);
         nextBtn.addEventListener('click', showNextQuestion);
+        restartBtn.addEventListener('click', loadQuiz);
 
+        // ── 載入所有試卷並隨機取題 ──
         async function loadQuiz() {
-            const fileName = paperSelect.value;
-            if (!fileName) {
-                alert('請先選擇一份試卷！');
-                return;
-            }
-
-            welcomeState.style.display = 'none';
-            quizContainer.style.display = 'none';
-            loadingState.style.display = 'block';
+            welcomeState.style.display    = 'none';
+            quizContainer.style.display   = 'none';
+            resultContainer.style.display = 'none';
+            loadingState.style.display    = 'block';
 
             try {
-                // Ensure the fetch path correctly points to the directory where JSON files are located
-                const response = await fetch(`./extracted_single_questions/${fileName}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                // 平行下載所有試卷
+                const results = await Promise.allSettled(
+                    PAPERS.map(p =>
+                        fetch(BASE_URL + encodeURIComponent(p.file))
+                            .then(r => {
+                                if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                                return r.json();
+                            })
+                            .then(data => ({ name: p.name, data }))
+                    )
+                );
+
+                // 合併所有成功載入的題目，每題附上來源名稱
+                let allQuestions = [];
+                results.forEach(result => {
+                    if (result.status === 'fulfilled') {
+                        const { name, data } = result.value;
+                        if (Array.isArray(data)) {
+                            data.forEach(q => allQuestions.push({ ...q, _source: name }));
+                        }
+                    }
+                });
+
+                if (allQuestions.length === 0) {
+                    throw new Error('所有試卷載入失敗，請確認檔案路徑正確。');
                 }
-                const data = await response.json();
-                
-                if (data && data.length > 0) {
-                    currentQuestions = data;
-                    currentIndex = 0;
-                    score = 0;
-                    answered = 0;
-                    
-                    loadingState.style.display = 'none';
-                    quizContainer.style.display = 'block';
-                    renderQuestion();
-                } else {
-                    throw new Error('試卷資料為空');
+
+                // 隨機排序
+                allQuestions = shuffle(allQuestions);
+
+                // 依照選擇的題數截取
+                const countVal = countSelect.value;
+                if (countVal !== 'all') {
+                    const n = parseInt(countVal, 10);
+                    allQuestions = allQuestions.slice(0, Math.min(n, allQuestions.length));
                 }
+
+                currentQuestions = allQuestions;
+                currentIndex = 0;
+                score = 0;
+                answered = 0;
+
+                loadingState.style.display  = 'none';
+                quizContainer.style.display = 'block';
+                renderQuestion();
+
             } catch (error) {
-                console.error("載入失敗:", error);
-                loadingState.style.display = 'none';
-                welcomeState.style.display = 'block';
-                alert('載入資料失敗，請確認該 JSON 檔案存在且格式正確。');
+                console.error('載入失敗:', error);
+                loadingState.style.display  = 'none';
+                welcomeState.style.display  = 'block';
+                alert('載入資料失敗：' + error.message);
             }
         }
 
+        // ── Fisher-Yates 洗牌 ──
+        function shuffle(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        // ── 顯示題目 ──
         function renderQuestion() {
-            const currentQ = currentQuestions[currentIndex];
-            
-            // Reset UI
+            const q = currentQuestions[currentIndex];
+
             explanationDiv.style.display = 'none';
-            nextBtn.style.display = 'none';
-            optionsGrid.innerHTML = '';
-            
-            // Update Headers
+            nextBtn.style.display        = 'none';
+            optionsGrid.innerHTML        = '';
+
             questionCounter.textContent = `Question ${currentIndex + 1} / ${currentQuestions.length}`;
-            scoreDisplay.textContent = `得分: ${score} / ${answered}`;
-            
-            // Update Question
-            questionText.textContent = `${currentQ.question_number}. ${currentQ.question}`;
-            
-            // Create Option Buttons dynamically based on the keys in currentQ.options
-            Object.entries(currentQ.options).forEach(([key, value]) => {
+            scoreDisplay.textContent    = `得分: ${score} / ${answered}`;
+            sourceTag.textContent       = `來源：${q._source || '—'}`;
+            questionText.textContent    = `${q.question_number}. ${q.question}`;
+
+            Object.entries(q.options).forEach(([key, value]) => {
                 const btn = document.createElement('button');
                 btn.className = 'option-btn';
-                btn.innerHTML = `<span class="label">${key}</span> <span class="text">${value}</span>`;
-                btn.addEventListener('click', () => handleOptionClick(key, currentQ.answer, btn, currentQ.explanation));
+                btn.innerHTML = `<span class="label">${key}</span><span class="text">${value}</span>`;
+                btn.addEventListener('click', () => handleOptionClick(key, q.answer, btn, q.explanation));
                 optionsGrid.appendChild(btn);
             });
         }
 
+        // ── 處理作答 ──
         function handleOptionClick(selectedKey, correctKey, clickedBtn, explanation) {
-            // Disable all buttons once an option is selected
-            const allBtns = document.querySelectorAll('.option-btn');
-            allBtns.forEach(btn => {
+            document.querySelectorAll('.option-btn').forEach(btn => {
                 btn.disabled = true;
-                const btnLabel = btn.querySelector('.label').textContent;
-                
-                // Highlight the correct answer no matter what the user selected
-                if (btnLabel === correctKey) {
+                if (btn.querySelector('.label').textContent === correctKey) {
                     btn.classList.add('correct');
                 }
             });
 
             answered++;
-            
-            // Handle incorrect selection
             if (selectedKey !== correctKey) {
                 clickedBtn.classList.add('incorrect');
             } else {
                 score++;
             }
-            
-            // Update score
-            scoreDisplay.textContent = `得分: ${score} / ${answered}`;
 
-            // Show explanation
-            explanationDiv.textContent = explanation;
+            scoreDisplay.textContent     = `得分: ${score} / ${answered}`;
+            explanationDiv.textContent   = explanation;
             explanationDiv.style.display = 'block';
-            
-            // Show next button (or end text)
+
+            nextBtn.style.display = 'inline-block';
             if (currentIndex < currentQuestions.length - 1) {
-                nextBtn.style.display = 'inline-block';
                 nextBtn.textContent = '下一題 ➔';
             } else {
-                nextBtn.style.display = 'inline-block';
-                nextBtn.textContent = '完成練習，重新開始';
-                nextBtn.onclick = () => {
-                    alert(`恭喜完成！總得分：${score} / ${currentQuestions.length}`);
-                    loadQuiz(); // Restart the same quiz
-                    nextBtn.onclick = showNextQuestion; // Reset onclick
-                };
+                nextBtn.textContent = '查看結果';
             }
         }
 
+        // ── 下一題 ──
         function showNextQuestion() {
-            currentIndex++;
-            if (currentIndex < currentQuestions.length) {
+            if (currentIndex < currentQuestions.length - 1) {
+                currentIndex++;
                 renderQuestion();
+            } else {
+                showResult();
             }
+        }
+
+        // ── 結果頁 ──
+        function showResult() {
+            quizContainer.style.display   = 'none';
+            resultContainer.style.display = 'block';
+
+            const total = currentQuestions.length;
+            const pct   = Math.round((score / total) * 100);
+            resultScore.textContent = `${score} / ${total}`;
+            resultMsg.textContent   = `正確率 ${pct}%　${pct >= 80 ? '🏆 表現優秀！' : pct >= 60 ? '👍 繼續加油！' : '📖 多加練習！'}`;
         }
     </script>
 </body>
