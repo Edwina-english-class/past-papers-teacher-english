@@ -1,0 +1,422 @@
+[
+    {
+        "question_number": "1",
+        "question": "Although the theory initially appeared ______ to mainstream scholars, who dismissed it as overly abstract, it later gained acceptance as empirical evidence began to accumulate.",
+        "options": {
+            "A": "tenable",
+            "B": "esoteric",
+            "C": "orthodox",
+            "D": "pragmatic"
+        },
+        "answer": "B",
+        "explanation": "【句意】儘管該理論最初對主流學者來說顯得______，他們認為它過於抽象而加以駁斥，但隨著實證證據的累積，該理論後來獲得了認可。\n【解析】\n(B) esoteric (難懂的，只有少數人懂的)：符合句意，理論一開始被認為過於抽象難懂，後來才被接受。\n(A) tenable (站得住腳的，可維持的)：與句意不符，理論一開始被認為站不住腳才被駁斥。\n(C) orthodox (正統的，傳統的)：與句意不符，理論一開始被認為過於抽象，與正統學說不同。\n(D) pragmatic (務實的)：與句意不符，理論一開始被認為過於抽象，而非不務實。"
+    },
+    {
+        "question_number": "2",
+        "question": "Because the manager failed to anticipate the market shift, and instead relied on outdated data, his strategy was widely regarded as ______.",
+        "options": {
+            "A": "prescient",
+            "B": "imprudent",
+            "C": "meticulous",
+            "D": "judicious"
+        },
+        "answer": "B",
+        "explanation": "【句意】由於經理未能預見市場的轉變，反而依賴過時的數據，他的策略被廣泛認為是______。\n【解析】\n(B) imprudent (不明智的，魯莽的)：符合句意，未能預見市場轉變並依賴過時數據是不明智的行為。\n(A) prescient (預見的，有先見之明的)：與句意相反，經理未能預見。\n(C) meticulous (一絲不苟的，細緻的)：與句意不符，策略的失敗與細緻與否無關，而是與判斷有關。\n(D) judicious (明智的，審慎的)：與句意相反，策略被認為是不明智的。"
+    },
+    {
+        "question_number": "3",
+        "question": "While her tone seemed polite on the surface, the underlying message was so ______ that several participants felt subtly insulted.",
+        "options": {
+            "A": "conciliatory",
+            "B": "benign",
+            "C": "caustic",
+            "D": "deferential"
+        },
+        "answer": "C",
+        "explanation": "【句意】雖然她的語氣表面上似乎很禮貌，但潛在的訊息卻如此______，以至於幾位參與者感到受到微妙的侮辱。\n【解析】\n(C) caustic (諷刺的，尖刻的)：符合句意，潛在的訊息尖刻，導致參與者感到被侮辱。\n(A) conciliatory (安撫的，和解的)：與句意不符，安撫的訊息不會讓人感到被侮辱。\n(B) benign (良性的，無害的)：與句意不符，良性的訊息不會讓人感到被侮辱。\n(D) deferential (恭敬的，順從的)：與句意不符，恭敬的語氣不會讓人感到被侮辱。"
+    },
+    {
+        "question_number": "4",
+        "question": "Even though the report was presented as objective, its selective use of data suggests that the conclusions may have been deliberately ______.",
+        "options": {
+            "A": "substantiated",
+            "B": "distorted",
+            "C": "clarified",
+            "D": "corroborated"
+        },
+        "answer": "B",
+        "explanation": "【句意】儘管該報告被呈現為客觀的，但其選擇性使用數據表明結論可能被故意______。\n【解析】\n(B) distorted (扭曲的)：符合句意，選擇性使用數據會導致結論被扭曲。\n(A) substantiated (證實的)：與句意相反，選擇性使用數據並非為了證實。\n(C) clarified (闡明的)：與句意相反，選擇性使用數據會使情況更不明確，而非闡明。\n(D) corroborated (證實的，加強的)：與句意相反，選擇性使用數據並非為了證實或加強。"
+    },
+    {
+        "question_number": "5",
+        "question": "Since the politician had long cultivated an image of integrity, the sudden scandal, which exposed his hidden dealings, appeared particularly ______.",
+        "options": {
+            "A": "inconsequential",
+            "B": "incongruous",
+            "C": "inevitable",
+            "D": "contradictory"
+        },
+        "answer": "B",
+        "explanation": "【句意】由於這位政治人物長期以來塑造了廉潔的形象，突然爆發的醜聞，揭露了他隱藏的交易，這顯得特別______。\n【解析】\n(B) incongruous (不協調的，不相稱的)：符合句意，廉潔的形象與醜聞、隱藏的交易極不協調。\n(A) inconsequential (不重要的)：與句意不符，醜聞對其形象影響重大。\n(C) inevitable (不可避免的)：與句意不符，醜聞的發生並非必然。\n(D) contradictory (矛盾的)：雖然有矛盾，但 incongruous 更能表達形象與事實之間的巨大落差。"
+    },
+    {
+        "question_number": "6",
+        "question": "Although the instructions were technically accurate, they were so ______ in their wording that users found it difficult to implement them effectively.",
+        "options": {
+            "A": "explicit",
+            "B": "ambiguous",
+            "C": "elaborate",
+            "D": "coherent"
+        },
+        "answer": "B",
+        "explanation": "【句意】儘管說明在技術上是準確的，但其措辭卻如此______，以至於使用者發現難以有效地實施。\n【解析】\n(B) ambiguous (含糊不清的，模棱兩可的)：符合句意，含糊不清的措辭會導致難以實施。\n(A) explicit (明確的)：與句意相反，明確的說明應易於實施。\n(C) elaborate (詳盡的，複雜的)：雖然詳盡的說明可能難以理解，但與「難以實施」的直接關聯性不如「含糊不清」。\n(D) coherent (連貫的，條理清晰的)：與句意相反，連貫的說明應易於理解和實施。"
+    },
+    {
+        "question_number": "7",
+        "question": "As the negotiations progressed and both parties became increasingly rigid in their positions, the likelihood of reaching an agreement began to ______.",
+        "options": {
+            "A": "escalate",
+            "B": "proliferate",
+            "C": "wane",
+            "D": "culminate"
+        },
+        "answer": "C",
+        "explanation": "【句意】隨著談判的進展，雙方在立場上變得越來越僵化，達成協議的可能性開始______。\n【解析】\n(C) wane (減弱，衰退)：符合句意，雙方立場僵化，達成協議的可能性會減弱。\n(A) escalate (升級，加劇)：與句意不符，可能性不會加劇。\n(B) proliferate (激增，蔓延)：與句意不符，可能性不會激增。\n(D) culminate (達到頂點，告一段落)：與句意不符，可能性並非達到頂點。"
+    },
+    {
+        "question_number": "8",
+        "question": "While the proposal aimed to address systemic issues, its overly simplistic approach rendered it largely ______ in practice.",
+        "options": {
+            "A": "viable",
+            "B": "ineffective",
+            "C": "comprehensive",
+            "D": "innovative"
+        },
+        "answer": "B",
+        "explanation": "【句意】雖然該提案旨在解決系統性問題，但其過於簡單化的方法在實踐中使其在很大程度上______。\n【解析】\n(B) ineffective (無效的)：符合句意，過於簡單化的方法無法有效解決系統性問題。\n(A) viable (可行的)：與句意相反，簡單化的方法可能無法實踐。\n(C) comprehensive (全面的)：與句意相反，簡單化的方法不可能全面。\n(D) innovative (創新的)：與句意不符，簡單化不代表創新，且可能無效。"
+    },
+    {
+        "question_number": "9",
+        "question": "Because the witness had altered her testimony multiple times, and could not provide consistent details, her account was deemed ______ by the jury.",
+        "options": {
+            "A": "credible",
+            "B": "plausible",
+            "C": "unreliable",
+            "D": "consistent"
+        },
+        "answer": "C",
+        "explanation": "【句意】由於證人多次更改她的證詞，且無法提供一致的細節，她的陳述被陪審團認為是______。\n【解析】\n(C) unreliable (不可靠的)：符合句意，多次更改證詞且細節不一致，證詞自然不可靠。\n(A) credible (可信的)：與句意相反。\n(B) plausible (貌似可信的)：與句意相反，不一致的證詞難以讓人覺得貌似可信。\n(D) consistent (一致的)：與句意相反，證詞不一致。"
+    },
+    {
+        "question_number": "10",
+        "question": "Although he claimed to be indifferent to criticism, his defensive reactions, which often escalated minor disagreements, suggested a rather ______ disposition.",
+        "options": {
+            "A": "resilient",
+            "B": "magnanimous",
+            "C": "insecure",
+            "D": "impartial"
+        },
+        "answer": "C",
+        "explanation": "【句意】儘管他聲稱對批評漠不關心，但他防禦性的反應，常常使小爭執升級，顯示出相當______的性情。\n【解析】\n(C) insecure (不安全的，缺乏自信的)：符合句意，防禦性的反應和容易被激怒的特質顯示出缺乏自信。\n(A) resilient (有彈性的，能迅速恢復的)：與句意相反，防禦性的反應顯示他無法迅速恢復。\n(B) magnanimous (寬宏大量的)：與句意相反，防禦性的反應顯示他並不寬宏大量。\n(D) impartial (公正的)：與句意不符，防禦性的反應與公正無關。"
+    },
+    {
+        "question_number": "11",
+        "question": "Since the data set was incomplete and several variables were overlooked, any conclusions drawn from the study would be inherently ______.",
+        "options": {
+            "A": "definitive",
+            "B": "speculative",
+            "C": "conclusive",
+            "D": "empirical"
+        },
+        "answer": "B",
+        "explanation": "【句意】由於數據集不完整且忽略了幾個變數，從該研究中得出的任何結論都將是內在地______。\n【解析】\n(B) speculative (推測的，猜測的)：符合句意，不完整的數據和忽略的變數會導致結論僅是推測。\n(A) definitive (確定的，決定性的)：與句意相反。\n(C) conclusive (決定性的，結論性的)：與句意相反。\n(D) empirical (經驗的，實證的)：與句意不符，即使數據不完整，結論仍可能基於經驗，但「speculative」更精確地描述了不完整數據帶來的問題。"
+    },
+    {
+        "question_number": "12",
+        "question": "While the CEO's speech was intended to reassure investors, its vague promises and lack of concrete plans made it sound decidedly ______.",
+        "options": {
+            "A": "compelling",
+            "B": "perfunctory",
+            "C": "convincing",
+            "D": "substantive"
+        },
+        "answer": "B",
+        "explanation": "【句意】雖然 CEO 的演講旨在安撫投資者，但其含糊的承諾和缺乏具體計劃，使其聽起來明顯______。\n【解析】\n(B) perfunctory (敷衍的，馬虎的)：符合句意，含糊的承諾和缺乏具體計劃顯示演講是敷衍了事。\n(A) compelling (引人注目的，令人信服的)：與句意相反。\n(C) convincing (令人信服的)：與句意相反。\n(D) substantive (實質的，重要的)：與句意相反，演講缺乏實質內容。"
+    },
+    {
+        "question_number": "13",
+        "question": "Even though the artist rejected traditional forms, and sought to challenge aesthetic norms, his work was criticized as unnecessarily ______.",
+        "options": {
+            "A": "experimental",
+            "B": "derivative",
+            "C": "obscure",
+            "D": "conventional"
+        },
+        "answer": "C",
+        "explanation": "【句意】儘管這位藝術家拒絕傳統形式，並試圖挑戰審美規範，但他的作品卻被批評為不必要地______。\n【解析】\n(C) obscure (晦澀的，難懂的)：符合句意，挑戰傳統和審美規範的作品，如果表達方式不當，可能被批評為晦澀難懂。\n(A) experimental (實驗性的)：這與藝術家拒絕傳統、挑戰規範的行為是相符的，不太可能是批評的點。\n(B) derivative (衍生的，模仿的)：與句意不符，藝術家試圖挑戰傳統，不太可能是模仿。\n(D) conventional (傳統的)：與句意相反，藝術家拒絕傳統。"
+    },
+    {
+        "question_number": "14",
+        "question": "As the company expanded rapidly into international markets, its once cohesive corporate culture became increasingly ______ , leading to internal conflicts.",
+        "options": {
+            "A": "unified",
+            "B": "fragmented",
+            "C": "stable",
+            "D": "decentralized"
+        },
+        "answer": "B",
+        "explanation": "【句意】隨著公司迅速擴張到國際市場，其曾經緊密的企業文化變得越來越______，導致內部衝突。\n【解析】\n(B) fragmented (分散的，破碎的)：符合句意，擴張和國際化可能導致企業文化變得分散，進而產生衝突。\n(A) unified (統一的)：與句意相反，文化變得不統一。\n(C) stable (穩定的)：與句意不符，文化變得不穩定才可能產生衝突。\n(D) decentralized (去中心化的)：雖然去中心化可能與文化分散有關，但 fragmented 更直接地描述了文化本身的分裂狀態，並導致衝突。"
+    },
+    {
+        "question_number": "15",
+        "question": "Although the scholar's argument was intricate and supported by extensive references, its overly dense structure made it largely ______ to general readers.",
+        "options": {
+            "A": "accessible",
+            "B": "intelligible",
+            "C": "inscrutable",
+            "D": "transparent"
+        },
+        "answer": "C",
+        "explanation": "【句意】儘管這位學者的論點錯綜複雜，並有廣泛的參考資料支持，但其過於密集的結構使其對一般讀者來說在很大程度上______。\n【解析】\n(C) inscrutable (難以理解的，高深莫測的)：符合句意，錯綜複雜且結構密集的論點對一般讀者來說難以理解。\n(A) accessible (易於接近的，可理解的)：與句意相反。\n(B) intelligible (可理解的)：與句意相反。\n(D) transparent (透明的，易於理解的)：與句意相反。"
+    },
+    {
+        "question_number": "16",
+        "question": "16.(A) discourage (B) incentivize (C) overlook (D) neutralize",
+        "options": {
+            "A": "discourage",
+            "B": "incentivize",
+            "C": "overlook",
+            "D": "neutralize"
+        },
+        "answer": "B",
+        "explanation": "【句意】儘管組織聲稱優先考慮效率，但其內部文化常常______那些比實質性更具象徵意義的行為。例如，晚上在線工作的員工可能被認為更敬業，即使他們的實際貢獻很少。\n【解析】\n(B) incentivize (獎勵，鼓勵)：符合句意，組織文化鼓勵那些看起來敬業但實際貢獻不大的行為。\n(A) discourage (阻止)：與句意相反。\n(C) overlook (忽略)：與句意不符，文化並非忽略這些行為，而是鼓勵。\n(D) neutralize (中和，抵消)：與句意不符。"
+    },
+    {
+        "question_number": "17",
+        "question": "17.(A) stimulate (B) hinder (C) validate (D) accelerate",
+        "options": {
+            "A": "stimulate",
+            "B": "hinder",
+            "C": "validate",
+            "D": "accelerate"
+        },
+        "answer": "B",
+        "explanation": "【句意】隨著時間的推移，這種動態會______真正的創新，因為個人更關心維持形象而不是冒智力風險。\n【解析】\n(B) hinder (阻礙)：符合句意，過度關注表面形象會阻礙真正的創新。\n(A) stimulate (刺激)：與句意相反。\n(C) validate (證實)：與句意不符。\n(D) accelerate (加速)：與句意相反。"
+    },
+    {
+        "question_number": "18",
+        "question": "18.(A) disregard (B) prioritize (C) quantify (D) complicate",
+        "options": {
+            "A": "disregard",
+            "B": "prioritize",
+            "C": "quantify",
+            "D": "complicate"
+        },
+        "answer": "B",
+        "explanation": "【句意】此外，隨著數字工具越來越容易監控活動，管理者可能會______量化指標，例如響應時間或登錄時間，而犧牲了更細緻的績效評估。\n【解析】\n(B) prioritize (優先考慮)：符合句意，管理者可能會優先考慮量化指標，而忽略了更細緻的評估。\n(A) disregard (忽視)：與句意不符，管理者會關注這些指標。\n(C) quantify (量化)：雖然管理者會量化，但這裡的重點是「優先考慮」量化指標，而不是單純的量化動作。\n(D) complicate (使複雜化)：與句意不符。"
+    },
+    {
+        "question_number": "19",
+        "question": "19.(A) cultivating (B) eroding (C) fortifying (D) stabilizing",
+        "options": {
+            "A": "cultivating",
+            "B": "eroding",
+            "C": "fortifying",
+            "D": "stabilizing"
+        },
+        "answer": "B",
+        "explanation": "【句意】諷刺的是，組織越是試圖衡量生產力，就越有可能______那些驅動有意義工作的特質，包括創造力、批判性思維和長期解決問題的能力。\n【解析】\n(B) eroding (侵蝕，削弱)：符合句意，過度關注生產力衡量可能削弱創造力等特質。\n(A) cultivating (培養)：與句意相反。\n(C) fortifying (加強)：與句意相反。\n(D) stabilizing (穩定)：與句意不符。"
+    },
+    {
+        "question_number": "20",
+        "question": "20.(A) enhance (B) sustain (C) debilitate (D) extinguish",
+        "options": {
+            "A": "enhance",
+            "B": "sustain",
+            "C": "debilitate",
+            "D": "extinguish"
+        },
+        "answer": "C",
+        "explanation": "【句意】如果這種趨勢不加以解決，最終可能會______個人動力和組織效率。\n【解析】\n(C) debilitate (削弱，使衰弱)：符合句意，生產力衡量方式不當會削弱個人動力和組織效率。\n(A) enhance (增強)：與句意相反。\n(B) sustain (維持)：與句意相反。\n(D) extinguish (熄滅，撲滅)：雖然嚴重，但 debilitate 更貼切地描述了效率和動力的下降。"
+    },
+    {
+        "question_number": "21",
+        "question": "21. (A) question (B) challenge (C) defer to (D) acquiesce to",
+        "options": {
+            "A": "question",
+            "B": "challenge",
+            "C": "defer to",
+            "D": "acquiesce to"
+        },
+        "answer": "C",
+        "explanation": "【句意】因此，個人可能會______算法的權威，認為計算輸出本質上是客觀的。\n【解析】\n(C) defer to (服從，聽從)：符合句意，人們傾向於聽從算法的判斷，認為它們是客觀的。\n(A) question (質疑)：與句意相反。\n(B) challenge (挑戰)：與句意相反。\n(D) acquiesce to (默認，勉強同意)：雖然有服從的意思，但 defer to 更強調將判斷權交給對方，符合語境。"
+    },
+    {
+        "question_number": "22",
+        "question": "22. (A) flourish (B) deteriorate (C) intensify (D) expand",
+        "options": {
+            "A": "flourish",
+            "B": "deteriorate",
+            "C": "intensify",
+            "D": "expand"
+        },
+        "answer": "B",
+        "explanation": "【句意】當個人過於輕易地______技術系統時，他們可能不太願意質疑結果或考慮替代觀點。\n【解析】\n(B) deteriorate (惡化，衰退)：符合句意，過度依賴技術會導致批判性思維能力惡化。\n(A) flourish (繁榮)：與句意相反。\n(C) intensify (加劇)：與句意不符。\n(D) expand (擴張)：與句意不符。"
+    },
+    {
+        "question_number": "23",
+        "question": "23. (A) straightforward (B) feasible (C) elusive (D) apparent",
+        "options": {
+            "A": "straightforward",
+            "B": "feasible",
+            "C": "elusive",
+            "D": "apparent"
+        },
+        "answer": "C",
+        "explanation": "【句意】如果責任不明確界定，那麼確定誰應對錯誤或意外傷害負責，就可能變得______。\n【解析】\n(C) elusive (難以捉摸的，難以抓住的)：符合句意，責任不明確時，確定責任人會變得困難且難以捉摸。\n(A) straightforward (直接的)：與句意相反。\n(B) feasible (可行的)：與句意不符。\n(D) apparent (明顯的)：與句意相反。"
+    },
+    {
+        "question_number": "24",
+        "question": "24.(A) reinforce (B) undermine (C) establish (D) justify",
+        "options": {
+            "A": "reinforce",
+            "B": "undermine",
+            "C": "establish",
+            "D": "justify"
+        },
+        "answer": "B",
+        "explanation": "【句意】這種模糊性反過來可能會______公眾信任，特別是如果受影響的個人認為沒有補救機制的話。\n【解析】\n(B) undermine (破壞，削弱)：符合句意，責任不清和缺乏補救機制會破壞公眾信任。\n(A) reinforce (加強)：與句意相反。\n(C) establish (建立)：與句意相反。\n(D) justify (證明合理)：與句意不符。"
+    },
+    {
+        "question_number": "25",
+        "question": "25.(A) constrain (B) impede (C) champion (D) diminish",
+        "options": {
+            "A": "constrain",
+            "B": "impede",
+            "C": "champion",
+            "D": "diminish"
+        },
+        "answer": "C",
+        "explanation": "【句意】最終，雖然技術進步是不可避免的，但採取更批判和反思的方法至關重要，這種方法不僅尋求______創新，而且確保其與更廣泛的道德原則保持一致。\n【解析】\n(C) champion (支持，擁護)：符合句意，我們應該支持和擁護創新，同時確保其符合道德原則。\n(A) constrain (限制)：與句意不符。\n(B) impede (阻礙)：與句意相反。\n(D) diminish (減少)：與句意相反。"
+    },
+    {
+        "question_number": "26",
+        "question": "26. What can be inferred about the use of technology in language classrooms?\n(A) It guarantees better learning outcomes. (B) It requires careful planning to be effective. (C) It replaces traditional teaching methods entirely. (D) It is unnecessary in modern education.",
+        "options": {
+            "A": "It guarantees better learning outcomes.",
+            "B": "It requires careful planning to be effective.",
+            "C": "It replaces traditional teaching methods entirely.",
+            "D": "It is unnecessary in modern education."
+        },
+        "answer": "B",
+        "explanation": "【句意】關於在語言教室中使用技術，可以推斷出什麼？\n【解析】\n(B) It requires careful planning to be effective. (它需要仔細規劃才能有效)：文章提到「However, the effectiveness of technology in language education depends largely on how it is used. Teachers must carefully design activities that align with learning objectives and encourage meaningful interaction.」這表明技術的有效性取決於如何使用，需要仔細規劃。\n(A) It guarantees better learning outcomes. (它保證了更好的學習成果)：文章並未保證，而是說取決於使用方式。\n(C) It replaces traditional teaching methods entirely. (它完全取代了傳統教學方法)：文章並未提及完全取代。\n(D) It is unnecessary in modern education. (在現代教育中是不必要的)：文章強調了技術的潛力，並非不必要。"
+    },
+    {
+        "question_number": "27",
+        "question": "27. The word \"accessible\" in paragraph 1 is closest in meaning to: (A) circumscribed (B) fathomable (C) abstruse (D) convoluted",
+        "options": {
+            "A": "circumscribed",
+            "B": "fathomable",
+            "C": "abstruse",
+            "D": "convoluted"
+        },
+        "answer": "B",
+        "explanation": "【句意】第一段中的單字 \"accessible\" 最接近以下哪個意思？\n【解析】\n(B) fathomable (可理解的，可測知的)：在句中「These developments have made language learning more flexible and accessible than ever before.」這裡的 accessible 指的是更容易接觸、更容易學習，與 fathomable (可理解的) 在此語境下意思相近。\n(A) circumscribed (受限的)：與句意相反。\n(C) abstruse (晦澀難懂的)：與句意相反。\n(D) convoluted (盤旋的，複雜難懂的)：與句意相反。"
+    },
+    {
+        "question_number": "28",
+        "question": "28. Why does the author mention discussion forums and video conferencing tools? (A) To criticize their overuse in classrooms (B) To illustrate examples of technology that can support interaction (C) To compare them with traditional teaching methods (D) To show their disadvantages",
+        "options": {
+            "A": "To criticize their overuse in classrooms",
+            "B": "To illustrate examples of technology that can support interaction",
+            "C": "To compare them with traditional teaching methods",
+            "D": "To show their disadvantages"
+        },
+        "answer": "B",
+        "explanation": "【句意】作者為什麼提到討論區和視訊會議工具？\n【解析】\n(B) To illustrate examples of technology that can support interaction (舉例說明可以支持互動的技術)：文章提到「For example, using discussion forums or video conferencing tools can promote communication, but only if tasks are structured in a way that requires students to actively participate.」這裡是用這些工具作為例子，說明如何促進溝通。\n(A) To criticize their overuse in classrooms (批評它們在教室裡被過度使用)：文章並未批評過度使用。\n(C) To compare them with traditional teaching methods (與傳統教學方法比較)：文章並未進行直接比較。\n(D) To show their disadvantages (展示它們的缺點)：文章提到需要有結構的任務才能發揮作用，但這不是展示缺點。"
+    },
+    {
+        "question_number": "29",
+        "question": "29. What can be inferred about the \"digital divide\"? (A) It limits equal access and may require pedagogical adjustments. (B) It is mainly caused by students' lack of motivation. (C) It only affects developing countries. (D) It can be completely solved by technology.",
+        "options": {
+            "A": "It limits equal access and may require pedagogical adjustments.",
+            "B": "It is mainly caused by students' lack of motivation.",
+            "C": "It only affects developing countries.",
+            "D": "It can be completely solved by technology."
+        },
+        "answer": "A",
+        "explanation": "【句意】關於「數位落差」，可以推斷出什麼？\n【解析】\n(A) It limits equal access and may require pedagogical adjustments. (它限制了平等的機會，並可能需要教學上的調整)：文章提到「Not all students have equal access to technology, which may create disparities in learning opportunities. Teachers must be aware of these challenges and provide alternative solutions to ensure that all students can benefit from technological advancements.」這表明數位落差影響了平等機會，老師需要調整教學策略。\n(B) It is mainly caused by students' lack of motivation. (它主要是由學生缺乏動力造成的)：文章並未提及動力是主要原因。\n(C) It only affects developing countries. (它只影響發展中國家)：文章並未限制影響範圍。\n(D) It can be completely solved by technology. (它可以完全由技術解決)：文章並未如此說明。"
+    },
+    {
+        "question_number": "30",
+        "question": "30. What is the author's main purpose in writing this passage? (A) To argue that technology should replace teachers (B) To explain how technology can be effectively integrated into teaching (C) To discourage the use of digital tools (D) To describe the history of language education",
+        "options": {
+            "A": "To argue that technology should replace teachers",
+            "B": "To explain how technology can be effectively integrated into teaching",
+            "C": "To discourage the use of digital tools",
+            "D": "To describe the history of language education"
+        },
+        "answer": "B",
+        "explanation": "【句意】作者寫這篇文章的主要目的是什麼？\n【解析】\n(B) To explain how technology can be effectively integrated into teaching (解釋技術如何能有效地融入教學)：文章探討了技術在語言教學中的應用，強調了有效使用的重要性、需要仔細規劃、考慮數位落差等，旨在說明如何有效整合技術。\n(A) To argue that technology should replace teachers (主張技術應取代教師)：文章並未主張取代教師。\n(C) To discourage the use of digital tools (勸阻使用數位工具)：文章強調了技術的潛力，並非勸阻使用。\n(D) To describe the history of language education (描述語言教育的歷史)：文章主要關注當代技術的應用，而非歷史。"
+    },
+    {
+        "question_number": "31",
+        "question": "31. What can be inferred about formative assessment? (A) It is less useful than summative assessment. (B) It focuses only on final results. (C) It supports ongoing learning and improvement. (D) It replaces all traditional testing methods.",
+        "options": {
+            "A": "It is less useful than summative assessment.",
+            "B": "It focuses only on final results.",
+            "C": "It supports ongoing learning and improvement.",
+            "D": "It replaces all traditional testing methods."
+        },
+        "answer": "C",
+        "explanation": "【句意】關於形成性評量，可以推斷出什麼？\n【解析】\n(C) It supports ongoing learning and improvement. (它支持持續的學習和改進)：文章提到「Formative assessment allows teachers to identify students' strengths and weaknesses in real time. ... Moreover, formative assessment encourages students to reflect on their own performance and take an active role in their learning.」這表明形成性評量有助於即時發現問題、鼓勵反思和主動學習，從而支持持續學習和改進。\n(A) It is less useful than summative assessment. (它比總結性評量更有用)：文章並未比較兩者的有用性，而是強調兩者結合。\n(B) It focuses only on final results. (它只關注最終結果)：這描述的是總結性評量，而非形成性評量。\n(D) It replaces all traditional testing methods. (它取代了所有傳統測試方法)：文章提到「Traditionally, assessment has focused on summative tests... However, there has been a growing emphasis on formative assessment...」這表明形成性評量是補充而非完全取代。"
+    },
+    {
+        "question_number": "32",
+        "question": "32. The word \"crucial\" in paragraph 1 is closest in meaning to: (A) peripheral (B) pivotal (C) redundant (D) extraneous",
+        "options": {
+            "A": "peripheral",
+            "B": "pivotal",
+            "C": "redundant",
+            "D": "extraneous"
+        },
+        "answer": "B",
+        "explanation": "【句意】第一段中的單字 \"crucial\" 最接近以下哪個意思？\n【解析】\n(B) pivotal (關鍵的，核心的)：在句中「Assessment plays a crucial role in language education...」這裡的 crucial 指的是非常重要、起關鍵作用，與 pivotal 意思相近。\n(A) peripheral (周邊的，次要的)：與句意相反。\n(C) redundant (多餘的，不必要的)：與句意相反。\n(D) extraneous (無關的，外來的)：與句意相反。"
+    },
+    {
+        "question_number": "33",
+        "question": "33. Why does the author mention peer feedback and self-assessment? (A) To criticize students' performance (B) To provide examples of formative assessment methods (C) To compare different grading systems (D) To explain test formats",
+        "options": {
+            "A": "To criticize students' performance",
+            "B": "To provide examples of formative assessment methods",
+            "C": "To compare different grading systems",
+            "D": "To explain test formats"
+        },
+        "answer": "B",
+        "explanation": "【句意】作者為什麼提到同儕回饋和自我評量？\n【解析】\n(B) To provide examples of formative assessment methods (提供形成性評量方法的例子)：文章提到「Techniques such as peer feedback, self-assessment, and classroom observation can provide valuable insights into student learning.」這裡將同儕回饋和自我評量列為形成性評量的方法。\n(A) To criticize students' performance (批評學生的表現)：文章並未批評學生的表現。\n(C) To compare different grading systems (比較不同的評分系統)：文章並未比較評分系統。\n(D) To explain test formats (解釋測試格式)：文章並未解釋測試格式。"
+    },
+    {
+        "question_number": "34",
+        "question": "34. What can be inferred about challenges in formative assessment? (A) It requires no preparation. (B) It is easy to apply in all contexts. (C) It may be difficult to implement in exam-oriented systems. (D) It reduces student participation.",
+        "options": {
+            "A": "It requires no preparation.",
+            "B": "It is easy to apply in all contexts.",
+            "C": "It may be difficult to implement in exam-oriented systems.",
+            "D": "It reduces student participation."
+        },
+        "answer": "C",
+        "explanation": "【句意】關於形成性評量的挑戰，可以推斷出什麼？\n【解析】\n(C) It may be difficult to implement in exam-oriented systems. (在以考試為導向的系統中可能難以實施)：文章提到「In addition, balancing formative and summative assessment can be challenging, especially in exam-oriented educational systems.」這表明在以考試為導向的系統中，平衡形成性與總結性評量可能很困難。\n(A) It requires no preparation. (它不需要準備)：文章提到「Despite its benefits, formative assessment requires careful planning and implementation.」這表明需要準備。\n(B) It is easy to apply in all contexts. (它在所有情境中都易於應用)：文章提到存在挑戰，並非易於應用。\n(D) It reduces student participation. (它減少了學生的參與)：文章提到形成性評量鼓勵學生參與，而非減少。"
+    },
+    {
+        "question_number": "35",
+        "question": "35. What is the rhetorical purpose of the final paragraph? (A) To summarize and advocate a balanced approach to assessment (B) To introduce a contrasting viewpoint (C) To question the validity of formative assessment (D) To provide empirical evidence",
+        "options": {
+            "A": "To summarize and advocate a balanced approach to assessment",
+            "B": "To introduce a contrasting viewpoint",
+            "C": "To question the validity of formative assessment",
+            "D": "To provide empirical evidence"
+        },
+        "answer": "A",
+        "explanation": "【句意】最後一段的修辭目的是什麼？\n【解析】\n(A) To summarize and advocate a balanced approach to assessment (總結並提倡一種平衡的評量方法)：最後一段總結了文章的觀點，並提出「effective assessment should combine both formative and summative approaches.」主張結合兩種方法，是一種平衡的提倡。\n(B) To introduce a contrasting viewpoint (引入對比的觀點)：文章沒有引入對比觀點。\n(C) To question the validity of formative assessment (質疑形成性評量的有效性)：文章肯定了形成性評量的益處。\n(D) To provide empirical evidence (提供實證證據)：文章沒有提供實證數據。"
+    }
+]

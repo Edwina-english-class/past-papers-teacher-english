@@ -1,0 +1,602 @@
+[
+    {
+        "question_number": "1",
+        "question": "In a reading unit on climate change, students are not given direct answers but are asked to formulate questions, research answers, and present their conclusions on how climate change affects different regions. The teacher guides the process but avoids lecturing.\nWhich instructional approach is most clearly demonstrated in this lesson?",
+        "options": {
+            "A": "Audiolingual Method",
+            "B": "Total Physical Response",
+            "C": "Inquiry-Based Instruction",
+            "D": "Task-Based Language Teaching"
+        },
+        "answer": "C",
+        "explanation": "【句意】在一堂關於氣候變遷的閱讀課中，學生沒有被直接告知答案，而是被要求提出問題、研究答案，並呈現他們關於氣候變遷如何影響不同地區的結論。老師引導整個過程，但避免說教。\n\n這個教學方法最清楚地展現了什麼？\n\n【解析】\n選項 C「探究式教學 (Inquiry-Based Instruction)」最符合題意。這種教學法強調學生主動提問、研究和尋找答案，老師則扮演引導者的角色，這與題目中描述的教學情境完全一致。\n\n選項 A「聽說教學法 (Audiolingual Method)」強調模仿和重複，不符合題意。\n選項 B「全身反應法 (Total Physical Response)」強調透過肢體動作來學習語言，與題意不符。\n選項 D「任務型語言教學法 (Task-Based Language Teaching)」強調完成特定任務來學習語言，雖然有研究和呈現的成分，但題目更側重於學生主動探究的過程，而非單純的任務完成。"
+    },
+    {
+        "question_number": "2",
+        "question": "According to Vygotsky’s sociocultural theory, which of the following teaching practices best supports students' learning within their Zone of Proximal Development (ZPD)?",
+        "options": {
+            "A": "Allowing students to work independently on tasks they have already mastered",
+            "B": "Providing guided support during tasks that students cannot yet complete on their own but can accomplish with help",
+            "C": "Designing collaborative learning activities where more capable peers assist in problem-solving and concept understanding",
+            "D": "Implementing differentiated challenges that require learners to extend their current abilities through strategic teacher mediation"
+        },
+        "answer": "B",
+        "explanation": "【句意】根據維果茨基的社會文化理論，下列哪種教學實踐最能支持學生在其「最近發展區 (Zone of Proximal Development, ZPD)」內的學習？\n\n【解析】\n選項 B「在學生目前無法獨立完成但透過協助可以完成的任務中，提供引導式支持」最符合維果茨基的最近發展區理論。ZPD 指的是學習者在有成人或較有能力同儕的協助下，能夠完成的任務範圍。這種引導式支持（即鷹架作用）是幫助學生跨越 ZPD 的關鍵。\n\n選項 A「讓學生獨立完成他們已經掌握的任務」屬於已發展區的學習，無法擴展 ZPD。\n選項 C「設計合作學習活動，讓能力較強的同儕協助解決問題和理解概念」雖然也與 ZPD 相關，但題目更強調「教學實踐」本身，而選項 B 直接描述了教師或成人提供的支持，更貼近 ZPD 的核心概念，即「有幫助的學習」。選項 C 雖然是好的合作學習，但選項 B 更直接地描述了 ZPD 的核心支持方式。\n選項 D「實施差異化挑戰，要求學習者透過策略性的教師引導來延伸他們目前的能力」也與 ZPD 相關，但選項 B 更精確地描述了在 ZPD 內提供「支持」的本質，即在學生能力邊緣提供協助。"
+    },
+    {
+        "question_number": "3",
+        "question": "Which of the following statements reflects the principles of backward design in curriculum planning?",
+        "options": {
+            "A": "Teachers begin by choosing textbook chapters to follow.",
+            "B": "The course is structured around thematic units selected by students.",
+            "C": "Instructional activities are selected before the learning goals are finalized.",
+            "D": "The learning outcomes are determined first, followed by assessment and instruction."
+        },
+        "answer": "D",
+        "explanation": "【句意】下列哪項陳述反映了課程規劃中「逆向設計 (backward design)」的原則？\n\n【解析】\n選項 D「首先確定學習成果，然後是評量和教學」是逆向設計的核心原則。逆向設計強調從最終的學習目標出發，接著設計評量方式來檢核學習成果，最後才規劃教學活動。\n\n選項 A「老師開始選擇要遵循的教科書章節」是傳統的教學方式，而非逆向設計。\n選項 B「課程圍繞學生選擇的主題單元來建構」可能是一種課程設計方式，但不是逆向設計的關鍵原則。\n選項 C「在學習目標最終確定之前就選擇教學活動」與逆向設計的順序相反。"
+    },
+    {
+        "question_number": "4",
+        "question": "After a national English exam shifts its focus from grammar drills to essay writing, teachers across the country start assigning more writing tasks, using rubrics similar to the test’s scoring guide. Students begin journaling weekly and participating in peer reviews.\nWhat concept best explains the change in classroom instruction due to the altered national test?",
+        "options": {
+            "A": "Washback effect",
+            "B": "Metalinguistic feedback",
+            "C": "Direct corrective feedback",
+            "D": "Criterion-referenced feedback"
+        },
+        "answer": "A",
+        "explanation": "【句意】在一場全國性的英語考試將重點從文法練習轉向論文寫作後，全國各地的老師開始指派更多寫作任務，並使用與考試評分指南相似的評分標準。學生們開始每週寫日記並參與同儕互評。\n\n什麼概念最能解釋由於全國性考試的改變而導致的課堂教學變化？\n\n【解析】\n選項 A「回饋效應 (Washback effect)」最符合題意。回饋效應是指考試對教學內容和方法產生的影響。當全國性考試改變評量重點時，教學也會隨之調整，以幫助學生準備考試，這正是題目中所描述的現象。\n\n選項 B「後設語言回饋 (Metalinguistic feedback)」是指對語言本身結構的回饋，與考試對教學的影響無關。\n選項 C「直接糾正性回饋 (Direct corrective feedback)」是指直接指出學生的錯誤並提供正確答案，這是一種教學技巧，而非考試對教學的整體影響。\n選項 D「標準參照回饋 (Criterion-referenced feedback)」是指根據預設的標準來評量學生的表現，這是一種評量方式，而非考試對教學的影響。"
+    },
+    {
+        "question_number": "5",
+        "question": "A teacher designs a vocabulary quiz that includes rare idioms, obscure phrasal verbs, and culturally specific slang, all of which were never covered in class nor encountered in assigned readings. The students score poorly.\nWhich of the following best describes the main flaw in this vocabulary quiz?",
+        "options": {
+            "A": "It lacks authenticity in task design.",
+            "B": "It lacks face validity for the students.",
+            "C": "It lacks reliability due to cultural bias.",
+            "D": "It lacks content validity in relation to instruction."
+        },
+        "answer": "D",
+        "explanation": "【句意】一位老師設計了一個詞彙測驗，其中包含罕見的慣用語、晦澀的片語動詞，以及文化特定的俚語，這些內容從未在課堂上教授過，也未在指定的閱讀材料中出現過。結果學生的分數很低。\n\n下列哪項最能描述這個詞彙測驗的主要缺陷？\n\n【解析】\n選項 D「缺乏與教學內容的內容效度 (lacks content validity in relation to instruction)」最符合題意。內容效度是指測驗內容是否能充分代表所要測量的知識或技能。由於測驗中的詞彙從未在課堂上教授或在閱讀材料中出現，因此測驗內容與實際教學內容脫節，缺乏內容效度。\n\n選項 A「缺乏任務設計的真實性 (lacks authenticity in task design)」雖然測驗內容可能不真實，但主要問題在於與教學內容的關聯性。\n選項 B「對學生缺乏表面效度 (lacks face validity for the students)」是指測驗看起來不像是在測量學生應該學到的東西，這與內容效度有關，但內容效度是更根本的問題。\n選項 C「因文化偏見而缺乏信度 (lacks reliability due to cultural bias)」信度是指測驗結果的一致性，而文化偏見可能影響測驗的公平性，但題目主要問題是測驗內容與教學內容不符。"
+    },
+    {
+        "question_number": "6",
+        "question": "The art exhibition used clever _____ of historical and contemporary photographs to highlight both the changes and continuities in urban landscapes over the past century.",
+        "options": {
+            "A": "convergence",
+            "B": "discrepancy",
+            "C": "honorarium",
+            "D": "juxtaposition"
+        },
+        "answer": "D",
+        "explanation": "【句意】這個藝術展覽巧妙地運用了歷史和當代照片的_____，來突顯過去一個世紀以來城市景觀的變化與延續性。\n\n【解析】\n選項 D「並列 (juxtaposition)」最符合題意。並列是指將兩者或多者並排比較，以突顯其相似或相異之處。將歷史和當代照片並列，可以清楚地展示城市景觀的變化與延續。\n\n選項 A「匯聚 (convergence)」是指事物逐漸趨於一致或合併，與題意不符。\n選項 B「差異 (discrepancy)」是指不一致或差異，雖然照片可能顯示差異，但「並列」是展示這種差異的手段。\n選項 C「謝禮 (honorarium)」是指為服務支付的報酬，與題意無關。"
+    },
+    {
+        "question_number": "7",
+        "question": "The manager gave only a _____ review of the proposal before rejecting it, clearly not having taken the time to understand its innovative approach to solving the department’s efficiency problems.",
+        "options": {
+            "A": "painstaking",
+            "B": "perfunctory",
+            "C": "phlegmatic",
+            "D": "prodigal"
+        },
+        "answer": "B",
+        "explanation": "【句意】經理在拒絕這項提案之前，只給了它一個_____的審查，顯然沒有花時間去理解其中解決部門效率問題的創新方法。\n\n【解析】\n選項 B「敷衍的 (perfunctory)」最符合題意。經理沒有花時間理解提案就拒絕，表示他的審查是草率、敷衍的。\n\n選項 A「費心的 (painstaking)」與題意相反，表示仔細且花費很多心思。\n選項 C「冷漠的 (phlegmatic)」形容性情冷淡、不易激動，與審查的態度無關。\n選項 D「浪費的 (prodigal)」形容揮霍浪費，與題意不符。"
+    },
+    {
+        "question_number": "8",
+        "question": "The theater critic noted that the actor’s lengthy _____ in the third act revealed the character’s inner turmoil with remarkable subtlety and emotional depth.",
+        "options": {
+            "A": "glossary",
+            "B": "labyrinth",
+            "C": "meridian",
+            "D": "soliloquy"
+        },
+        "answer": "D",
+        "explanation": "【句意】戲劇評論家指出，演員在第三幕中冗長的_____揭示了角色的內心掙扎，展現了非凡的細膩和情感深度。\n\n【解析】\n選項 D「獨白 (soliloquy)」最符合題意。獨白是戲劇中角色對自己說話，通常用來表達內心想法和情感，這與題目中描述的「揭示角色的內心掙扎」相符。\n\n選項 A「詞彙表 (glossary)」是指對術語的解釋，與戲劇表演無關。\n選項 B「迷宮 (labyrinth)」是指複雜的結構，雖然可以比喻內心，但不是演員的表演形式。\n選項 C「子午線 (meridian)」是指地理上的線或最高點，與題意無關。"
+    },
+    {
+        "question_number": "9",
+        "question": "The chef skillfully _____ traditional French cooking techniques with Japanese ingredients to create a unique fusion cuisine that honored both culinary traditions.",
+        "options": {
+            "A": "amalgamated",
+            "B": "evaporated",
+            "C": "oppressed",
+            "D": "upbraided"
+        },
+        "answer": "A",
+        "explanation": "【句意】這位廚師巧妙地將傳統法國烹飪技巧與日本食材_____，創造出一種獨特的融合菜餚，同時尊重了兩種烹飪傳統。\n\n【解析】\n選項 A「融合 (amalgamated)」最符合題意。融合是指將不同的事物結合在一起，創造出新的整體，這與將法國烹飪技巧和日本食材結合創造融合菜餚的描述一致。\n\n選項 B「蒸發 (evaporated)」是指液體變成氣體，與烹飪技巧結合無關。\n選項 C「壓迫 (oppressed)」是指強加權力或控制，與烹飪無關。\n選項 D「責罵 (upbraided)」是指嚴厲批評，與烹飪無關。"
+    },
+    {
+        "question_number": "10",
+        "question": "The hospital administrator faced an ethical _____ when limited resources meant choosing between funding the emergency department’s expansion or purchasing new cancer treatment equipment.",
+        "options": {
+            "A": "conundrum",
+            "B": "inanity",
+            "C": "prowess",
+            "D": "reprisal"
+        },
+        "answer": "A",
+        "explanation": "【句意】當有限的資源意味著必須在資助急診室擴建或購買新的癌症治療設備之間做出選擇時，醫院行政人員面臨一個道德上的_____。\n\n【解析】\n選項 A「難題 (conundrum)」最符合題意。難題是指一個複雜且難以解決的問題，尤其是在涉及道德選擇時。這裡面臨兩難的選擇，是典型的道德難題。\n\n選項 B「愚蠢 (inanity)」是指缺乏意義或價值，與道德困境無關。\n選項 C「威力 (prowess)」是指卓越的能力或技能，與道德困境無關。\n選項 D「報復 (reprisal)」是指對傷害的回應，與題意不符。"
+    },
+    {
+        "question_number": "11",
+        "question": "The wealthy heiress felt a profound _____ despite her material advantages, finding that her luxurious lifestyle provided little genuine fulfillment or purpose.",
+        "options": {
+            "A": "abrasion",
+            "B": "ennui",
+            "C": "icicle",
+            "D": "odyssey"
+        },
+        "answer": "B",
+        "explanation": "【句意】儘管擁有物質上的優勢，這位富有的女繼承人感到一種深刻的_____，發現她奢華的生活方式幾乎沒有提供真正的滿足感或目標。\n\n【解析】\n選項 B「厭倦 (ennui)」最符合題意。厭倦是指一種因缺乏刺激或興趣而產生的無聊、沮喪感，這與題目中描述的「儘管物質豐富，卻缺乏滿足感和目標」的感受一致。\n\n選項 A「磨損 (abrasion)」是指表面被擦傷或磨損，與情感無關。\n選項 C「冰柱 (icicle)」是指冰形成的尖銳物體，與情感無關。\n選項 D「奧德賽 (odyssey)」是指漫長而艱辛的旅程，雖然可以比喻人生，但在此處描述的感受不符。"
+    },
+    {
+        "question_number": "12",
+        "question": "The new policy had a _____ effect on employee morale, leading to increased turnover rates.",
+        "options": {
+            "A": "decorative",
+            "B": "deleterious",
+            "C": "neutral",
+            "D": "temporary"
+        },
+        "answer": "B",
+        "explanation": "【句意】新政策對員工士氣產生了_____的影響，導致離職率上升。\n\n【解析】\n選項 B「有害的 (deleterious)」最符合題意。離職率上升表明新政策對員工士氣產生了負面影響，是破壞性的。\n\n選項 A「裝飾性的 (decorative)」是指僅用於裝飾，無實際作用，與題意不符。\n選項 C「中性的 (neutral)」是指沒有明顯影響，與題意相反。\n選項 D「暫時的 (temporary)」雖然影響可能是暫時的，但「有害的」更能直接描述導致離職率上升的負面影響。"
+    },
+    {
+        "question_number": "13",
+        "question": "In a peer review session, students were asked to ______ each other's essays for grammatical errors.",
+        "options": {
+            "A": "exacerbate",
+            "B": "relinquish",
+            "C": "scrutinize",
+            "D": "hamp"
+        },
+        "answer": "C",
+        "explanation": "【句意】在同儕互評環節中，學生被要求_____彼此的論文以找出文法錯誤。\n\n【解析】\n選項 C「仔細檢查 (scrutinize)」最符合題意。仔細檢查是指仔細地審視，以發現錯誤或細節，這與找出文法錯誤的行為一致。\n\n選項 A「加劇 (exacerbate)」是指使情況變得更糟，與檢查無關。\n選項 B「放棄 (relinquish)」是指放棄或交出，與檢查無關。\n選項 D「hamp」不是一個標準的英文單字，可能是拼寫錯誤。"
+    },
+    {
+        "question_number": "14",
+        "question": "After a three-hour delay, the passengers grew increasingly ______ and began demanding answers from the airline staff.",
+        "options": {
+            "A": "tranquil",
+            "B": "agitated",
+            "C": "indifferent",
+            "D": "nostalgic"
+        },
+        "answer": "B",
+        "explanation": "【句意】在延誤了三個小時後，乘客們變得越來越_____，並開始向航空公司員工要求解釋。\n\n【解析】\n選項 B「焦躁不安的 (agitated)」最符合題意。長時間的延誤會讓乘客感到不滿和焦慮，進而變得焦躁不安，並要求解釋。\n\n選項 A「平靜的 (tranquil)」與題意相反。\n選項 C「漠不關心的 (indifferent)」表示沒有興趣或關心，與要求解釋的行為不符。\n選項 D「懷舊的 (nostalgic)」是指對過去的懷念，與延誤無關。"
+    },
+    {
+        "question_number": "15",
+        "question": "By the time the technician arrived to fix the issue, the system ______ twice, causing panic among staff members working on urgent project.",
+        "options": {
+            "A": "would have crashed",
+            "B": "would crash",
+            "C": "has crashed",
+            "D": "had crashed"
+        },
+        "answer": "D",
+        "explanation": "【句意】等到技術人員到達處理問題時，系統已經發生了兩次_____，引起了正在處理緊急專案的員工的恐慌。\n\n【解析】\n選項 D「had crashed」是過去完成式，表示在技術人員到達這個過去的時間點之前，系統已經發生了兩次崩潰。這符合時間順序和因果關係。\n\n選項 A「would have crashed」通常用於假設語氣，表示過去未發生的情況，在此處不適用。\n選項 B「would crash」通常用於描述過去的習慣性動作或意願，在此處不適用。\n選項 C「has crashed」是現在完成式，表示與現在有關聯的過去動作，但題目描述的是過去的事件，技術人員到達時，崩潰已經發生。"
+    },
+    {
+        "question_number": "16",
+        "question": "Learner autonomy has become a widely discussed concept in foreign language education over the past few decades, particularly _____ skills that support lifelong learning.",
+        "options": {
+            "A": "compared to",
+            "B": "in contrast with",
+            "C": "in relation to",
+            "D": "separate from"
+        },
+        "answer": "C",
+        "explanation": "【句意】學習者自主性在過去幾十年來已成為外語教育中廣泛討論的概念，特別是_____支持終身學習的技能。\n\n【解析】\n選項 C「in relation to」意為「與...相關」，最符合語意。學習者自主性與支持終身學習的技能之間存在關聯性。\n\n選項 A「compared to」意為「與...相比」，表示比較。\n選項 B「in contrast with」意為「與...對比」，表示對比。\n選項 D「separate from」意為「與...分開」，表示獨立。"
+    },
+    {
+        "question_number": "17",
+        "question": "This idea has _____ significant changes in traditional language teaching methods and has led to the development of self-access language learning centers around the world.",
+        "options": {
+            "A": "been subject to",
+            "B": "brought about",
+            "C": "opposed to",
+            "D": "put an end to"
+        },
+        "answer": "B",
+        "explanation": "【句意】這個想法_____了傳統語言教學方法的重大改變，並導致了世界各地自助式語言學習中心的發展。\n\n【解析】\n選項 B「brought about」意為「帶來了；引起了」，最符合語意。學習者自主性的概念引起了教學方法的改變。\n\n選項 A「been subject to」意為「受到...的影響」，表示被動。\n選項 C「opposed to」意為「反對」，與語意相反。\n選項 D「put an end to」意為「結束」，與語意不符。"
+    },
+    {
+        "question_number": "18",
+        "question": "These centers allow learners to _____ their own studies, encouraging independent learning outside of the classroom.",
+        "options": {
+            "A": "give up on",
+            "B": "submit to",
+            "C": "take control of",
+            "D": "wander about"
+        },
+        "answer": "C",
+        "explanation": "【句意】這些中心讓學習者_____自己的學習，鼓勵課堂外的獨立學習。\n\n【解析】\n選項 C「take control of」意為「掌控」，最符合語意。學習者自主性意味著學習者對自己的學習擁有控制權。\n\n選項 A「give up on」意為「放棄」。\n選項 B「submit to」意為「屈服於」。\n選項 D「wander about」意為「閒逛」。"
+    },
+    {
+        "question_number": "19",
+        "question": "As a result of these changes, language teaching and language learning are now often considered _____, with an increasing focus on the learner.",
+        "options": {
+            "A": "at arm's length",
+            "B": "closely connected",
+            "C": "completely separate",
+            "D": "drifted away"
+        },
+        "answer": "B",
+        "explanation": "【句意】因此，語言教學和語言學習現在常被認為_____，越來越關注學習者。\n\n【解析】\n選項 B「closely connected」意為「緊密相連」，最符合語意。教學和學習是緊密相關的，並且都越來越關注學習者。\n\n選項 A「at arm's length」意為「保持距離」。\n選項 C「completely separate」意為「完全分離」。\n選項 D「drifted away」意為「漂離」。"
+    },
+    {
+        "question_number": "20",
+        "question": "In some educational settings, this shift has put the learner _____ language education, leading to new teaching strategies that emphasize the importance of learner independence and responsibility in the learning process.",
+        "options": {
+            "A": "at the heart of",
+            "B": "detached from",
+            "C": "on the periphery of",
+            "D": "hinging on"
+        },
+        "answer": "A",
+        "explanation": "【句意】在某些教育環境中，這種轉變已將學習者置於語言教育的_____，導致了強調學習者在學習過程中獨立性和責任重要性的新教學策略。\n\n【解析】\n選項 A「at the heart of」意為「核心」，最符合語意。學習者被置於教育的核心位置。\n\n選項 B「detached from」意為「脫離」。\n選項 C「on the periphery of」意為「在邊緣」。\n選項 D「hinging on」意為「取決於」。"
+    },
+    {
+        "question_number": "21",
+        "question": "Preserved beneath a mantle of volcanic ash for nearly two millennia, Pompeii serves as a remarkable palimpsest, revealing the intricate tapestry of _____ of Roman civilization.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "B",
+        "explanation": "【句意】龐貝古城在火山灰的覆蓋下保存了近兩千年，它是一個非凡的抄寫本，揭示了羅馬文明_____的複雜織錦。\n\n【解析】\n選項 B「完整的街道、住宅和公共建築 (intact streets, domestic dwellings, and civic edifices)」最符合題意。龐貝被火山灰掩埋，保存了當時的城市結構，包括街道、房屋和公共建築，這能揭示當時的城市組織和生活。\n\n選項 A「隱藏的牆壁和房間」可能部分正確，但不如 B 全面。\n選項 C「定義城市的建築細節和空間配置」雖然也與建築有關，但 B 更直接地描述了城市的面貌。\n選項 D「日常生活的社會階層和建築上的卓越表現」雖然也是羅馬文明的一部分，但 B 更側重於城市本身的物理結構，這是龐貝保存下來最顯著的特徵。"
+    },
+    {
+        "question_number": "22",
+        "question": "Ongoing excavation of this site constitutes a significant archaeological endeavor, affording scholars the opportunity to scrutinize its remarkably _____.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "C",
+        "explanation": "【句意】這個遺址的持續發掘構成了一項重要的考古努力，讓學者有機會仔細審視其非凡的_____。\n\n【解析】\n選項 C「定義城市的建築細節和空間配置 (architectural details and spatial configurations that define the city)」最符合題意。考古學家會仔細研究城市的建築細節和空間佈局，以了解其結構和功能。\n\n選項 A「隱藏的牆壁和房間」可能被發現，但不是審視的重點。\n選項 B「完整的街道、住宅和公共建築」是龐貝的特徵，但 C 更側重於審視的細節。\n選項 D「日常生活的社會階層和建築上的卓越表現」是研究的結果，而不是直接審視的對象。"
+    },
+    {
+        "question_number": "23",
+        "question": "These advanced technologies facilitate precise documentation of structures, thereby enhancing conservation efforts aimed at preserving the integrity of this invaluable heritage.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "A",
+        "explanation": "【句意】這些先進技術有助於精確記錄建築結構，從而加強旨在保護這份寶貴遺產完整性的保護工作。\n\n【解析】\n選項 A「隱藏的牆壁和房間 (concealed walls and chambers)」最符合題意。先進技術如雷射掃描和攝影測量，可以幫助精確記錄建築結構，甚至發現之前未被注意到的隱藏部分。\n\n選項 B「完整的街道、住宅和公共建築」是已知的，先進技術的重點在於精確記錄和發現細節。\n選項 C「定義城市的建築細節和空間配置」雖然也可能被記錄，但 A 更側重於透過技術發現和記錄的細節。\n選項 D「日常生活的社會階層和建築上的卓越表現」是研究的結果，而不是直接記錄的對象。"
+    },
+    {
+        "question_number": "24",
+        "question": "Furthermore, ground-penetrating radar (GPR) has been adeptly utilized to probe subsurface features without necessitating intrusive excavation, thereby unveiling _____ that enrich our comprehension of the urban layout.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "A",
+        "explanation": "【句意】此外，探地雷達 (GPR) 已被熟練地用於探測地下特徵，而無需進行侵入性挖掘，從而揭示了_____，豐富了我們對城市佈局的理解。\n\n【解析】\n選項 A「隱藏的牆壁和房間 (concealed walls and chambers)」最符合題意。探地雷達 (GPR) 的主要功能就是探測地下結構，揭示隱藏在地下的牆壁、房間等，這能幫助理解城市佈局。\n\n選項 B「完整的街道、住宅和公共建築」是地表可見的，GPR 主要用於地下。\n選項 C「定義城市的建築細節和空間配置」雖然也可能被揭示，但 A 更具體地描述了 GPR 的探測對象。\n選項 D「日常生活的社會階層和建築上的卓越表現」是研究的結果，而不是 GPR 直接揭示的。"
+    },
+    {
+        "question_number": "25",
+        "question": "The application of LiDAR (Light Detection and Ranging) technology has further augmented scholarly exploration of Pompeii by providing high-resolution topographical data. This remote sensing technique enables researchers to delineate the landscape and _____, thereby expanding the corpus of knowledge regarding the city’s urban fabric.",
+        "options": {
+            "A": "identify previously obscured structures",
+            "B": "illuminate various facets of life in Pompeii",
+            "C": "captivate both the academic community and the public",
+            "D": "elucidate the economic and social dynamics of the city"
+        },
+        "answer": "A",
+        "explanation": "【句意】LiDAR（光達）技術的應用透過提供高解析度的地形數據，進一步增強了學者對龐貝的研究。這種遙感技術使研究人員能夠描繪出景觀並_____，從而擴展了關於城市結構的知識體系。\n\n【解析】\n選項 A「identify previously obscured structures」意為「識別先前被遮蔽的結構」，最符合 LiDAR 技術的功能。LiDAR 可以穿透植被或建築物，繪製出精確的地形圖，並識別出被遮蔽的結構，從而擴展對城市結構的理解。\n\n選項 B「illuminate various facets of life in Pompeii」意為「闡明龐貝生活的各個方面」，這是研究的結果，而非 LiDAR 的直接功能。\n選項 C「captivate both the academic community and the public」意為「吸引學術界和公眾」，這是技術應用可能帶來的影響，但不是技術本身的功能。\n選項 D「elucidate the economic and social dynamics of the city」意為「闡明城市的經濟和社會動態」，這也是研究的結果，而非 LiDAR 的直接功能。"
+    },
+    {
+        "question_number": "26",
+        "question": "The revelations gleaned from these studies _____ , encompassing urban planning and the intricacies of daily existence.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "D",
+        "explanation": "【句意】從這些研究中獲得的啟示_____，涵蓋了城市規劃和日常生活的複雜性。\n\n【解析】\n選項 D「daily life, social hierarchies, and architectural prowess characteristic」意為「日常生活的社會階層和建築上的卓越表現」，最符合題意。研究的啟示通常會涵蓋人們的生活方式、社會結構以及建築成就等。\n\n選項 A「concealed walls and chambers」是發現的對象，而非研究的啟示。\n選項 B「intact streets, domestic dwellings, and civic edifices」是研究的對象，而非研究的啟示。\n選項 C「architectural details and spatial configurations that define the city」是研究的對象，而非研究的啟示。"
+    },
+    {
+        "question_number": "27",
+        "question": "Excavations have unearthed a plethora of artifacts, including pottery, frescoes, and tools, which _____ .",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "architectural details and spatial configurations that define the city",
+            "D": "daily life, social hierarchies, and architectural prowess characteristic"
+        },
+        "answer": "C",
+        "explanation": "【句意】發掘工作出土了大量的文物，包括陶器、壁畫和工具，這些_____。\n\n【解析】\n選項 C「architectural details and spatial configurations that define the city」意為「定義城市的建築細節和空間配置」，最符合題意。出土的陶器、壁畫和工具等文物，可以幫助我們了解當時的建築細節、空間佈局以及當時人們的生活方式和技術水平。\n\n選項 A「concealed walls and chambers」是結構，而非文物本身的功能。\n選項 B「intact streets, domestic dwellings, and civic edifices」是建築物，而非文物。\n選項 D「daily life, social hierarchies, and architectural prowess characteristic」是研究的結果，而非文物的直接體現。"
+    },
+    {
+        "question_number": "28",
+        "question": "Through these scholarly endeavors, the legacy of Pompeii continues to _____ , standing as a testament to the resilience and richness of human history.",
+        "options": {
+            "A": "concealed walls and chambers",
+            "B": "intact streets, domestic dwellings, and civic edifices",
+            "C": "captivate both the academic community and the public",
+            "D": "elucidate the economic and social dynamics of the city"
+        },
+        "answer": "C",
+        "explanation": "【句意】透過這些學術努力，龐貝的遺產持續_____，成為人類歷史韌性和豐富性的證明。\n\n【解析】\n選項 C「captivate both the academic community and the public」意為「吸引學術界和公眾」，最符合題意。龐貝作為一個重要的考古遺址，其研究成果和歷史價值能夠吸引學者和公眾的興趣，並作為歷史的見證。\n\n選項 A「concealed walls and chambers」是發現的對象，而非遺產的延續方式。\n選項 B「intact streets, domestic dwellings, and civic edifices」是遺址本身，而非遺產的影響力。\n選項 D「elucidate the economic and social dynamics of the city」是研究的結果，而非遺產的延續方式。"
+    },
+    {
+        "question_number": "29",
+        "question": "According to the passage, what can be inferred about the impact of digital storytelling on language learners?",
+        "options": {
+            "A": "It provides opportunities for students to practice writing skills.",
+            "B": "It focuses on improving students’ pronunciation.",
+            "C": "It enhances both creative expression and language practice simultaneously.",
+            "D": "It reduces students’ engagement by focusing too much on technology"
+        },
+        "answer": "C",
+        "explanation": "【句意】根據文章，關於數位敘事對語言學習者的影響，可以推斷出什麼？\n\n【解析】\n選項 C「It enhances both creative expression and language practice simultaneously.」意為「它同時增強了創意表達和語言練習。」文章提到「digital storytelling allows students to express their ideas creatively while simultaneously practicing language skills」，這與選項 C 完全吻合。\n\n選項 A「It provides opportunities for students to practice writing skills.」意為「它提供了學生練習寫作技巧的機會。」文章提到結合圖像、文字、聲音和旁白，但未特別強調寫作練習。\n選項 B「It focuses on improving students’ pronunciation.」意為「它著重於提高學生的發音。」文章未提及發音。\n選項 D「It reduces students’ engagement by focusing too much on technology」意為「它過於關注技術而降低了學生的參與度。」文章反而強調數位敘事能「engage students」。"
+    },
+    {
+        "question_number": "30",
+        "question": "According to the passage, what is the primary reason interactive simulations are effective in multimodal learning?",
+        "options": {
+            "A": "They provide a highly structured environment that limits mistakes.",
+            "B": "They offer learners opportunities to practice language in realistic, risk-free scenarios.",
+            "C": "They reduce the time required to learn complex grammar rules.",
+            "D": "They prioritize individual learning over collaborative activities."
+        },
+        "answer": "B",
+        "explanation": "【句意】根據文章，互動模擬在多模態學習中有效的首要原因是？\n\n【解析】\n選項 B「They offer learners opportunities to practice language in realistic, risk-free scenarios.」意為「它們為學習者提供了在真實、無風險的場景中練習語言的機會。」文章提到「participating in an online discussion forum provides authentic contexts for language use, promoting deeper comprehension and practical application of vocabulary and grammar.」互動模擬也提供類似的真實情境練習。\n\n選項 A「They provide a highly structured environment that limits mistakes.」意為「它們提供高度結構化的環境，限制錯誤。」文章未強調限制錯誤，而是強調真實情境。\n選項 C「They reduce the time required to learn complex grammar rules.」意為「它們減少了學習複雜語法規則所需的時間。」文章未提及此點。\n選項 D「They prioritize individual learning over collaborative activities.」意為「它們優先考慮個人學習而非合作活動。」文章未明確指出這一點，且互動模擬本身可以有合作元素。"
+    },
+    {
+        "question_number": "31",
+        "question": "According to the passage, which of the following best describes the role of teachers in a multimodal classroom?",
+        "options": {
+            "A": "Designers and facilitators who integrate technology into lessons",
+            "B": "Passive observers who allow technology to drive learning",
+            "C": "Evaluators who assess students mainly based on digital projects",
+            "D": "Content creators who write all digital materials"
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，下列哪項最能描述教師在多模態教室中的角色？\n\n【解析】\n選項 A「Designers and facilitators who integrate technology into lessons」意為「將技術融入課程的設計者和促進者。」文章提到「Teachers must be adequately trained to design and implement multimodal lessons effectively.」這表明教師是設計者和實施者，需要整合技術。\n\n選項 B「Passive observers who allow technology to drive learning」意為「允許技術驅動學習的被動觀察者。」這與教師需要訓練來設計和實施課程的說法相反。\n選項 C「Evaluators who assess students mainly based on digital projects」意為「主要根據數位專案評估學生的評估者。」文章未強調評估方式，而是強調教學設計。\n選項 D「Content creators who write all digital materials」意為「撰寫所有數位材料的內容創作者。」教師的角色是設計和促進，不一定需要親自撰寫所有內容。"
+    },
+    {
+        "question_number": "32",
+        "question": "According to the passage, which of the following would most likely limit the widespread adoption of multimodal instruction?",
+        "options": {
+            "A": "A lack of interest from students in using digital platforms",
+            "B": "Insufficient understanding of traditional teaching methodologies",
+            "C": "Inadequate technological infrastructure in less privileged schools",
+            "D": "Overreliance on multimodal methods without sufficient teacher input"
+        },
+        "answer": "C",
+        "explanation": "【句意】根據文章，下列哪項最可能限制多模態教學的廣泛採用？\n\n【解析】\n選項 C「Inadequate technological infrastructure in less privileged schools」意為「資源較少學校的技術基礎設施不足。」文章提到「access to technology and digital resources can be a limiting factor, particularly in under-resourced schools.」這直接指出了技術資源的限制。\n\n選項 A「A lack of interest from students in using digital platforms」意為「學生對使用數位平台缺乏興趣。」文章並未提及學生缺乏興趣。\n選項 B「Insufficient understanding of traditional teaching methodologies」意為「對傳統教學方法的理解不足。」這與多模態教學的採用無關。\n選項 D「Overreliance on multimodal methods without sufficient teacher input」意為「過度依賴多模態方法而缺乏足夠的教師投入。」文章提到教師需要訓練來有效實施，但未指出過度依賴是主要限制因素。"
+    },
+    {
+        "question_number": "33",
+        "question": "What cognitive abilities are most directly enhanced through visual artistic expression, as detailed in the passage?",
+        "options": {
+            "A": "Episodic memory and emotional empathy.",
+            "B": "Spatial reasoning and manual coordination.",
+            "C": "Conceptual abstraction and long-term retrieval.",
+            "D": "Linguistic fluency and rhetorical argumentation."
+        },
+        "answer": "B",
+        "explanation": "【句意】根據文章詳細說明，透過視覺藝術表達最直接增強的認知能力是什麼？\n\n【解析】\n選項 B「Spatial reasoning and manual coordination.」意為「空間推理和手眼協調。」文章提到「Visual artistic expression cultivates visuospatial cognitive capabilities. This modality recruits the occipital cortex for perceptual processing and the parietal lobe for spatial cognition, translating three-dimensional conceptualizations into two-dimensional representations. This process refines proprioceptive integration and enhances ocular-manual coordination.」這直接支持了空間推理和手眼協調的增強。\n\n選項 A「Episodic memory and emotional empathy.」意為「情節記憶和情感同理心。」文章未提及。\n選項 C「Conceptual abstraction and long-term retrieval.」意為「概念抽象和長期提取。」文章提到「Artistic creation additionally stimulates prefrontal creative ideation」，但未直接連結到概念抽象和長期提取。\n選項 D「Linguistic fluency and rhetorical argumentation.」意為「語言流暢度和修辭論證。」這與視覺藝術表達無關。"
+    },
+    {
+        "question_number": "34",
+        "question": "How does the author construct the argument throughout the passage?",
+        "options": {
+            "A": "The author narrates the historical progression of teaching methodologies.",
+            "B": "The author offers anecdotal evidence followed by speculative policy suggestions.",
+            "C": "The author presents scientific findings and correlates them with educational practices.",
+            "D": "The author contrasts neuroscience-based education with traditional curricula through empirical studies."
+        },
+        "answer": "C",
+        "explanation": "【句意】作者在整篇文章中是如何建構論點的？\n\n【解析】\n選項 C「The author presents scientific findings and correlates them with educational practices.」意為「作者呈現科學發現並將其與教育實踐聯繫起來。」文章開頭提到「This pedagogical framework is predicated upon neuroscientific principles」，接著詳細闡述了各個學科（識字、體能、音樂、藝術）如何與神經科學原理相關聯，並對認知發展產生影響。\n\n選項 A「The author narrates the historical progression of teaching methodologies.」意為「作者敘述了教學方法的歷史進程。」文章並未著重於歷史發展。\n選項 B「The author offers anecdotal evidence followed by speculative policy suggestions.」意為「作者提供軼事證據，然後是推測性的政策建議。」文章主要基於科學原理，而非軼事。\n選項 D「The author contrasts neuroscience-based education with traditional curricula through empirical studies.」意為「作者透過實證研究對基於神經科學的教育與傳統課程進行對比。」文章主要在闡述神經科學如何支持當前教育，而非對比傳統課程。"
+    },
+    {
+        "question_number": "35",
+        "question": "What does the passage suggest would most likely characterize a national education system grounded in neuroscientific principles?",
+        "options": {
+            "A": "It would prioritize creative expression over academic performance metrics.",
+            "B": "It would lead to uniform cognitive development across diverse populations.",
+            "C": "It would incorporate physical and artistic disciplines as foundational rather than peripheral.",
+            "D": "It would replace conventional literacy instruction with experiential learning methods and activities."
+        },
+        "answer": "C",
+        "explanation": "【句意】文章暗示一個以神經科學原理為基礎的國家教育體系最有可能的特徵是什麼？\n\n【解析】\n選項 C「It would incorporate physical and artistic disciplines as foundational rather than peripheral.」意為「它會將體育和藝術學科作為基礎而非輔助。」文章強調了識字、體能、音樂和藝術的協同作用，並將它們視為促進神經發展的關鍵組成部分，暗示它們是基礎性的。\n\n選項 A「It would prioritize creative expression over academic performance metrics.」意為「它會優先考慮創意表達而非學術表現指標。」文章並未明確表示會優先於學術表現。\n選項 D「It would replace conventional literacy instruction with experiential learning methods and activities.」意為「它會用體驗式學習方法和活動取代傳統的識字教學。」文章強調了識字教學的重要性，並未建議取代。"
+    },
+    {
+        "question_number": "36",
+        "question": "According to the passage, what is the neurological sequence involved in literacy acquisition?",
+        "options": {
+            "A": "Semantic processing begins in Broca’s area and concludes with grapheme recognition in the hippocampus.",
+            "B": "Visual and auditory inputs are processed in the parietal lobe before being translated into written language.",
+            "C": "The cerebellum coordinates grapheme decoding before the frontal cortex interprets semantic meaning.",
+            "D": "Grapheme recognition initiates in the occipital cortex, progresses through semantic processing, and ends with syntactic analysis."
+        },
+        "answer": "D",
+        "explanation": "【句意】根據文章，識字習得所涉及的神經學順序是什麼？\n\n【解析】\n選項 D「Grapheme recognition initiates in the occipital cortex, progresses through semantic processing, and ends with syntactic analysis.」意為「字形識別始於枕葉視覺皮層，經過語意處理，最終達到句法分析。」文章明確指出：「The process initiates with grapheme recognition in the occipital visual cortex, progresses through semantic processing in Wernicke’s area, and culminates in syntactic analysis via Broca’s area.」這與選項 D 的描述一致。\n\n選項 A「Semantic processing begins in Broca’s area and concludes with grapheme recognition in the hippocampus.」意為「語意處理始於布羅卡氏區，並以海馬體的字形識別結束。」這與文章描述的神經學區域和順序不符。\n選項 B「Visual and auditory inputs are processed in the parietal lobe before being translated into written language.」意為「視覺和聽覺輸入在轉化為書面語言之前在頂葉中處理。」文章未提及此順序，且主要關注視覺輸入和語言處理區域。\n選項 C「The cerebellum coordinates grapheme decoding before the frontal cortex interprets semantic meaning.」意為「小腦協調字形解碼，然後額葉解釋語意。」文章未提及小腦在此過程中的作用，且語意處理與布羅卡氏區和韋尼克區相關。"
+    },
+    {
+        "question_number": "37",
+        "question": "What role does the hippocampus play in the cognitive effects of physical activity, as described in the passage?",
+        "options": {
+            "A": "It generates new neurons that contribute to memory and learning.",
+            "B": "It regulates cortisol levels released during human physical exertion.",
+            "C": "It integrates proprioceptive feedback during spatial navigation tasks.",
+            "D": "It governs fine motor precision during complex movement sequences."
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章描述，海馬體在體育活動的認知效應中扮演什麼角色？\n\n【解析】\n選項 A「It generates new neurons that contribute to memory and learning.」意為「它產生有助於記憶和學習的新神經元。」文章提到：「Empirical evidence demonstrates that systematic physical exertion induces hippocampal neurogenesis, particularly in the dentate gyrus, substantively enhancing cognitive function and mnemonic capacity.」海馬體神經發生（neurogenesis）即是產生新神經元，這與記憶和學習能力增強有關。\n\n選項 B「It regulates cortisol levels released during human physical exertion.」意為「它調節人體運動期間釋放的皮質醇水平。」文章提到「physical exertion attenuates hypothalamic-pituitary-adrenal axis activation, diminishing cortisol secretion」，但這是 HPA 軸的作用，而非海馬體直接調節皮質醇。\n選項 C「It integrates proprioceptive feedback during spatial navigation tasks.」意為「它在空間導航任務中整合本體感覺回饋。」文章未提及此功能。\n選項 D「It governs fine motor precision during complex movement sequences.」意為「它控制複雜運動序列中的精細運動精確度。」這與小腦或運動皮層相關，而非海馬體。"
+    },
+    {
+        "question_number": "38",
+        "question": "What is the main idea of this passage?",
+        "options": {
+            "A": "Hearing aids are expensive and hard to use.",
+            "B": "Only people with severe hearing loss use hearing aids.",
+            "C": "The development of hearing aids has made life easier for people with hearing loss.",
+            "D": "Hearing aids have remained mostly unchanged since their appearance in the 17th century."
+        },
+        "answer": "C",
+        "explanation": "【句意】這篇文章的主要思想是什麼？\n\n【解析】\n選項 C「The development of hearing aids has made life easier for people with hearing loss.」意為「助聽器的發展使聽力損失者的生活變得更輕鬆。」文章詳細描述了助聽器從簡單的耳號到先進的數位設備的演變，以及這些進步如何提高使用者的生活品質和溝通能力。\n\n選項 A「Hearing aids are expensive and hard to use.」意為「助聽器昂貴且難以使用。」文章並未強調昂貴或難以使用，反而強調了易用性。\n選項 B「Only people with severe hearing loss use hearing aids.」意為「只有嚴重聽力損失的人才使用助聽器。」文章並未提及此限制。\n選項 D「Hearing aids have remained mostly unchanged since their appearance in the 17th century.」意為「助聽器自 17 世紀出現以來幾乎沒有改變。」這與文章描述的巨大技術進步完全相反。"
+    },
+    {
+        "question_number": "39",
+        "question": "Why were early electric hearing aids difficult to use in daily life?",
+        "options": {
+            "A": "They were expensive.",
+            "B": "They were big and heavy.",
+            "C": "They needed internet access.",
+            "D": "They did not work outdoors."
+        },
+        "answer": "B",
+        "explanation": "【句意】早期的電動助聽器為什麼難以在日常生活中使用？\n\n【解析】\n選項 B「They were big and heavy.」意為「它們又大又重。」文章提到：「However, they were large and difficult to carry. They often had to be placed on a table and connected to earphones, which made them inconvenient to use in daily life.」這直接說明了它們體積大、難攜帶，因此不方便日常使用。\n\n選項 A「They were expensive.」意為「它們很貴。」文章未提及價格問題。\n選項 C「They needed internet access.」意為「它們需要網路連線。」早期電動助聽器與網路無關。\n選項 D「They did not work outdoors.」意為「它們在戶外無法工作。」文章未提及此限制。"
+    },
+    {
+        "question_number": "40",
+        "question": "How do AI-powered hearing aids adjust to the user's environment?",
+        "options": {
+            "A": "They use detachable built-in cameras.",
+            "B": "They randomly switch programs regularly.",
+            "C": "They learn from habits and listening environments.",
+            "D": "They ask the user to manually change the settings."
+        },
+        "answer": "C",
+        "explanation": "【句意】由 AI 驅動的助聽器如何適應使用者的環境？\n\n【解析】\n選項 C「They learn from habits and listening environments.」意為「它們從習慣和聆聽環境中學習。」文章提到：「With AI, hearing aids can now learn from the user's listening habits and surroundings. They can adjust settings automatically based on where the user is or what they are doing.」這表明 AI 的核心功能是學習和適應。\n\n選項 A「They use detachable built-in cameras.」意為「它們使用可拆卸的內建攝影機。」文章未提及攝影機。\n選項 B「They randomly switch programs regularly.」意為「它們會隨機定期切換程式。」文章提到自動調整，而非隨機切換。\n選項 D「They ask the user to manually change the settings.」意為「它們要求使用者手動更改設定。」文章強調的是自動調整，而非手動。"
+    },
+    {
+        "question_number": "41",
+        "question": "According to the passage, which of the following is NOT a health-related feature of hearing aids today?",
+        "options": {
+            "A": "Detecting falls",
+            "B": "Counting steps",
+            "C": "Taking blood pressure",
+            "D": "Monitoring heart rate"
+        },
+        "answer": "C",
+        "explanation": "【句意】根據文章，下列哪項不是當今助聽器的健康相關功能？\n\n【解析】\n選項 C「Taking blood pressure」意為「測量血壓。」文章提到：「Some modern hearing aids now include health features such as heart rate monitoring, fall detection, or step counting.」其中並未包含測量血壓。\n\n選項 A「Detecting falls」意為「偵測跌倒。」文章有提及。\n選項 B「Counting steps」意為「計算步數。」文章有提及。\n選項 D「Monitoring heart rate」意為「監測心率。」文章有提及。"
+    },
+    {
+        "question_number": "42",
+        "question": "Which feature of modern hearing aids allows users to avoid visiting clinics?",
+        "options": {
+            "A": "Self-charging",
+            "B": "Support through apps",
+            "C": "Disposable models",
+            "D": "Automatic cleaning"
+        },
+        "answer": "B",
+        "explanation": "【句意】現代助聽器的哪個功能讓使用者可以避免去診所？\n\n【解析】\n選項 B「Support through apps」意為「透過應用程式獲得支援。」文章提到：「Smartphone apps have also made it easier for users to control and personalize their hearing aids. With just a few taps, users can adjust volume, switch programs, or check battery levels. Some apps even offer hearing tests and remote support from audiologists. This means people can get help and updates without having to visit a clinic.」這直接說明了應用程式提供的遠端支援功能，讓使用者無需親自前往診所。\n\n選項 A「Self-charging」意為「自我充電。」這方便了使用，但與避免去診所無關。\n選項 C「Disposable models」意為「一次性模型。」這與避免去診所無關。\n選項 D「Automatic cleaning」意為「自動清潔。」這方便了維護，但與避免去診所無關。"
+    },
+    {
+        "question_number": "43",
+        "question": "Based on the passage, why might some people no longer feel embarrassed to wear hearing aids?",
+        "options": {
+            "A": "Because they are now more stylish",
+            "B": "Because they look like regular earbuds now",
+            "C": "Because they are controlled by doctors only",
+            "D": "Because fewer people need them today"
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，為什麼有些人可能不再覺得戴助聽器很尷尬？\n\n【解析】\n選項 A「Because they are now more stylish」意為「因為它們現在更時尚。」文章提到：「Hearing aids in 2025 are also more stylish and comfortable. They are smaller, lighter, and available in many colors and designs. Many models are almost invisible when worn.」這表明助聽器在設計和外觀上的進步，使其更具吸引力。\n\n選項 B「Because they look like regular earbuds now」意為「因為它們現在看起來像普通耳塞。」文章提到「some people choose hearing aids that look like wireless earbuds」，這是一個原因，但「more stylish」是更廣泛的描述，涵蓋了外觀的整體進步。\n選項 C「Because they are controlled by doctors only」意為「因為它們只由醫生控制。」這與尷尬感無關。\n選項 D「Because fewer people need them today」意為「因為今天需要它們的人更少了。」文章並未提及需求減少。"
+    },
+    {
+        "question_number": "44",
+        "question": "According to the passage, what has led to the increasing international influence of smaller nations?",
+        "options": {
+            "A": "The use of cultural exports to amplify their presence globally",
+            "B": "The economic growth of smaller nations",
+            "C": "Their dominance in economic influence",
+            "D": "The growing power of their governments"
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，是什麼導致了小國日益增長的國際影響力？\n\n【解析】\n選項 A「The use of cultural exports to amplify their presence globally」意為「利用文化出口來擴大其全球影響力。」文章開頭就指出：「Through the strategic use of cultural exports—ranging from film and music to culinary traditions and sports—these nations have discovered an effective means of amplifying their voice and fostering international influence.」\n\n選項 B「The economic growth of smaller nations」意為「小國的經濟增長。」文章提到「countries with smaller economies」，暗示經濟規模不是主要原因。\n選項 C「Their dominance in economic influence」意為「它們在經濟影響力上的主導地位。」這與文章中提到的小國經濟規模較小的情況相矛盾。\n選項 D「The growing power of their governments」意為「它們政府權力的增長。」文章強調的是文化影響力，而非政府權力。"
+    },
+    {
+        "question_number": "45",
+        "question": "How have countries like Sweden and Denmark used their cultural identities?",
+        "options": {
+            "A": "By focusing on their military strength",
+            "B": "By promoting their unique contributions to global trade",
+            "C": "By leveraging cultural exports to shape global conversations",
+            "D": "By adopting foreign cultural practices"
+        },
+        "answer": "C",
+        "explanation": "【句意】像瑞典和丹麥這樣的國家是如何運用他們的文化身份的？\n\n【解析】\n選項 C「By leveraging cultural exports to shape global conversations」意為「透過利用文化出口來塑造全球對話。」文章提到：「Swedish design, for instance, is synonymous with minimalism and sustainability, while Danish architecture and urban planning have garnered global attention for their emphasis on livability and green spaces. These countries have not only garnered respect for their cultural contributions but have used them as tools of influence to shape global conversations around issues like design, sustainability, and quality of life.」\n\n選項 A「By focusing on their military strength」意為「專注於他們的軍事力量。」這與文化身份無關。\n選項 B「By promoting their unique contributions to global trade」意為「推廣他們對全球貿易的獨特貢獻。」文章強調的是文化影響力，而非貿易。\n選項 D「By adopting foreign cultural practices」意為「採用外國文化習俗。」這與利用自身文化身份相反。"
+    },
+    {
+        "question_number": "46",
+        "question": "What does the passage imply about the relationship between cultural diplomacy and foreign policy?",
+        "options": {
+            "A": "Cultural diplomacy is unrelated to foreign policy.",
+            "B": "Foreign policy is determined by cultural exports alone.",
+            "C": "Cultural diplomacy is a replacement for traditional foreign policy.",
+            "D": "Cultural diplomacy is often a tactic used to align with broader foreign policy goals."
+        },
+        "answer": "D",
+        "explanation": "【句意】文章暗示了文化外交與外交政策之間的關係是什麼？\n\n【解析】\n選項 D「Cultural diplomacy is often a tactic used to align with broader foreign policy goals.」意為「文化外交常常是與更廣泛的外交政策目標一致的一種策略。」文章提到：「Cultural exports are, in many cases, meticulously curated to align with a nation's broader foreign policy objectives. For instance, South Korea's K-pop phenomenon has been strategically leveraged to bolster its relationships with countries across Asia and beyond, serving as an introduction to more substantive diplomatic discussions.」這表明文化外交是服務於外交政策目標的。\n\n選項 A「Cultural diplomacy is unrelated to foreign policy.」意為「文化外交與外交政策無關。」這與文章內容相反。\n選項 B「Foreign policy is determined by cultural exports alone.」意為「外交政策僅由文化出口決定。」這過於絕對，文章強調的是文化外交是「a tool」或「a tactic」，而非唯一決定因素。\n選項 C「Cultural diplomacy is a replacement for traditional foreign policy.」意為「文化外交是傳統外交政策的替代品。」文章認為文化外交是「a nuanced, multifaceted approach」，而非完全替代。"
+    },
+    {
+        "question_number": "47",
+        "question": "Why does the passage suggest that the Korean Wave is more than just entertainment?",
+        "options": {
+            "A": "Because it helps South Korea build its economy.",
+            "B": "Because it enhances South Korea's diplomatic relations.",
+            "C": "Because it promotes South Korea's political ideology.",
+            "D": "Because it attracts tourists to South Korea."
+        },
+        "answer": "B",
+        "explanation": "【句意】為什麼文章認為韓流不僅僅是娛樂？\n\n【解析】\n選項 B「Because it enhances South Korea's diplomatic relations.」意為「因為它增強了韓國的外交關係。」文章提到：「Far from being mere entertainment, the Hallyu movement has become a powerful diplomatic tool, strengthening South Korea's international relationships and enhancing its soft power.」這直接說明了韓流在外交關係上的作用。\n\n選項 A「Because it helps South Korea build its economy.」意為「因為它幫助韓國發展經濟。」文章未直接強調經濟建設。\n選項 C「Because it promotes South Korea's political ideology.」意為「因為它推廣韓國的政治意識形態。」文章未提及政治意識形態的推廣。\n選項 D「Because it attracts tourists to South Korea.」意為「因為它吸引了遊客到韓國。」雖然可能，但文章強調的是外交和軟實力，而非旅遊業。"
+    },
+    {
+        "question_number": "48",
+        "question": "According to the passage, what role do international sporting events play in cultural diplomacy?",
+        "options": {
+            "A": "They showcase a country's economic power.",
+            "B": "They are a way for countries to display economic growth.",
+            "C": "They provide a platform for promoting culture and fostering diplomatic ties.",
+            "D": "They primarily focus on sports achievements without any diplomatic function."
+        },
+        "answer": "C",
+        "explanation": "【句意】根據文章，國際體育賽事在文化外交中扮演什麼角色？\n\n【解析】\n選項 C「They provide a platform for promoting culture and fostering diplomatic ties.」意為「它們為推廣文化和促進外交關係提供了平台。」文章提到：「Smaller nations have used international sporting events as platforms to promote their culture and values. ... Sporting events like the Rugby World Cup serve as both a celebration of athletic prowess and a stage for nations to display their cultural strengths, enhancing their influence on the global stage.」\n\n選項 A「They showcase a country's economic power.」意為「它們展示一個國家的經濟實力。」文章未強調經濟實力。\n選項 B「They are a way for countries to display economic growth.」意為「它們是國家展示經濟增長的一種方式。」這與文章強調的文化推廣和外交關係不同。\n選項 D「They primarily focus on sports achievements without any diplomatic function.」意為「它們主要關注體育成就，沒有任何外交功能。」這與文章內容完全相反。"
+    },
+    {
+        "question_number": "49",
+        "question": "How does the passage describe the shift in global power dynamics?",
+        "options": {
+            "A": "Military is the most important indicator of influence.",
+            "B": "Smaller nations are increasingly asserting influence through cultural diplomacy.",
+            "C": "Larger nations are losing their ability to shape global affairs.",
+            "D": "Economic power has become irrelevant in international relations."
+        },
+        "answer": "B",
+        "explanation": "【句意】文章如何描述全球權力格局的轉變？\n\n【解析】\n選項 B「Smaller nations are increasingly asserting influence through cultural diplomacy.」意為「小國透過文化外交日益增長地主張影響力。」文章開頭就指出：「a shift is occurring as countries with smaller economies and populations increasingly assert their presence on the global stage. Through the strategic use of cultural exports...」\n\n選項 A「Military is the most important indicator of influence.」意為「軍事是影響力的最重要的指標。」文章提到「In a world where economic and military might no longer serve as the sole indicators of international influence」，表明軍事不再是唯一指標。\n選項 C「Larger nations are losing their ability to shape global affairs.」意為「大國正在失去塑造全球事務的能力。」文章提到大國「have long held the reins」，但並未說他們正在失去能力。\n選項 D「Economic power has become irrelevant in international relations.」意為「經濟力量在國際關係中變得無關緊要。」文章提到「countries with smaller economies」，並未說經濟力量變得無關緊要，而是說它不再是影響力的「sole indicator」。"
+    },
+    {
+        "question_number": "50",
+        "question": "What does the passage suggest about the future of international relations?",
+        "options": {
+            "A": "Economic competition will replace diplomatic dialogue.",
+            "B": "Smaller nations will struggle to assert influence in the future.",
+            "C": "Military power will continue to dominate global interactions.",
+            "D": "Cultural diplomacy will play an increasingly important role in shaping global influence."
+        },
+        "answer": "D",
+        "explanation": "【句意】文章對國際關係的未來有何暗示？\n\n【解析】\n選項 D「Cultural diplomacy will play an increasingly important role in shaping global influence.」意為「文化外交將在塑造全球影響力方面扮演越來越重要的角色。」文章結尾提到：「In this way, cultural diplomacy represents a new frontier in international relations, one that has the potential to reshape the way we think about power, influence, and global cooperation.」這表明文化外交的未來重要性。\n\n選項 A「Economic competition will replace diplomatic dialogue.」意為「經濟競爭將取代外交對話。」文章並未如此預測。\n選項 B「Smaller nations will struggle to assert influence in the future.」意為「小國未來將難以主張影響力。」這與文章強調小國透過文化外交增長影響力的觀點相反。\n選項 C「Military power will continue to dominate global interactions.」意為「軍事力量將繼續主導全球互動。」文章指出軍事力量不再是唯一的影響力指標。"
+    }
+]

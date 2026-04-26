@@ -1,0 +1,490 @@
+[
+    {
+        "question_number": "1",
+        "question": "The treaty was designed to _______ the decades-long animosity between the two neighboring nations.",
+        "options": {
+            "A": "exacerbate",
+            "B": "mollify",
+            "C": "precipitate",
+            "D": "validate"
+        },
+        "answer": "B",
+        "explanation": "【句意】這項條約旨在緩和兩個鄰國之間數十年的敵意。\n【解析】\n(B) mollify 的意思是「緩和、平息」，符合句意，表示條約的目的是要緩和敵意。\n(A) exacerbate 的意思是「加劇、使惡化」，與句意相反。\n(C) precipitate 的意思是「促成、導致（壞事發生）」，通常用於負面事件，與緩和敵意不符。\n(D) validate 的意思是「證實、確認」，與緩和敵意無關。"
+    },
+    {
+        "question_number": "2",
+        "question": "It is generally acknowledged that the system of bureaucracy has become a _______ machine.",
+        "options": {
+            "A": "self-perpetuating",
+            "B": "mind-boggling",
+            "C": "paradigm-shifting",
+            "D": "time-honored"
+        },
+        "answer": "A",
+        "explanation": "【句意】人們普遍認為官僚體系已經變成了一個自我延續的機器。\n【解析】\n(A) self-perpetuating 的意思是「自我延續的、自我維持的」，用來形容官僚體系會不斷地自我運轉和擴張，符合句意。\n(B) mind-boggling 的意思是「令人難以置信的、令人費解的」，雖然官僚體系可能令人費解，但更貼切的描述是其自我維持的特性。\n(C) paradigm-shifting 的意思是「典範轉移的」，通常用於科學或思想上的重大變革，不適用於形容官僚體系。\n(D) time-honored 的意思是「歷史悠久的、受人尊敬的」，雖然官僚體系可能歷史悠久，但此處的語境更強調其運作模式。"
+    },
+    {
+        "question_number": "3",
+        "question": "The judge ruled that the evidence was _______ to the case and therefore could not be presented in court.",
+        "options": {
+            "A": "germane",
+            "B": "indispensable",
+            "C": "pivotal",
+            "D": "extraneous"
+        },
+        "answer": "D",
+        "explanation": "【句意】法官裁定該證據與本案無關，因此不能在法庭上呈現。\n【解析】\n(D) extraneous 的意思是「無關的、外來的」，符合句意，表示證據與案件沒有關聯，所以不能被採納。\n(A) germane 的意思是「相關的、切題的」，與句意相反。\n(B) indispensable 的意思是「不可或缺的、必需的」，表示證據非常重要，與句意不符。\n(C) pivotal 的意思是「關鍵的、重要的」，表示證據非常重要，與句意不符。"
+    },
+    {
+        "question_number": "4",
+        "question": "The study challenges the long-standing ______ that technological innovation, by itself, guarantees equitable social progress.",
+        "options": {
+            "A": "axiom",
+            "B": "anomaly",
+            "C": "digression",
+            "D": "contingency"
+        },
+        "answer": "A",
+        "explanation": "【句意】這項研究挑戰了長久以來「科技創新本身就能保證公平的社會進步」這個公理。\n【解析】\n(A) axiom 的意思是「公理、定理、不證自明的原則」，符合句意，表示這是一個被普遍接受但研究欲推翻的觀念。\n(B) anomaly 的意思是「異常、反常」，與句意不符。\n(C) digression 的意思是「離題、題外話」，與句意不符。\n(D) contingency 的意思是「意外事件、可能性」，與句意不符。"
+    },
+    {
+        "question_number": "5",
+        "question": "The novel’s appeal lies not in overt moral instruction but in its ______ irony, which invites readers to question social norms without prescribing definitive conclusions.",
+        "options": {
+            "A": "vacuous",
+            "B": "sardonic",
+            "C": "ingenuous",
+            "D": "lethargic"
+        },
+        "answer": "B",
+        "explanation": "【句意】這本小說的吸引力不在於明顯的道德說教，而在於其嘲諷的諷刺，它邀請讀者質疑社會規範，而不開出明確的結論。\n【解析】\n(B) sardonic 的意思是「嘲諷的、譏諷的」，符合句意，表示小說透過諷刺的方式來引導讀者思考，而非直接給予答案。\n(A) vacuous 的意思是「空洞的、無意義的」，與句意不符。\n(C) ingenuous 的意思是「天真的、純樸的」，與諷刺的語境不符。\n(D) lethargic 的意思是「昏睡的、無精打采的」，與諷刺的語境不符。"
+    },
+    {
+        "question_number": "6",
+        "question": "The committee’s final report adopted a cautiously worded tone, reflecting a deliberate effort to maintain institutional credibility while avoiding any appearance of undue ______ toward the controversial policy.",
+        "options": {
+            "A": "acquiescence",
+            "B": "belligerence",
+            "C": "vindication",
+            "D": "animosity"
+        },
+        "answer": "A",
+        "explanation": "【句意】委員會的最終報告採用了謹慎措辭的語氣，反映出刻意維持機構信譽的努力，同時避免對這項爭議性政策有任何明顯的默許。\n【解析】\n(A) acquiescence 的意思是「默許、默認」，符合句意，表示報告小心措辭，避免讓人覺得委員會對爭議政策有不當的贊同或支持。\n(B) belligerence 的意思是「好戰、敵對」，與句意不符。\n(C) vindication 的意思是「辯護、證明無罪」，與句意不符。\n(D) animosity 的意思是「敵意、憎恨」，與句意不符。"
+    },
+    {
+        "question_number": "7",
+        "question": "In an attempt to restore public confidence, the organization issued a carefully calibrated apology intended to ______ reputational damage rather than eliminate it entirely.",
+        "options": {
+            "A": "exacerbate",
+            "B": "forestall",
+            "C": "ameliorate",
+            "D": "precipitate"
+        },
+        "answer": "C",
+        "explanation": "【句意】為了恢復公眾信心，該組織發布了一份經過仔細調整的道歉聲明，旨在改善聲譽損害，而非完全消除它。\n【解析】\n(C) ameliorate 的意思是「改善、減輕」，符合句意，表示道歉的目的是要減輕聲譽上的損害。\n(A) exacerbate 的意思是「加劇、使惡化」，與句意相反。\n(B) forestall 的意思是「預防、阻止」，雖然有預防損害的意思，但這裡的語境更強調「改善」已發生的損害。\n(D) precipitate 的意思是「促成、導致（壞事發生）」，與句意相反。"
+    },
+    {
+        "question_number": "8",
+        "question": "Although the proposal appeared ambitious on the surface, closer scrutiny revealed a ______ organizational structure, with loosely connected sections and objectives that shifted without clear rationale.",
+        "options": {
+            "A": "trenchant",
+            "B": "nebulous",
+            "C": "orthodox",
+            "D": "cogent"
+        },
+        "answer": "B",
+        "explanation": "【句意】雖然這項提案表面上看起來雄心勃勃，但仔細審查後卻發現其組織結構模糊不清，各部分聯繫鬆散，目標變動也缺乏明確的理由。\n【解析】\n(B) nebulous 的意思是「模糊不清的、含糊的」，符合句意，描述了組織結構鬆散、目標不明確的狀態。\n(A) trenchant 的意思是「尖銳的、犀利的」，通常用於批評或分析，不適用於形容結構。\n(C) orthodox 的意思是「傳統的、正統的」，與句意不符。\n(D) cogent 的意思是「有說服力的、清晰的」，與句意不符。"
+    },
+    {
+        "question_number": "9",
+        "question": "Rather than delivering an overtly moralistic message, the documentary offers a ______ critique of consumer culture, exposing excess through careful observation.",
+        "options": {
+            "A": "benign",
+            "B": "scathing",
+            "C": "didactic",
+            "D": "ingenuous"
+        },
+        "answer": "B",
+        "explanation": "【句意】這部紀錄片並非傳達明顯的道德說教訊息，而是對消費文化提出了尖銳的批判，透過仔細觀察揭露了過度浪費的現象。\n【解析】\n(B) scathing 的意思是「尖銳的、嚴厲的」，符合句意，表示紀錄片以強烈的方式批評消費文化。\n(A) benign 的意思是「良性的、溫和的」，與批判的語氣不符。\n(C) didactic 的意思是「說教的」，與句意中「rather than overtly moralistic message」的轉折不符。\n(D) ingenuous 的意思是「天真的、純樸的」，與批判的語氣不符。"
+    },
+    {
+        "question_number": "10",
+        "question": "The speaker’s ill-timed attempt at levity disrupted the proceedings, producing a moment of collective ______ that was difficult to dispel.",
+        "options": {
+            "A": "rapport",
+            "B": "reverence",
+            "C": "discomfiture",
+            "D": "elation"
+        },
+        "answer": "C",
+        "explanation": "【句意】講者不合時宜的幽默嘗試打斷了會議的進行，造成了一種難以消除的集體尷尬。\n【解析】\n(C) discomfiture 的意思是「尷尬、窘迫」，符合句意，表示講者的行為讓大家感到不自在。\n(A) rapport 的意思是「融洽的關係」，與句意相反。\n(B) reverence 的意思是「尊敬、崇敬」，與句意不符。\n(D) elation 的意思是「興高采烈、欣喜若狂」，與句意不符。"
+    },
+    {
+        "question_number": "11",
+        "question": "The humid heat of the tropical rainforest can quickly ________ even the most energetic hikers, leaving them feeling completely drained of their physical strength.",
+        "options": {
+            "A": "enervate",
+            "B": "galvanize",
+            "C": "propagate",
+            "D": "accentuate"
+        },
+        "answer": "A",
+        "explanation": "【句意】熱帶雨林的濕熱氣候能迅速地使最精力充沛的登山者感到疲憊，讓他們感覺體力完全耗盡。\n【解析】\n(A) enervate 的意思是「使衰弱、使無力」，符合句意，表示濕熱的環境會使人感到疲憊無力。\n(B) galvanize 的意思是「刺激、激勵」，與句意相反。\n(C) propagate 的意思是「傳播、繁殖」，與句意無關。\n(D) accentuate 的意思是「強調、使更明顯」，與句意無關。"
+    },
+    {
+        "question_number": "12",
+        "question": "The complex mathematical proof continued to ________ even the most experienced professors in the department, leaving the true solution a mystery for decades.",
+        "options": {
+            "A": "interrogate",
+            "B": "baffle",
+            "C": "obliterate",
+            "D": "appease"
+        },
+        "answer": "B",
+        "explanation": "【句意】這個複雜的數學證明持續困擾著系裡最有經驗的教授們，讓真正的解決方案數十年來都 remains a mystery。\n【解析】\n(B) baffle 的意思是「使困惑、難倒」，符合句意，表示證明讓教授們感到困惑，無法解決。\n(A) interrogate 的意思是「審問、盤問」，與數學證明無關。\n(C) obliterate 的意思是「摧毀、消除」，與句意不符。\n(D) appease 的意思是「安撫、平息」，與句意不符。"
+    },
+    {
+        "question_number": "13",
+        "question": "Upon hearing that his business partner had embezzled millions of dollars, the entrepreneur became _______ with rage, unable to speak.",
+        "options": {
+            "A": "placid",
+            "B": "livid",
+            "C": "elated",
+            "D": "pertinent"
+        },
+        "answer": "B",
+        "explanation": "【句意】聽到他的生意夥伴侵吞了數百萬美元後，這位企業家勃然大怒，說不出話來。\n【解析】\n(B) livid 的意思是「暴怒的、臉色發青的」，符合句意，描述了極度憤怒的狀態。\n(A) placid 的意思是「平靜的、鎮定的」，與憤怒的語氣相反。\n(C) elated 的意思是「興高采烈的」，與憤怒的語氣相反。\n(D) pertinent 的意思是「相關的、切題的」，與情緒無關。"
+    },
+    {
+        "question_number": "14",
+        "question": "Aspiring writers often find themselves attempting to ________ the prose style of their literary idols before they eventually develop a unique voice of their own.",
+        "options": {
+            "A": "obfuscate",
+            "B": "disparage",
+            "C": "repudiate",
+            "D": "emulate"
+        },
+        "answer": "D",
+        "explanation": "【句意】有抱負的作家在最終發展出自己的獨特風格之前，常常發現自己試圖模仿他們文學偶像的散文風格。\n【解析】\n(D) emulate 的意思是「模仿、效仿」，符合句意，表示作家會模仿他們欣賞的作者的風格。\n(A) obfuscate 的意思是「使模糊不清」，與模仿相反。\n(B) disparage 的意思是「貶低、輕視」，與模仿相反。\n(C) repudiate 的意思是「拒絕、否認」，與模仿相反。"
+    },
+    {
+        "question_number": "15",
+        "question": "In many ancient cultures, warriors would wear a sacred ________ around their necks, believing it possessed the spiritual power to protect them from physical harm.",
+        "options": {
+            "A": "bastion",
+            "B": "epitaph",
+            "C": "shackle",
+            "D": "amulet"
+        },
+        "answer": "D",
+        "explanation": "【句意】在許多古代文化中，戰士們會在脖子上佩戴神聖的護身符，相信它擁有保護他們免受身體傷害的精神力量。\n【解析】\n(D) amulet 的意思是「護身符、辟邪物」，符合句意，表示一種具有保護作用的物品。\n(A) bastion 的意思是「堡壘、據點」，與佩戴的物品無關。\n(B) epitaph 的意思是「墓志銘」，與保護無關。\n(C) shackle 的意思是「腳鐐、束縛」，與保護無關。"
+    },
+    {
+        "question_number": "16",
+        "question": "Gentrification, the process where urban neighborhoods undergo rapid transformation due to the influx of more affluent residents, remains a __16__ issue in urban planning.",
+        "options": {
+            "A": "contentious",
+            "B": "unanimous",
+            "C": "superfluous",
+            "D": "meticulous"
+        },
+        "answer": "A",
+        "explanation": "【句意】士紳化（都市更新，因富裕居民湧入導致城市社區快速轉變的過程）在都市規劃中仍然是一個有爭議的問題。\n【解析】\n(A) contentious 的意思是「有爭議的、引起爭論的」，符合句意，士紳化常引起正反兩方的討論和爭議。\n(B) unanimous 的意思是「一致同意的」，與爭議性不符。\n(C) superfluous 的意思是「多餘的、不必要的」，與問題的重要性不符。\n(D) meticulous 的意思是「一絲不苟的、仔細的」，通常用於形容方法或態度，不適用於形容問題本身。"
+    },
+    {
+        "question_number": "17",
+        "question": "While it often brings __17__, such as improved infrastructure and lower crime rates, it also leads to the displacement of long-term, low-income residents.",
+        "options": {
+            "A": "opprobrium",
+            "B": "amenities",
+            "C": "constraints",
+            "D": "remnants"
+        },
+        "answer": "B",
+        "explanation": "【句意】雖然它常帶來便利設施，例如改善的基礎設施和較低的犯罪率，但它也導致了長期低收入居民的流離失所。\n【解析】\n(B) amenities 的意思是「便利設施、設施」，符合句意，指士紳化帶來的正面改善，如基礎設施的提升。\n(A) opprobrium 的意思是「譴責、辱罵」，與正面改善不符。\n(C) constraints 的意思是「限制、約束」，與正面改善不符。\n(D) remnants 的意思是「殘餘物」，與正面改善不符。"
+    },
+    {
+        "question_number": "18",
+        "question": "This shift often results in the loss of a neighborhood’s __18__, as local businesses are replaced by high-end chains.",
+        "options": {
+            "A": "financial performance",
+            "B": "cultural identity",
+            "C": "technological edge",
+            "D": "professional roles"
+        },
+        "answer": "B",
+        "explanation": "【句意】這種轉變常常導致社區的文化認同的喪失，因為當地企業被高端連鎖店取代。\n【解析】\n(B) cultural identity 的意思是「文化認同」，符合句意，當地企業的消失會影響社區原有的文化特色和居民的歸屬感。\n(A) financial performance 的意思是「財務表現」，雖然可能受影響，但不是最直接的損失。\n(C) technological edge 的意思是「技術優勢」，與社區文化無關。\n(D) professional roles 的意思是「專業角色」，與社區文化無關。"
+    },
+    {
+        "question_number": "19",
+        "question": "To address these social inequities, some city governments have proposed __19__ policies, such as rent control and community land trusts, to protect vulnerable populations.",
+        "options": {
+            "A": "punitive",
+            "B": "inclusive",
+            "C": "temporary",
+            "D": "arbitrary"
+        },
+        "answer": "B",
+        "explanation": "【句意】為了解決這些社會不公，一些市政府提出了包容性的政策，例如租金管制和社區土地信託，以保護弱勢群體。\n【解析】\n(B) inclusive 的意思是「包容性的」，符合句意，這些政策旨在將弱勢群體納入考量，保護他們的權益。\n(A) punitive 的意思是「懲罰性的」，與保護弱勢群體不符。\n(C) temporary 的意思是「暫時的」，雖然有些政策可能是暫時的，但更強調其包容性。\n(D) arbitrary 的意思是「任意的、武斷的」，與政策的目標不符。"
+    },
+    {
+        "question_number": "20",
+        "question": "However, finding a balance between urban revitalization and social preservation is __20__, requiring a nuanced understanding of both economic forces and human rights.",
+        "options": {
+            "A": "mind-boggling",
+            "B": "nerve-wracking",
+            "C": "straightforward",
+            "D": "intricate"
+        },
+        "answer": "D",
+        "explanation": "【句意】然而，在城市復興和社會保護之間找到平衡是複雜的，需要對經濟力量和人權有細緻的理解。\n【解析】\n(D) intricate 的意思是「複雜的、錯綜複雜的」，符合句意，表示要在城市發展和社會公平之間取得平衡是一項艱難且複雜的任務。\n(A) mind-boggling 的意思是「令人難以置信的」，雖然可能令人費解，但「複雜」更貼切。\n(B) nerve-wracking 的意思是「令人緊張的」，雖然可能令人緊張，但「複雜」更強調其難度。\n(C) straightforward 的意思是「直接的、簡單的」，與句意相反。"
+    },
+    {
+        "question_number": "21",
+        "question": "Strip away the retrospective __21__ of textbooks, and what you find instead is a messier, more human story: spilled cultures, ruined batches, experiments gone wrong in exactly the right way.",
+        "options": {
+            "A": "vagueness",
+            "B": "uniqueness",
+            "C": "tidiness",
+            "D": "boldness"
+        },
+        "answer": "C",
+        "explanation": "【句意】剝離教科書回顧性的整潔，你反而會發現一個更混亂、更人性化的故事：濺出的培養皿、毀壞的實驗批次、以恰到好處的方式失敗的實驗。\n【解析】\n(C) tidiness 的意思是「整潔、井然有序」，符合句意，教科書通常會將科學發現過程整理得非常清晰、有條理，掩蓋了實際的混亂和偶然性。\n(A) vagueness 的意思是「模糊不清」，教科書通常力求清晰，而非模糊。\n(B) uniqueness 的意思是「獨特性」，雖然每個發現都有其獨特性，但這裡強調的是呈現方式的整潔。\n(D) boldness 的意思是「大膽」，與呈現方式的整潔無關。"
+    },
+    {
+        "question_number": "22",
+        "question": "He traced the flavor back to a chemical residue in his lab, __22__ he eventually synthesized the world’s first artificial sweetener.",
+        "options": {
+            "A": "from which",
+            "B": "which",
+            "C": "where",
+            "D": "what"
+        },
+        "answer": "B",
+        "explanation": "【句意】他追溯到實驗室裡的化學殘留物，並從中最終合成了世界上第一個人工甜味劑。\n【解析】\n(B) which 作為關係代名詞，指代前面的「chemical residue」，引導一個非限制性子句，表示從這個殘留物中合成了甜味劑。\n(A) from which 雖然表示來源，但在此語境下，直接用 which 指代殘留物並說明其後續作用更為簡潔自然。\n(C) where 通常指地點，不適用於此。\n(D) what 是疑問代名詞或連接代名詞，不適用於此。"
+    },
+    {
+        "question_number": "23",
+        "question": "However, the substance was so frustratingly __23__ that it stuck to everything it touched.",
+        "options": {
+            "A": "transparent",
+            "B": "adhesive",
+            "C": "fragile",
+            "D": "versatile"
+        },
+        "answer": "B",
+        "explanation": "【句意】然而，這種物質非常令人沮喪地具有黏性，以至於它會黏住所有接觸到的東西。\n【解析】\n(B) adhesive 的意思是「黏性的、有黏著力的」，符合句意，描述了物質會黏住東西的特性。\n(A) transparent 的意思是「透明的」，與黏性無關。\n(C) fragile 的意思是「易碎的」，與黏性相反。\n(D) versatile 的意思是「多功能的、用途廣泛的」，與黏性無關。"
+    },
+    {
+        "question_number": "24",
+        "question": "Not until a decade later __24__ that this “nuisance” possessed a unique ability to bond materials instantly without heat.",
+        "options": {
+            "A": "Coover realized",
+            "B": "did Coover realize",
+            "C": "will Coover realize",
+            "D": "Coover had realized"
+        },
+        "answer": "B",
+        "explanation": "【句意】直到十年後，Coover 才意識到這種「麻煩」物質擁有在沒有加熱的情況下瞬間黏合材料的獨特能力。\n【解析】\n(B) did Coover realize 這是「Not until」引導的倒裝句結構。當 Not until 放在句首時，主句需要倒裝，即助動詞 + 主詞 + 原形動詞。\n(A) Coover realized 是正常語序，不適用於 Not until 放在句首的情況。\n(C) will Coover realize 是未來式，與過去發生的事情不符。\n(D) Coover had realized 是過去完成式，雖然表示在某個過去時間點之前完成，但與 Not until 結構的倒裝不符。"
+    },
+    {
+        "question_number": "25",
+        "question": "To his surprise, the circuit emitted a rhythmic electrical pulse __25__ recording one.",
+        "options": {
+            "A": "instead of",
+            "B": "in terms of",
+            "C": "by means of",
+            "D": "regardless of"
+        },
+        "answer": "A",
+        "explanation": "【句意】令他驚訝的是，該電路發出了一個有節奏的電脈衝，而不是記錄一個。\n【解析】\n(A) instead of 的意思是「而不是」，符合句意，表示電路發出的脈衝是替代了原本的記錄功能。\n(B) in terms of 的意思是「就...而言」，與句意不符。\n(C) by means of 的意思是「藉由」，與句意不符。\n(D) regardless of 的意思是「不管、不顧」，與句意不符。"
+    },
+    {
+        "question_number": "26",
+        "question": "The rise of the \"attention economy\" has led to a __26__ scramble among tech giants to capture as much of our screen time as possible.",
+        "options": {
+            "A": "stagnant",
+            "B": "relentless",
+            "C": "marginal",
+            "D": "sporadic"
+        },
+        "answer": "B",
+        "explanation": "【句意】「注意力經濟」的興起導致科技巨頭們為了盡可能多地佔據我們的螢幕時間而展開了無情的爭奪。\n【解析】\n(B) relentless 的意思是「無情的、持續不斷的」，符合句意，描述了科技公司為了爭奪注意力而進行的激烈且持續的競爭。\n(A) stagnant 的意思是「停滯的」，與激烈的爭奪相反。\n(C) marginal 的意思是「邊緣的、次要的」，與科技巨頭們的激烈競爭不符。\n(D) sporadic 的意思是「零星的、偶爾發生的」，與持續的爭奪不符。"
+    },
+    {
+        "question_number": "27",
+        "question": "This constant bombardment of notifications creates a state of __27__, where the brain is perpetually on high alert but lacks depth of focus.",
+        "options": {
+            "A": "tranquility",
+            "B": "hyper-vigilance",
+            "C": "indifference",
+            "D": "suaveness"
+        },
+        "answer": "B",
+        "explanation": "【句意】這種不斷的通知轟炸造成了一種過度警覺的狀態，大腦時刻處於高度戒備狀態，但缺乏深度專注。\n【解析】\n(B) hyper-vigilance 的意思是「過度警覺」，符合句意，描述了大腦因不斷接收刺激而處於高度戒備但無法深入專注的狀態。\n(A) tranquility 的意思是「寧靜」，與高度戒備相反。\n(C) indifference 的意思是「冷漠」，與高度戒備相反。\n(D) suaveness 的意思是「溫和、圓滑」，與大腦狀態無關。"
+    },
+    {
+        "question_number": "28",
+        "question": "__28__ the traditional belief that multitasking is a sign of efficiency, neurological research suggests that it actually leads to \"cognitive switching costs,\" reducing overall productivity and increasing error rates.",
+        "options": {
+            "A": "Contrary to",
+            "B": "Consistent with",
+            "C": "In addition to",
+            "D": "Based on"
+        },
+        "answer": "A",
+        "explanation": "【句意】與認為多工處理是效率象徵的傳統觀念相反，神經科學研究表明，它實際上會導致「認知切換成本」，降低整體生產力並增加錯誤率。\n【解析】\n(A) Contrary to 的意思是「與...相反」，符合句意，指出研究結果與傳統觀念相悖。\n(B) Consistent with 的意思是「與...一致」，與句意相反。\n(C) In addition to 的意思是「除了...之外」，表示補充，但這裡需要的是對比。\n(D) Based on 的意思是「基於」，表示依據，但這裡需要的是對比。"
+    },
+    {
+        "question_number": "29",
+        "question": "To combat this, some experts advocate for \"digital minimalism,\" a __29___ approach that encourages users to intentionally curate their online interactions.",
+        "options": {
+            "A": "reckless",
+            "B": "pensive",
+            "C": "proactive",
+            "D": "piteous"
+        },
+        "answer": "C",
+        "explanation": "【句意】為了對抗這種情況，一些專家提倡「數位極簡主義」，這是一種鼓勵用戶有意識地策劃其線上互動的方法。\n【解析】\n(C) proactive 的意思是「積極主動的」，符合句意，數位極簡主義是一種主動管理數位使用的策略，而非被動接受。\n(A) reckless 的意思是「魯莽的」，與有意識的策劃相反。\n(B) pensive 的意思是「沉思的」，雖然需要思考，但「積極主動」更能體現其行動導向。\n(D) piteous 的意思是「可憐的」，與方法無關。"
+    },
+    {
+        "question_number": "30",
+        "question": "Ultimately, reclaiming our focus __30__ a conscious rejection of the addictive design patterns that prioritize profit over human well-being.",
+        "options": {
+            "A": "circumscribes",
+            "B": "necessitates",
+            "C": "deteriorates",
+            "D": "forestalls"
+        },
+        "answer": "B",
+        "explanation": "【句意】最終，重新獲得我們的專注需要有意識地拒絕那些將利潤置於人類福祉之上的成癮性設計模式。\n【解析】\n(B) necessitates 的意思是「使成為必要、需要」，符合句意，表示重新獲得專注的關鍵在於拒絕成癮設計。\n(A) circumscribes 的意思是「限制、界定」，與句意不符。\n(C) deteriorates 的意思是「惡化、退化」，與句意相反。\n(D) forestalls 的意思是「預防、阻止」，雖然拒絕設計模式可以預防問題，但「necessitates」更強調這是重新獲得專注的必要條件。"
+    },
+    {
+        "question_number": "31",
+        "question": "When this happens, we become more irritable, less capable of problem-solving, and prone to mental fatigue. 31",
+        "options": {
+            "A": "Consequently, the urban dweller is trapped in a loop of cognitive depletion, where the mind is never truly at rest.",
+            "B": "These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium.",
+            "C": "Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control.",
+            "D": "Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents."
+        },
+        "answer": "C",
+        "explanation": "【句意】當這種情況發生時，我們會變得更易怒、解決問題的能力下降，並且容易產生精神疲勞。31\n【解析】\n(C) Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control. (隨著時間的推移，不斷過濾不相關資訊的需求會導致我們的抑制控制力耗盡。) 這句話緊接在「我們變得更易怒、解決問題的能力下降，並且容易產生精神疲勞」之後，解釋了這種精神疲勞和能力下降的根本原因，即過濾資訊耗盡了抑制力。\n(A) 雖然也描述了城市居民的困境，但與前面提到的「易怒、解決問題能力下降」的直接因果關係不如 (C) 強。\n(B) 這句話是關於大自然的好處，與前面描述的城市環境造成的負面影響不直接相關。\n(D) 這句話描述了城市化與情緒障礙的關聯，雖然相關，但不如 (C) 直接解釋了前面提到的精神疲勞和能力下降的原因。"
+    },
+    {
+        "question_number": "32",
+        "question": "In contrast, natural environments provide what researchers call “soft fascination.” Scenes of rustling leaves or flowing water capture our interest without requiring conscious effort. 32",
+        "options": {
+            "A": "Consequently, the urban dweller is trapped in a loop of cognitive depletion, where the mind is never truly at rest.",
+            "B": "These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium.",
+            "C": "Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control.",
+            "D": "Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents.",
+            "E": "They act as a cognitive restorative, inviting the mind to wander in a state of effortless reflection.",
+            "F": "Urban planners are now experimenting with biophilic design, integrating organic patterns and natural light into the very fabric of skyscrapers."
+        },
+        "answer": "E",
+        "explanation": "【句意】相反地，自然環境提供了研究人員所稱的「柔和吸引力」。樹葉沙沙作響或流水潺潺的景象能吸引我們的興趣，而無需有意識的努力。32\n【解析】\n(E) They act as a cognitive restorative, inviting the mind to wander in a state of effortless reflection. (它們充當認知恢復劑，邀請心靈在一種毫不費力的反思狀態中漫遊。) 這句話緊接在描述「柔和吸引力」之後，解釋了這種吸引力如何作用於大腦，使其得到恢復，與前面「無需有意識的努力」相呼應。\n(A) 描述的是城市環境的負面影響，與自然環境的描述不符。\n(B) 雖然提到了自然的必要性，但不如 (E) 直接解釋了「柔和吸引力」的作用。\n(C) 描述的是過濾資訊耗盡抑制力，與自然環境的放鬆作用相反。\n(D) 描述的是城市化與情緒障礙的關聯，與自然環境的描述不符。\n(F) 這是關於城市規劃的內容，與前面描述的自然環境的直接作用不符。"
+    },
+    {
+        "question_number": "33",
+        "question": "Studies using functional MRI have shown that even a brief walk in a park can dampen activity in the prefrontal cortex—an area associated with ruminative thinking and negative effect. 33",
+        "options": {
+            "A": "Consequently, the urban dweller is trapped in a loop of cognitive depletion, where the mind is never truly at rest.",
+            "B": "These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium.",
+            "C": "Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control.",
+            "D": "Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents.",
+            "E": "They act as a cognitive restorative, inviting the mind to wander in a state of effortless reflection.",
+            "F": "Urban planners are now experimenting with biophilic design, integrating organic patterns and natural light into the very fabric of skyscrapers."
+        },
+        "answer": "B",
+        "explanation": "【句意】功能性核磁共振成像的研究表明，即使是短暫的公園散步也能抑制前額葉皮質的活動——這是與反芻性思維和負面情緒相關的區域。33\n【解析】\n(B) These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium. (這些神經學發現表明，大自然不僅僅是奢侈品，更是維持心理平衡的生物必需品。) 這句話總結了前面關於自然環境對大腦（前額葉皮質）的積極影響，並強調了其重要性，與前面提到的研究發現緊密相連。\n(A) 描述的是城市環境的負面影響，與自然環境的積極影響不符。\n(C) 描述的是過濾資訊耗盡抑制力，與自然環境的恢復作用相反。\n(D) 描述的是城市化與情緒障礙的關聯，與自然環境的積極影響不符。\n(E) 描述的是柔和吸引力的作用，雖然相關，但 (B) 更像是對前面研究發現的總結和昇華。\n(F) 這是關於城市規劃的內容，與前面描述的自然環境的直接作用不符。"
+    },
+    {
+        "question_number": "34",
+        "question": "These are elements that grab our attention whether we want them to or not, such as a sudden honk or a flashing billboard. 34",
+        "options": {
+            "A": "Consequently, the urban dweller is trapped in a loop of cognitive depletion, where the mind is never truly at rest.",
+            "B": "These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium.",
+            "C": "Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control.",
+            "D": "Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents.",
+            "E": "They act as a cognitive restorative, inviting the mind to wander in a state of effortless reflection.",
+            "F": "Urban planners are now experimenting with biophilic design, integrating organic patterns and natural light into the very fabric of skyscrapers."
+        },
+        "answer": "D",
+        "explanation": "【句意】這些是無論我們是否願意都會抓住我們注意力的元素，例如突然的喇叭聲或閃爍的廣告牌。34\n【解析】\n(D) Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents. (城市化與城市居民情緒障礙的發病率顯著增加有關。) 這句話緊接在描述城市中「高強度自下而上」的刺激（如喇叭聲、廣告牌）之後，解釋了這種持續的感官刺激和注意力被強行吸引的長期後果，即可能導致情緒障礙。\n(A) 描述的是認知耗竭，雖然相關，但 (D) 更具體地指出了城市化可能帶來的健康問題。\n(B) 描述的是自然環境的好處，與城市環境的刺激不符。\n(C) 描述的是過濾資訊耗盡抑制力，雖然是原因之一，但 (D) 更像是這種情況的結果。\n(E) 描述的是自然環境的恢復作用，與城市環境的刺激不符。\n(F) 這是關於城市規劃的內容，與前面描述的城市環境的刺激不符。"
+    },
+    {
+        "question_number": "35",
+        "question": "Fortunately, the growing awareness of this “cognitive tax” is beginning to reshape how we envision future metropolises. 35",
+        "options": {
+            "A": "Consequently, the urban dweller is trapped in a loop of cognitive depletion, where the mind is never truly at rest.",
+            "B": "These neurological findings suggest that nature is not just a luxury, but a biological necessity for maintaining mental equilibrium.",
+            "C": "Over time, the constant demand to filter out irrelevant information leads to the exhaustion of our inhibitory control.",
+            "D": "Urbanization has been linked to a significant increase in the prevalence of mood disorders among city residents.",
+            "E": "They act as a cognitive restorative, inviting the mind to wander in a state of effortless reflection.",
+            "F": "Urban planners are now experimenting with biophilic design, integrating organic patterns and natural light into the very fabric of skyscrapers."
+        },
+        "answer": "F",
+        "explanation": "【句意】幸運的是，對這種「認知稅」日益增長的認識正開始重塑我們對未來大都市的設想。35\n【解析】\n(F) Urban planners are now experimenting with biophilic design, integrating organic patterns and natural light into the very fabric of skyscrapers. (城市規劃師們現在正在嘗試仿生設計，將有機圖案和自然光融入摩天大樓的結構中。) 這句話緊接在「對認知稅的認識正在重塑未來大都市的設想」之後，具體說明了這種重塑的體現——城市規劃師們正在採取的行動（仿生設計），這與前面提到的「尊重人類心智的生物極限」的目標一致。\n(A) 描述的是城市居民的困境，與重塑設想的積極方向不符。\n(B) 描述的是自然的必要性，雖然相關，但 (F) 更具體地說明了如何將自然融入城市。\n(C) 描述的是認知耗竭的原因，與重塑設想的積極方向不符。\n(D) 描述的是城市化與情緒障礙的關聯，與重塑設想的積極方向不符。\n(E) 描述的是自然環境的恢復作用，雖然相關，但 (F) 更具體地說明了城市規劃的行動。"
+    },
+    {
+        "question_number": "36",
+        "question": "What is the primary purpose of this passage?",
+        "options": {
+            "A": "To provide a step-by-step guide on how to apply for a working holiday visa.",
+            "B": "To argue that working holiday programs are the only way to gain international experience.",
+            "C": "To discuss both the potential benefits and the practical challenges of working holiday programs.",
+            "D": "To criticize governments for using young travelers to solve national labor shortages."
+        },
+        "answer": "C",
+        "explanation": "【句意】這篇文章的主要目的是什麼？\n【解析】\n(C) To discuss both the potential benefits and the practical challenges of working holiday programs. (討論打工度假計畫的潛在益處和實際挑戰。) 文章開頭提到計畫的受歡迎程度和益處（國際視野、經濟獨立、個人成長），接著深入探討了實際工作中遇到的困難（低技能工作、不穩定、剝削），最後也提到了支持者認為的價值（適應力、韌性）以及實際操作中的障礙（住房成本、簽證限制、醫療不足），並強調了準備的重要性。這全面地涵蓋了計畫的兩面性。\n(A) 文章並未提供申請簽證的步驟。\n(B) 文章並未主張打工度假是獲得國際經驗的唯一途徑，反而強調了其他價值和挑戰。\n(D) 文章提到了政府將計畫視為解決勞動力短缺的機會，但並未對此進行批評，而是更側重於計畫本身的利弊。"
+    },
+    {
+        "question_number": "37",
+        "question": "According to the second paragraph, why might university graduates feel \"stagnation\" during their working holiday?",
+        "options": {
+            "A": "Because they are unable to find any form of employment in the host country.",
+            "B": "Because the work they perform is often physically demanding and unrelated to their professional goals.",
+            "C": "Because they are forced to learn a new language before starting their jobs.",
+            "D": "Because the cost of living is too high for them to enjoy their stay."
+        },
+        "answer": "B",
+        "explanation": "【句意】根據第二段，大學畢業生在打工度假期間為何可能會感到「停滯」？\n【解析】\n(B) Because the work they perform is often physically demanding and unrelated to their professional goals. (因為他們從事的工作通常體力要求高且與他們的職業目標無關。) 第二段明確指出：「Many participants find themselves employed in physically demanding or low-skilled positions that bear little relevance to their long-term career aspirations. While these jobs may provide immediate income, they can also create feelings of stagnation, especially for participants who hold university degrees.」這直接解釋了大學畢業生感到停滯的原因。\n(A) 文章提到他們找到工作，只是工作內容不理想。\n(C) 文章沒有提到學習新語言是工作的前提或導致停滯的原因。\n(D) 文章在最後一段提到了生活成本高是挑戰之一，但第二段並未將其與「停滯感」直接聯繫起來。"
+    },
+    {
+        "question_number": "38",
+        "question": "Which of the following is identified as a \"soft skill\" that participants can develop through the WHV program?",
+        "options": {
+            "A": "Advanced technical expertise in seasonal industries.",
+            "B": "Professional certification in foreign bureaucratic management.",
+            "C": "Cross-cultural communication and adaptability.",
+            "D": "Financial investment strategies for global markets."
+        },
+        "answer": "C",
+        "explanation": "【句意】以下哪一項被認為是參與者可以透過打工度假計畫發展的「軟實力」？\n【解析】\n(C) Cross-cultural communication and adaptability. (跨文化溝通和適應能力。) 文章第三段提到：「Living abroad often requires individuals to navigate unfamiliar social norms, languages, and bureaucratic systems. These experiences foster adaptability, resilience, and cross-cultural communication—skills increasingly valued in a globalized labor market.」這裡明確將適應力和跨文化溝通列為透過這些經驗培養的技能。\n(A) 文章提到工作常是低技能的，與高級技術專業知識不符。\n(B) 文章未提及獲得外國官僚管理方面的專業認證。\n(D) 文章未提及發展全球市場的金融投資策略。"
+    },
+    {
+        "question_number": "39",
+        "question": "The passage mentions all of the following as factors that can make a working holiday difficult EXCEPT:",
+        "options": {
+            "A": "High costs of accommodation in prominent cities.",
+            "B": "Limited access to medical services.",
+            "C": "Rules that prevent participants from easily changing employers.",
+            "D": "Strict age requirements for visa applicants."
+        },
+        "answer": "B",
+        "explanation": "【句意】文章提到了所有可能使打工度假變得困難的因素，除了：\n【解析】\n(B) Limited access to medical services. (有限的醫療服務。) 文章最後一段提到：「Rising housing costs in major cities, visa restrictions that limit job mobility, and inadequate access to healthcare can intensify stress and isolation.」這裡提到的是「inadequate access to healthcare」（醫療保健不足），而不是「limited access to medical services」（有限的醫療服務）。雖然兩者意思接近，但原文用詞是「inadequate access to healthcare」，而選項 (B) 的措辭略有不同，且文章更側重於「inadequate access」而非「limited access」。\n(A) High costs of accommodation in prominent cities. (大城市住宿費用高昂。) 文章最後一段提到：「Rising housing costs in major cities...」\n(C) Rules that prevent participants from easily changing employers. (阻止參與者輕易更換雇主的規定。) 文章最後一段提到：「visa restrictions that limit job mobility...」\n(D) Strict age requirements for visa applicants. (簽證申請人的嚴格年齡要求。) 文章第一段提到：「The working holiday visa (WHV) program has become an increasingly popular option for young adults...」雖然未直接說「strict age requirements」，但「young adults」暗示了年齡限制，且這是WHV計畫的普遍特徵，文章的語境也暗示了這是計畫的條件之一。"
+    },
+    {
+        "question_number": "40",
+        "question": "Based on the concluding paragraph, what can be inferred about a \"successful\" working holiday?",
+        "options": {
+            "A": "It is guaranteed as long as the participant remains enthusiastic.",
+            "B": "It relies heavily on proactive measures like understanding one's legal rights.",
+            "C": "It is only possible for those who move to Australia or New Zealand.",
+            "D": "It depends entirely on the participant's ability to secure a high-paying career."
+        },
+        "answer": "B",
+        "explanation": "【句意】根據最後一段，關於一個「成功的」打工度假，我們可以推斷出什麼？\n【解析】\n(B) It relies heavily on proactive measures like understanding one's legal rights. (它很大程度上依賴於積極的措施，例如了解自己的法律權利。) 最後一段指出：「As a result, the success of a working holiday often depends less on enthusiasm and more on preparation. Careful financial planning, realistic expectations, and awareness of legal rights are crucial for participants hoping to gain lasting benefits rather than short-term frustration.」這表明成功與否取決於充分的準備和積極的行動，例如了解法律權利。\n(A) 文章明確指出成功「less on enthusiasm」（較少依賴熱情），而是更多依賴準備。\n(C) 文章在第一段提到了澳大利亞、加拿大和新西蘭，但並未將成功限制在這幾個國家。\n(D) 文章提到工作可能低技能且收入不高，並未將成功完全建立在高薪職業上，而是強調獲得「lasting benefits」（持久的益處）。"
+    }
+]

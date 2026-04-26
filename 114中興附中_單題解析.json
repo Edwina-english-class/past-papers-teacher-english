@@ -1,0 +1,547 @@
+[
+    {
+        "question_number": "1",
+        "question": "The ____ disregard for traffic regulations and reckless driving habits are the main culprits for the traffic chaos in the country.",
+        "options": {
+            "A": "flagrant",
+            "B": "succulent",
+            "C": "insipid",
+            "D": "fiscal"
+        },
+        "answer": "A",
+        "explanation": "【句意】對交通規則的____藐視和魯莽的駕駛習慣是該國交通混亂的主要罪魁禍首。\n【解析】(A) flagrant (公然的，惡名昭彰的) 符合句意，描述對規則的明顯且嚴重的忽視。(B) succulent (多汁的，有吸引力的) 與句意不符。(C) insipid (無味的，乏味的) 與句意不符。(D) fiscal (財政的，國庫的) 與句意不符。"
+    },
+    {
+        "question_number": "2",
+        "question": "The bright red Ferrari parked in the driveway was ____ among the other cars in the neighborhood, attracting attention from passersby.",
+        "options": {
+            "A": "audacious",
+            "B": "conspicuous",
+            "C": "urbane",
+            "D": "gullible"
+        },
+        "answer": "B",
+        "explanation": "【句意】停在車道上的亮紅色法拉利在鄰居的其他汽車中顯得____，吸引了路人的注意。\n【解析】(B) conspicuous (顯眼的，引人注目的) 符合句意，描述法拉利因為顏色和品牌在周圍的車輛中非常顯眼。(A) audacious (大膽的，魯莽的) 與句意不符。(C) urbane (彬彬有禮的，都會的) 與句意不符。(D) gullible (易受騙的) 與句意不符。"
+    },
+    {
+        "question_number": "3",
+        "question": "The manager’s ____ opinions on the matter made it difficult for the group to come to a consensus on how to proceed with the project.",
+        "options": {
+            "A": "coercing",
+            "B": "dissembling",
+            "C": "swooning",
+            "D": "vacillating"
+        },
+        "answer": "D",
+        "explanation": "【句意】經理對此事的____意見使得團隊難以就如何進行該項目達成共識。\n【解析】(D) vacillating (猶豫不決的，搖擺不定的) 符合句意，描述經理的意見不穩定，導致團隊難以達成共識。(A) coercing (強迫的) 與句意不符。(B) dissembling (掩飾的，假裝的) 與句意不符。(C) swooning (昏倒的，欣喜若狂的) 與句意不符。"
+    },
+    {
+        "question_number": "4",
+        "question": "The extortion scheme ____ by the notorious gang was soon exposed with the mastermind behind it put under arrest.",
+        "options": {
+            "A": "harangued",
+            "B": "castigated",
+            "C": "perpetrated",
+            "D": "jostled"
+        },
+        "answer": "C",
+        "explanation": "【句意】那個惡名昭彰的幫派____的勒索計劃很快就被揭露，幕後主謀也被逮捕了。\n【解析】(C) perpetrated (犯下，實施) 符合句意，表示幫派實施了勒索計劃。(A) harangued (喋喋不休地訓斥) 與句意不符。(B) castigated (嚴厲批評) 與句意不符。(D) jostled (推擠) 與句意不符。"
+    },
+    {
+        "question_number": "5",
+        "question": "The grocery store shelves were stocked with ____ items ranging from canned goods to fresh produce, catering to the diverse needs of shoppers.",
+        "options": {
+            "A": "vapid",
+            "B": "sundry",
+            "C": "sordid",
+            "D": "potent"
+        },
+        "answer": "B",
+        "explanation": "【句意】雜貨店的貨架上擺滿了各種____的商品，從罐頭食品到新鮮農產品，滿足了顧客的多樣化需求。\n【解析】(B) sundry (各式各樣的，各種的) 符合句意，表示商品種類繁多。(A) vapid (無味的，枯燥的) 與句意不符。(C) sordid (骯髒的，卑鄙的) 與句意不符。(D) potent (強效的，有力的) 與句意不符。"
+    },
+    {
+        "question_number": "6",
+        "question": "The professor tried to ____ with her colleague about the unethical practices in the workplace, but her words fell on deaf ears.",
+        "options": {
+            "A": "agitate",
+            "B": "importune",
+            "C": "enthrall",
+            "D": "remonstrate"
+        },
+        "answer": "D",
+        "explanation": "【句意】這位教授試圖就工作場所中的不道德行為____她的同事，但她說的話沒有被聽進去。\n【解析】(D) remonstrate (抗議，告誡) 符合句意，表示教授試圖就某事提出異議或表達不滿，但未被理會。(A) agitate (煽動，使激動) 與句意不符。(B) importune (糾纏，懇求) 與句意不符。(C) enthrall (迷住，吸引) 與句意不符。"
+    },
+    {
+        "question_number": "7",
+        "question": "During the graduation ceremony, the valedictorian delivered a ____ of accomplishments and gratitude to all who supported their academic journey.",
+        "options": {
+            "A": "manure",
+            "B": "fervor",
+            "C": "litany",
+            "D": "laud"
+        },
+        "answer": "C",
+        "explanation": "【句意】在畢業典禮上，畢業生代表向所有支持他們學術旅程的人們發表了一篇____關於成就和感謝的演講。\n【解析】(C) litany (冗長的清單，連禱) 在此語境下表示一連串的陳述，符合演講中列舉成就和表達感謝的內容。(A) manure (肥料) 與句意不符。(B) fervor (熱情) 與句意不符。(D) laud (讚美) 是動詞，這裡需要名詞。"
+    },
+    {
+        "question_number": "8",
+        "question": "Known as a ____ in the engineering industry, the prodigy consistently challenged traditional methods and was unafraid to think outside the box.",
+        "options": {
+            "A": "nemesis",
+            "B": "maverick",
+            "C": "rapport",
+            "D": "hypocrite"
+        },
+        "answer": "B",
+        "explanation": "【句意】這位天才在工程行業被稱為____，他一貫挑戰傳統方法，並且不害怕跳出框架思考。\n【解析】(B) maverick (特立獨行者，標新立異者) 符合句意，描述這位天才挑戰傳統、獨立思考的特質。(A) nemesis (勁敵，報應) 與句意不符。(C) rapport (融洽的關係) 與句意不符。(D) hypocrite (偽君子) 與句意不符。"
+    },
+    {
+        "question_number": "9",
+        "question": "The ____ strain of flu spread rapidly throughout the community, causing widespread illness and concern.",
+        "options": {
+            "A": "petulant",
+            "B": "tenacious",
+            "C": "forlorn",
+            "D": "virulent"
+        },
+        "answer": "D",
+        "explanation": "【句意】這種____的流感迅速在社區傳播，造成廣泛的疾病和擔憂。\n【解析】(D) virulent (劇毒的，惡性的) 符合句意，描述流感傳播迅速且造成嚴重影響的特性。(A) petulant (任性的，脾氣壞的) 與句意不符。(B) tenacious (頑固的，堅持不懈的) 與句意不符。(C) forlorn (孤獨的，被遺棄的) 與句意不符。"
+    },
+    {
+        "question_number": "10",
+        "question": "My father has a ____ for collecting vintage vinyl records, often spending hours browsing through flea markets in search of rare finds.",
+        "options": {
+            "A": "smudge",
+            "B": "sinecure",
+            "C": "platitude",
+            "D": "penchant"
+        },
+        "answer": "D",
+        "explanation": "【句意】我的父親對收集老式黑膠唱片有____，經常花費數小時在跳蚤市場瀏覽尋找稀有物品。\n【解析】(D) penchant (偏愛，喜好) 符合句意，表示父親對收集唱片有強烈的喜好。(A) smudge (污跡) 與句意不符。(B) sinecure (閒職) 與句意不符。(C) platitude (陳腔濫調) 與句意不符。"
+    },
+    {
+        "question_number": "11",
+        "question": "The relentless proliferation of artificial intelligence (AI) across diverse economic sectors has catalyzed a paradigmatic shift in the structure of labor. While its integration is lauded for augmenting productivity, streamlining operational workflows, and engendering novel modes of economic participation, it simultaneously gives rise to a plethora of ethical ____.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "C",
+        "explanation": "【句意】人工智慧（AI）在各個經濟領域的持續擴散，已經催化了勞動結構的典範轉移。雖然其整合因提高生產力、簡化營運流程和產生新的經濟參與模式而受到讚揚，但同時也引發了大量的倫理____。\n【解析】(C) quandaries (困境，難題) 符合句意，表示AI的發展帶來了許多倫理上的難題。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "12",
+        "question": "First and foremost, the mechanization of cognitive and physical tasks through AI has ____ the obsolescence of myriad occupations, particularly those based upon routinized or algorithmic processes.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "J",
+        "explanation": "【句意】首先，透過AI實現的認知和體力勞動的機械化，已經____了無數職業的過時，特別是那些基於例行化或演算法流程的職業。\n【解析】(J) precipitated (促成，導致) 符合句意，表示AI的機械化導致了許多職業的過時。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "13",
+        "question": "From autonomous logistics systems to AI-powered customer engagement platforms, technology has begun to supplant human ____ in both blue- and white-collar domains.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "L",
+        "explanation": "【句意】從自動化物流系統到AI驅動的客戶參與平台，科技已經開始取代藍領和白領領域中的人類____。\n【解析】(L) agency (作用，代理，行動能力) 符合句意，表示科技取代了人類在這些領域的行動能力或作用。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "14",
+        "question": "While proponents herald this transition as an emancipation from tedium, enabling human capital to be re-positioned toward more intellectually enriching pursuits, such idealism often ____ the formidable barriers to reemployment.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "I",
+        "explanation": "【句意】雖然支持者們將這種轉變譽為從枯燥工作中解放出來，使人力資本能夠重新定位於更具智力豐富性的追求，但這種理想主義常常____了再就業的巨大障礙。\n【解析】(I) belies (掩飾，與...不符) 符合句意，表示這種理想主義掩蓋了再就業的真實困難。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "15",
+        "question": "The disproportionate ____ of economic gains by a technocratic elite—comprising data scientists, AI engineers, and venture capitalists—contrasts starkly with the precarity experienced by those rendered redundant by automation.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "A",
+        "explanation": "【句意】經濟收益被技術精英——包括數據科學家、AI工程師和風險投資家——不成比例地____，與那些因自動化而變得多餘的人所經歷的不穩定形成了鮮明對比。\n【解析】(A) accrual (增加，增長) 符合句意，表示經濟收益的增加不成比例地集中在技術精英手中。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "16",
+        "question": "This bifurcation fosters a techno segregated economy wherein upward mobility is predicated not merely on industriousness, but on access to ____ knowledge and infrastructural privilege.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "K",
+        "explanation": "【句意】這種分化助長了一種技術隔離的經濟，其中向上流動不僅取決於勤奮，還取決於對____知識和基礎設施特權的獲取。\n【解析】(K) esoteric (深奧的，只有少數人能理解的) 符合句意，表示向上流動需要獲取那些只有少數人能理解的專業知識。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "17",
+        "question": "Equally disturbing is the ____ of AI in human resource management, particularly in recruitment and performance appraisal.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "O",
+        "explanation": "【句意】同樣令人不安的是AI在人力資源管理中的____，特別是在招聘和績效評估方面。\n【解析】(O) deployment (部署，應用) 符合句意，表示AI在人力資源管理中的應用。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。"
+    },
+    {
+        "question_number": "18",
+        "question": "Algorithmic decision-making, often undergirded by unfathomable machine-learning models, is susceptible to encoding and ____ systemic bias.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "M",
+        "explanation": "【句意】演算法決策，通常由難以理解的機器學習模型支撐，容易編碼並____系統性偏見。\n【解析】(M) perpetuating (使永久化，延續) 符合句意，表示演算法決策會延續系統性偏見。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "19",
+        "question": "The inscrutability of such “black-box” ____ both ethical transparency and legal recourse.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "N",
+        "explanation": "【句意】這種“黑盒子”的難以理解____了道德透明度和法律追索權。\n【解析】(N) obfuscates (使模糊，使難以理解) 符合句意，表示“黑盒子”的難以理解使得道德透明度和法律追索權變得模糊。(A) accrual (增加，增長) 不符。(B) concerted (協調一致的) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "20",
+        "question": "In response to the multifaceted dilemmas coming along wit h AI, an interdisciplinary and ____ approach is imperative.",
+        "options": {
+            "A": "accrual",
+            "B": "concerted",
+            "C": "quandaries",
+            "D": "relinquishing",
+            "E": "calibrated",
+            "F": "undermining",
+            "G": "gambits",
+            "H": "juxtaposes",
+            "I": "belies",
+            "J": "precipitated",
+            "K": "esoteric",
+            "L": "agency",
+            "M": "perpetuating",
+            "N": "obfuscates",
+            "O": "deployment"
+        },
+        "answer": "B",
+        "explanation": "【句意】為了應對AI帶來的多方面困境，採取跨學科和____的方法是必要的。\n【解析】(B) concerted (協調一致的，共同的) 符合句意，表示需要採取跨學科且協調一致的方法來應對AI帶來的挑戰。(A) accrual (增加，增長) 不符。(C) quandaries (困境，難題) 不符。(D) relinquishing (放棄) 不符。(E) calibrated (校準的) 不符。(F) undermining (破壞) 不符。(G) gambits (策略，開局) 不符。(H) juxtaposes (並列) 不符。(I) belies (掩飾，與...不符) 不符。(J) precipitated (促成，沉澱) 不符。(K) esoteric (深奧的) 不符。(L) agency (機構，作用) 不符。(M) perpetuating (使永久化) 不符。(N) obfuscates (使模糊) 不符。(O) deployment (部署) 不符。"
+    },
+    {
+        "question_number": "21",
+        "question": "This type of outbreak occurs when weakened poliovirus from oral vaccines mutates and spreads in areas with low vaccination rates. ____ They also work best when polio has already been mostly eliminated.",
+        "options": {
+            "A": "In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission.",
+            "B": "Political interference and public mistrust must be addressed through open communication and strong, transparent public health efforts.",
+            "C": "Many wealthier countries now mainly use inactivated polio vaccines, which are safer in this regard but require extremely high vaccination coverage to be effective.",
+            "D": "This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities.",
+            "E": "New vaccine strategies are being considered, but logistical and political hurdles make implementation difficult in certain regions.",
+            "F": "Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative.",
+            "G": "Some researchers argue that the use of oral vaccines should be reconsidered entirely, though many global health agencies still support them."
+        },
+        "answer": "F",
+        "explanation": "【句意】這種爆發發生在口服疫苗中的減毒脊髓灰質炎病毒發生變異並在疫苗接種率低的地區傳播時。____ 它們在脊髓灰質炎幾乎被根除時效果最好。\n【解析】(F) Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative. (儘管存在風險，口服脊髓灰質炎疫苗仍然是全球脊髓灰質炎根除計劃的首選工具。) 這句話承接前一句說明口服疫苗的風險，並緊接著後一句說明其重要性，形成連貫的論述。(A) 提到具體地點和情況，與前後文的普遍性不符。(B) 提到政治干預和公眾不信任，與前後文的疫苗本身特性不符。(C) 提到另一種疫苗，與前後文的口服疫苗不符。(D) 提到歷史事件和誤傳，與前後文的疫苗特性不符。(E) 提到新的疫苗策略，與前後文的現有疫苗不符。(G) 提到重新考慮口服疫苗的使用，與前後文的現狀不符。"
+    },
+    {
+        "question_number": "22",
+        "question": "____ These vaccines offer several benefits. They provide superior mucosal immunity against subsequent infection and spread of wild polio virus.",
+        "options": {
+            "A": "In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission.",
+            "B": "Political interference and public mistrust must be addressed through open communication and strong, transparent public health efforts.",
+            "C": "Many wealthier countries now mainly use inactivated polio vaccines, which are safer in this regard but require extremely high vaccination coverage to be effective.",
+            "D": "This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities.",
+            "E": "New vaccine strategies are being considered, but logistical and political hurdles make implementation difficult in certain regions.",
+            "F": "Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative.",
+            "G": "Some researchers argue that the use of oral vaccines should be reconsidered entirely, though many global health agencies still support them."
+        },
+        "answer": "A",
+        "explanation": "【句意】____ 這些疫苗提供了幾項好處。它們能提供優越的黏膜免疫，抵抗後續感染和野毒株的傳播。\n【解析】(A) In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission. (伊斯蘭堡的一起確診病例敲響了警鐘，廢水檢測顯示持續傳播的跡象。) 這句話描述了具體的疫情情況，為接下來討論疫苗的好處提供了背景。(B) 提到政治干預和公眾不信任，與疫苗的好處不直接相關。(C) 提到另一種疫苗，與前後文的口服疫苗不符。(D) 提到歷史事件和誤傳，與疫苗的好處不直接相關。(E) 提到新的疫苗策略，與前後文的疫苗好處不符。(F) 提到口服疫苗是首選工具，與疫苗的好處不直接相關。(G) 提到重新考慮口服疫苗的使用，與疫苗的好處不直接相關。"
+    },
+    {
+        "question_number": "23",
+        "question": "The most recent concern involves a growing outbreak of wild-type polio in Pakistan—one of the last countries where this original form of the virus still exists. For several years, fewer than two dozen cases were reported annually, but now, cases are increasing again. ____ Meanwhile, Afghanistan is also seeing new cases, both from wild-type and vaccine-derived strains.",
+        "options": {
+            "A": "In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission.",
+            "B": "Political interference and public mistrust must be addressed through open communication and strong, transparent public health efforts.",
+            "C": "Many wealthier countries now mainly use inactivated polio vaccines, which are safer in this regard but require extremely high vaccination coverage to be effective.",
+            "D": "This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities.",
+            "E": "New vaccine strategies are being considered, but logistical and political hurdles make implementation difficult in certain regions.",
+            "F": "Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative.",
+            "G": "Some researchers argue that the use of oral vaccines should be reconsidered entirely, though many global health agencies still support them."
+        },
+        "answer": "A",
+        "explanation": "【句意】最近的擔憂涉及巴基斯坦日益嚴重的野毒株脊髓灰質炎疫情——這是該病毒原始形式仍然存在的最後幾個國家之一。幾年來，每年報告的病例不到二十幾例，但現在病例又在增加。____ 同時，阿富汗也出現了新的病例，包括野毒株和疫苗衍生毒株。\n【解析】(A) In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission. (伊斯蘭堡的一起確診病例敲響了警鐘，廢水檢測顯示持續傳播的跡象。) 這句話提供了巴基斯坦疫情惡化的具體細節，緊接著後一句提到阿富汗的疫情，形成對比或並列的敘述。(B) 提到政治干預和公眾不信任，與前後文的疫情現狀不直接相關。(C) 提到另一種疫苗，與前後文的疫情現狀不符。(D) 提到歷史事件和誤傳，與前後文的疫情現狀不直接相關。(E) 提到新的疫苗策略，與前後文的疫情現狀不符。(F) 提到口服疫苗是首選工具，與前後文的疫情現狀不直接相關。(G) 提到重新考慮口服疫苗的使用，與前後文的疫情現狀不符。"
+    },
+    {
+        "question_number": "24",
+        "question": "Unfortunately, trust in vaccination programs has declined in parts of Pakistan. One major reason dates back to a U.S. intelligence operation in 2011 that used a fake vaccination campaign to locate Osama bin Laden. ____ In Afghanistan, the situation is even more fragile. The Taliban, now in power, recently banned most polio vaccinations, making the fight against the disease much harder.",
+        "options": {
+            "A": "In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission.",
+            "B": "Political interference and public mistrust must be addressed through open communication and strong, transparent public health efforts.",
+            "C": "Many wealthier countries now mainly use inactivated polio vaccines, which are safer in this regard but require extremely high vaccination coverage to be effective.",
+            "D": "This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities.",
+            "E": "New vaccine strategies are being considered, but logistical and political hurdles make implementation difficult in certain regions.",
+            "F": "Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative.",
+            "G": "Some researchers argue that the use of oral vaccines should be reconsidered entirely, though many global health agencies still support them."
+        },
+        "answer": "D",
+        "explanation": "【句意】不幸的是，巴基斯坦部分地區對疫苗接種計劃的信任度下降。一個主要原因是2011年美國的一次情報行動，該行動利用虛假的疫苗接種活動來定位奧薩馬·本·拉登。____ 在阿富汗，情況更加脆弱。塔利班現在掌權，最近禁止了大多數脊髓灰質炎疫苗接種，這使得對抗這種疾病更加困難。\n【解析】(D) This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities. (這一歷史事件，加上持續的衝突和錯誤信息，使得在一些社區實現全面疫苗接種更加困難。) 這句話解釋了為什麼信任度下降，並直接引出了後續阿富汗的困難情況，形成因果關係。(A) 提到具體地點和情況，與前後文的信任度下降原因不符。(B) 提到政治干預和公眾不信任的解決方案，與前後文的信任度下降原因不符。(C) 提到另一種疫苗，與前後文的信任度下降原因不符。(E) 提到新的疫苗策略，與前後文的信任度下降原因不符。(F) 提到口服疫苗是首選工具，與前後文的信任度下降原因不符。(G) 提到重新考慮口服疫苗的使用，與前後文的信任度下降原因不符。"
+    },
+    {
+        "question_number": "25",
+        "question": "To truly eliminate polio, global cooperation is essential. ____ While Pakistan is now launching a large-scale vaccination campaign in response to the outbreak, Afghanistan’s pause in immunization efforts poses a serious risk. Only a unified, global approach can ensure that this disease is finally eliminated.",
+        "options": {
+            "A": "In Islamabad, a confirmed case has raised alarm, and wastewater testing shows signs of continued transmission.",
+            "B": "Political interference and public mistrust must be addressed through open communication and strong, transparent public health efforts.",
+            "C": "Many wealthier countries now mainly use inactivated polio vaccines, which are safer in this regard but require extremely high vaccination coverage to be effective.",
+            "D": "This historical event, along with ongoing conflict and misinformation, has made it harder to reach full vaccination coverage in some communities.",
+            "E": "New vaccine strategies are being considered, but logistical and political hurdles make implementation difficult in certain regions.",
+            "F": "Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative.",
+            "G": "Some researchers argue that the use of oral vaccines should be reconsidered entirely, though many global health agencies still support them."
+        },
+        "answer": "F",
+        "explanation": "【句意】要真正根除脊髓灰質炎，全球合作至關重要。____ 雖然巴基斯坦現在正在發起大規模疫苗接種運動以應對疫情，但阿富汗暫停免疫工作構成了嚴重風險。只有統一的全球方法才能確保這種疾病最終被根除。\n【解析】(F) Despite the risks, oral polio vaccines remain the preferred tool of the Global Polio Eradication Initiative. (儘管存在風險，口服脊髓灰質炎疫苗仍然是全球脊髓灰質炎根除計劃的首選工具。) 這句話強調了口服疫苗在根除計劃中的重要性，與前後文強調全球合作和面臨的挑戰形成呼應，說明了為何需要全球合作。(A) 提到具體地點和情況，與前後文的全球合作不符。(B) 提到政治干預和公眾不信任的解決方案，與前後文的全球合作不符。(C) 提到另一種疫苗，與前後文的全球合作不符。(D) 提到歷史事件和誤傳，與前後文的全球合作不符。(E) 提到新的疫苗策略，與前後文的全球合作不符。(G) 提到重新考慮口服疫苗的使用，與前後文的全球合作不符。"
+    },
+    {
+        "question_number": "26",
+        "question": "What is the main idea of the article?",
+        "options": {
+            "A": "Most commercially available yogurts are ineffective at improving health due to lack of live bacterial cultures.",
+            "B": "Yogurt has recently been discovered to function as a complete immune system booster, replacing supplements.",
+            "C": "Maria Branyas Morera’s exclusive diet of yogurt provides direct evidence that dairy can prevent age-related diseases.",
+            "D": "The bacteria found in yogurt may play a role in extending human lifespan through their impact on gut and overall health."
+        },
+        "answer": "D",
+        "explanation": "【句意】文章的主要思想是什麼？\n【解析】(D) The bacteria found in yogurt may play a role in extending human lifespan through their impact on gut and overall health. (優格中發現的細菌可能透過影響腸道和整體健康，在延長人類壽命方面發揮作用。) 文章圍繞著Maria Branyas Morera的長壽案例，探討了優格中的益生菌（如乳酸桿菌和雙歧桿菌）對腸道健康、免疫系統以及可能對延長壽命的影響，這是貫穿全文的主旨。(A) 文章並未聲稱大多數市售優格無效，而是強調選擇含有活菌的優格。(B) 文章並未聲稱優格是完整的免疫系統助推器，取代補充劑。(C) 文章並未聲稱Maria Branyas Morera的飲食提供了直接證據，而是提出一種可能性，且文章重點在於優格中的細菌，而非單純的乳製品預防疾病。"
+    },
+    {
+        "question_number": "27",
+        "question": "According to the article, what makes eating yogurt an effective way to introduce beneficial bacteria into the body?",
+        "options": {
+            "A": "Its fermentation process allows it to carry a wide variety of bacteria to the bloodstream.",
+            "B": "The dairy fats shield the bacteria from stomach acid, enabling more to reach the intestines.",
+            "C": "It is digested more slowly than other fermented foods, giving bacteria time to colonize.",
+            "D": "Yogurt’s carbohydrate content supports the growth of bacteria once inside the body."
+        },
+        "answer": "B",
+        "explanation": "【句意】根據文章，為什麼吃優格是將益生菌引入體內的有效方法？\n【解析】(B) The dairy fats shield the bacteria from stomach acid, enabling more to reach the intestines. (乳製品脂肪能保護細菌免受胃酸侵害，使更多細菌到達腸道。) 文章明確提到：「Yogurt is a good source of these beneficial bacteria because the dairy fats help protect the bacteria from the highly acidic stomach environment, so they can pass through and into the small and large intestine.」(優格是這些益生菌的良好來源，因為乳製品脂肪有助於保護細菌免受高度酸性的胃部環境影響，因此它們可以通過並進入小腸和大腸。) (A) 文章未提及優格將細菌帶入血液。(C) 文章未比較優格與其他發酵食品的消化速度。(D) 文章提到乳酸桿菌以乳糖為食，但重點在於脂肪保護細菌，而非碳水化合物支持生長。"
+    },
+    {
+        "question_number": "28",
+        "question": "What does the article suggest about the role of lactobacillus in gut health?",
+        "options": {
+            "A": "It creates a low-pH environment that favors beneficial microbes and inhibits harmful ones.",
+            "B": "It balances the gut by eliminating all pathogens and raising gut pH.",
+            "C": "It reduces acidity in the intestines, which improves nutrient absorption.",
+            "D": "It works mainly in the large intestine to regulate digestive enzymes."
+        },
+        "answer": "A",
+        "explanation": "【句意】文章對乳酸桿菌在腸道健康中的作用提出了什麼建議？\n【解析】(A) It creates a low-pH environment that favors beneficial microbes and inhibits harmful ones. (它創造了一個低pH環境，有利於有益微生物並抑制有害微生物。) 文章提到：「High levels of them will help drop the pH in our guts, which makes keeping pathogens at bay a little bit easier. Also, it favors more of our beneficial bacteria if our pH is a little bit lower.」(它們的含量很高有助於降低我們腸道的pH值，這使得抵禦病原體變得更容易一些。此外，如果我們的pH值稍低，它會更有利於我們的有益細菌。) 這表明乳酸桿菌通過降低pH值來抑制有害細菌並促進有益細菌。(B) 文章提到降低pH值，而不是提高，且並非消除所有病原體。(C) 文章提到降低pH值，而不是減少腸道酸度，且未提及改善營養吸收。(D) 文章提到乳酸桿菌對免疫系統有益，並在小腸和大腸中都有作用，而非僅限於大腸調節消化酶。"
+    },
+    {
+        "question_number": "29",
+        "question": "What broader implication does the article make about the gut microbiome?",
+        "options": {
+            "A": "It interacts with multiple body systems, suggesting far-reaching health effects.",
+            "B": "It may contribute to long-term physical health but is unrelated to cognitive function.",
+            "C": "Its diversity may be less important than the number of bacteria consumed.",
+            "D": "Its influence is primarily limited to digestion and infection prevention."
+        },
+        "answer": "A",
+        "explanation": "【句意】文章對腸道微生物組提出了什麼更廣泛的含義？\n【解析】(A) It interacts with multiple body systems, suggesting far-reaching health effects. (它與多個身體系統相互作用，暗示著深遠的健康影響。) 文章提到：「And increasingly, scientists are coming to understand the positive interactions between the gut microbiome and a range of other body systems, including the brain.」(而且越來越多的科學家開始理解腸道微生物組與包括大腦在內的一系列其他身體系統之間的積極相互作用。) 這表明腸道微生物組的影響不僅限於腸道，還與其他系統（如大腦）有關，暗示著廣泛的健康影響。(B) 文章明確提到與大腦的相互作用，因此與認知功能有關。(C) 文章強調了益生菌的種類（如雙歧桿菌），暗示多樣性很重要。(D) 文章明確指出與大腦的相互作用，因此影響不僅限於消化和感染預防。"
+    },
+    {
+        "question_number": "30",
+        "question": "Which of the following sentence best suits _______ in the last paragraph?",
+        "options": {
+            "A": "Yogurt varies from store to store.",
+            "B": "Not all yogurt is created equal, though.",
+            "C": "There’s no such thing as free yogurt.",
+            "D": "Different yogurt caters to different people."
+        },
+        "answer": "B",
+        "explanation": "【句意】哪個句子最適合放在最後一段的____？\n【解析】最後一段的內容是關於如何選擇優格：「Choose carefully. Look at labels and rule out the products with lots of numbers—which represent the chemical additives—in the ingredients list. You need yogurt with live microbes in it, not squeezy-pouch yogurt with acidity regulators and preservatives or colors and flavors. Or you can just buy plain Greek yogurt and eat it with a bit of fruit added to it, or a bit of cinnamon on top.」(仔細選擇。查看標籤，排除成分表中含有大量數字的產品——這些數字代表化學添加劑。你需要含有活微生物的優格，而不是含有酸度調節劑、防腐劑或色素和香料的擠壓袋優格。或者你也可以只買原味希臘優格，加入一些水果或肉桂。) 這段話強調了選擇優格時需要注意的細節，暗示並非所有優格都一樣好。因此，(B) Not all yogurt is created equal, though. (不過，並非所有優格都一樣。) 最能概括這段話的意圖。(A) 雖然優格種類不同，但重點在於品質而非僅僅是商店差異。(C) 與優格的選擇無關。(D) 雖然不同優格可能適合不同人，但這段話的重點在於如何選擇“好”的優格，而非個人偏好。"
+    },
+    {
+        "question_number": "31",
+        "question": "What is the main idea of this passage?",
+        "options": {
+            "A": "DNA methylation and histone remodeling are critical to epigenetics.",
+            "B": "Epigenetics benefits medical treatments of diseases, from cancer to neural disorders.",
+            "C": "Gene expressions can be changed by environmental factors without altering DNA sequences.",
+            "D": "Epigenetics is becoming more convincing and valued than traditional genetics in modern biology."
+        },
+        "answer": "C",
+        "explanation": "【句意】這篇文章的主要思想是什麼？\n【解析】(C) Gene expressions can be changed by environmental factors without altering DNA sequences. (基因表達可以在不改變DNA序列的情況下被環境因素改變。) 文章開頭就指出，表觀遺傳學揭示了一種在遺傳密碼之上運作的複雜調控系統，這些化學修飾（包括DNA甲基化和組蛋白重塑）能夠控制基因表達，而無需改變底層的核苷酸序列。後續內容也圍繞著環境因素如何影響基因表達展開，這是文章的核心論點。(A) 雖然DNA甲基化和組蛋白重塑是表觀遺傳學的關鍵，但這只是文章的一部分，而非全部主旨。(B) 表觀遺傳學對醫學治療有益，但這也是文章的一部分，而非全部主旨。(D) 文章並未聲稱表觀遺傳學比傳統遺傳學更有說服力或更受重視，而是說明它們是互補的，並且表觀遺傳學使我們對生物學有了更深入的理解。"
+    },
+    {
+        "question_number": "32",
+        "question": "Which of the following is NOT an example of epigenetics?",
+        "options": {
+            "A": "Identical twins showing varied physical traits due to lifestyle differences.",
+            "B": "A mother’s malnutrition causing changed methylation patterns in her child.",
+            "C": "Water fleas exposed to predators produce offspring with larger helmets.",
+            "D": "Plasticizers cause decreased fertility across generations."
+        },
+        "answer": "C",
+        "explanation": "【句意】下列哪項不是表觀遺傳學的例子？\n【解析】(C) Water fleas exposed to predators produce offspring with larger helmets. (暴露於掠食者的水蚤會產生頭盔更大的後代。) 這是達爾文進化論中的適應性演化，是基因的自然選擇和變異，而非表觀遺傳學的範疇。表觀遺傳學是指在不改變DNA序列的情況下，基因表達的改變，且這些改變可以遺傳。選項(A)同卵雙胞胎因生活方式差異而表現出不同的特徵，(B)母親的營養不良導致孩子甲基化模式改變，(D)塑化劑導致後代生育能力下降，這些都符合表觀遺傳學的定義，即環境因素影響基因表達並可遺傳。"
+    },
+    {
+        "question_number": "33",
+        "question": "Here is a sentence: “However, significant challenges remain, as epigenetic therapies often lack specificity and may have unintended effects on normal cellular processes.” Which paragraph is most suitable to have it as the final sentence?",
+        "options": {
+            "A": "Paragraph 2",
+            "B": "Paragraph 3",
+            "C": "Paragraph 4",
+            "D": "Paragraph 5"
+        },
+        "answer": "D",
+        "explanation": "【句意】這裡有一句話：「然而，重大的挑戰仍然存在，因為表觀遺傳療法通常缺乏特異性，並可能對正常的細胞過程產生意想不到的影響。」哪一段最適合將其作為最後一句？\n【解析】(D) Paragraph 5. (第五段。) 第四段主要討論表觀遺傳學的醫學應用和潛在的治療方法，例如使用5-氮胞苷治療骨髓增生異常綜合症。第五段則討論了表觀遺傳遺傳的演化意義以及研究的進展，並指出表觀遺傳學模糊了天性和後天的界線。將這句話放在第五段的結尾，可以作為對表觀遺傳學研究現狀和未來挑戰的總結，引導讀者思考其複雜性和潛在的局限性，與第五段探討的演化意義和生物學現實的複雜性相呼應。(A) 第二段主要講述DNA甲基化和組蛋白修飾的機制。(B) 第三段主要講述多代研究的證據，如飢荒和恐懼條件反射。(C) 第四段主要講述醫學應用和治療方法。"
+    },
+    {
+        "question_number": "34",
+        "question": "According to the passage, which of the following statements is true?",
+        "options": {
+            "A": "DNA methylation and histone modifications necessarily produce opposite gene remodeling results.",
+            "B": "Fear conditioning does not have epigenetic implications on the offspring of mice.",
+            "C": "Epigenetic changes are essentially one-way genetic alternations that cannot be undone.",
+            "D": "Some medications are designed to curb DNA methylation to fight off illness."
+        },
+        "answer": "D",
+        "explanation": "【句意】根據文章，下列哪項陳述是真實的？\n【解析】(D) Some medications are designed to curb DNA methylation to fight off illness. (有些藥物被設計用來抑制DNA甲基化以對抗疾病。) 文章第四段提到：「Unlike genetic mutations, epigenetic changes are potentially reversible, spurring development of novel treatments. Drugs like 5-azacytidine, which inhibits DNA methylation, are already used to treat myelodysplastic syndromes.」(與基因突變不同，表觀遺傳學的改變是可逆的，這促進了新療法的發展。像5-氮胞苷這樣的藥物，它抑制DNA甲基化，已經被用於治療骨髓增生異常綜合症。) 這證實了該陳述的真實性。(A) 文章提到組蛋白修飾可以“either activate or repress genes”，並未說DNA甲基化和組蛋白修飾必然產生相反結果。(B) 文章第三段明確提到：「rodent experiments show that fear conditioning can produce epigenetic memories transmitted to offspring.」(齧齒動物實驗表明，恐懼條件反射可以產生遺傳給後代的表觀遺傳記憶。) 這與陳述相反。(C) 文章第四段提到：「epigenetic changes are potentially reversible」，這與陳述相反。"
+    },
+    {
+        "question_number": "35",
+        "question": "Which of the following words is “bona fide” closest in meaning to?",
+        "options": {
+            "A": "Deniable",
+            "B": "Legitimate",
+            "C": "Beneficial",
+            "D": "Hierarchical"
+        },
+        "answer": "B",
+        "explanation": "【句意】下列哪個詞與“bona fide”意思最接近？\n【解析】“bona fide” 的意思是「真實的，真誠的，合法的」。在文章第五段中，它被用來描述表觀遺傳遺傳作為一種「bona fide inheritance system」(合法的繼承系統)，與遺傳演化互補。因此，(B) Legitimate (合法的，真實的) 是最接近的詞義。(A) Deniable (可否認的) 意思相反。(C) Beneficial (有益的) 意思不同。(D) Hierarchical (層級的) 意思不同。"
+    }
+]

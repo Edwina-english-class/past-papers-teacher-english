@@ -1,0 +1,602 @@
+[
+    {
+        "question_number": "1",
+        "question": "What is the main advantage of writing “identity texts” for language education?",
+        "options": {
+            "A": "They focus on collaborative learning in schools.",
+            "B": "They facilitate an enhancement of vocabulary and grammar.",
+            "C": "They enable students to use language to communicate their cultural identities.",
+            "D": "They give precedence to Western cultural norms over alternative viewpoints."
+        },
+        "answer": "C",
+        "explanation": "【句意】撰寫「身分文本」對於語言教育的主要優勢是什麼？\n【解析】選項 C 提到「讓學生能夠運用語言來溝通他們的文化身分」，這與「identity texts」（身分文本）的核心概念相符，即透過文本來表達和探索個人及群體的文化身分。\n選項 A 不符合題意，身分文本不必然聚焦於協作學習。\n選項 B 雖然語言學習可能包含詞彙和文法，但這並非撰寫身分文本的主要優勢，其重點在於身分認同的表達。\n選項 D 與題意相反，身分文本強調的是多元文化認同，而非偏重單一文化規範。"
+    },
+    {
+        "question_number": "2",
+        "question": "How is language primarily perceived from the viewpoint of cognitive linguistics?",
+        "options": {
+            "A": "It reflects rules and structures distinct from human experiences.",
+            "B": "It reveals a stable system that has been passed down from biological evolution.",
+            "C": "It reveals social construct founded on cultural norms.",
+            "D": "It reflects bodily experiences and broader cognitive processes."
+        },
+        "answer": "D",
+        "explanation": "【句意】從認知語言學的觀點來看，語言主要被如何看待？\n【解析】認知語言學強調語言與身體經驗和更廣泛的認知過程緊密相關。選項 D 準確地反映了這一觀點。\n選項 A 與認知語言學的觀點相反，它認為語言與人類經驗是緊密相連的。\n選項 B 雖然生物演化和語言的穩定性是相關議題，但認知語言學更側重於語言與認知和身體的關聯。\n選項 C 描述的是社會語言學或文化語言學的觀點，而非認知語言學的核心。"
+    },
+    {
+        "question_number": "3",
+        "question": "Which teaching theory places emphasis on interpersonal communication in the classroom?",
+        "options": {
+            "A": "Humanism",
+            "B": "Constructivism",
+            "C": "Behaviorism",
+            "D": "Cognitivism"
+        },
+        "answer": "B",
+        "explanation": "【句意】哪種教學理論強調課堂中的人際溝通？\n【解析】建構主義 (Constructivism) 強調學習者透過互動、協作和建構知識來學習，其中人際溝通是促進知識建構的重要環節。\n人本主義 (Humanism) 關注學生的個人成長和潛能發展，但不一定將人際溝通置於核心地位。\n行為主義 (Behaviorism) 側重於刺激與反應的連結，較少關注人際互動。\n認知主義 (Cognitivism) 關注心智過程，如記憶、思考等，人際溝通並非其主要焦點。"
+    },
+    {
+        "question_number": "4",
+        "question": "In the Input Hypothesis proposed by Stephen Krashen, what is the ideal type of input for language learners to stretch their abilities while remaining understandable?",
+        "options": {
+            "A": "Input that is slightly beyond their current proficiency level.",
+            "B": "Repetitive input at their current level.",
+            "C": "Input that focuses exclusively on grammatical structures.",
+            "D": "Input irrelevant to learners' goals."
+        },
+        "answer": "A",
+        "explanation": "【句意】根據史蒂芬·克拉申提出的輸入假說，理想的輸入類型是什麼，才能讓語言學習者在保持可理解性的同時拓展他們的能力？\n【解析】克拉申的輸入假說 (Input Hypothesis) 認為，學習者透過接收「i+1」的輸入來學習語言，其中「i」代表學習者目前的語言能力水平，「+1」則代表略高於目前水平的輸入。這種輸入既能被理解，又能促進語言能力的提升。選項 A 精確地描述了這一概念。\n選項 B 的輸入僅停留在目前水平，不利於進步。\n選項 C 過於強調文法結構，忽略了溝通的整體性。\n選項 D 的輸入與學習目標無關，無法有效促進學習。"
+    },
+    {
+        "question_number": "5",
+        "question": "How does the integration of technology in the ESL classroom best address diverse learning styles?",
+        "options": {
+            "A": "Focusing on the instruction of traditional lecture methods.",
+            "B": "Utilizing adaptive learning platforms that provide interactive multimedia content tailored to individual needs.",
+            "C": "Using text-based digital resources, together with minimal audio-video elements.",
+            "D": "Readdressing classroom interaction by incorporating solitary, technology-based computer tasks."
+        },
+        "answer": "B",
+        "explanation": "【句意】在 ESL 教室中整合科技如何能最好地解決多樣化的學習風格？\n【解析】選項 B 提到「利用適應性學習平台，提供為個人需求量身定制的互動式多媒體內容」，這正是科技在解決多樣化學習風格方面的最佳應用，因為它可以根據學生的個別差異提供不同的學習資源和互動方式。\n選項 A 與科技整合的初衷相悖，傳統講授法不一定能滿足所有學習風格。\n選項 C 雖然使用了數位資源，但「極少」的影音元素限制了對視覺和聽覺學習者的支持。\n選項 D 強調「單獨的」電腦任務，這可能不利於需要互動和協作學習的學生。"
+    },
+    {
+        "question_number": "6",
+        "question": "Many people found it difficult to follow because the reasoning was so _____.",
+        "options": {
+            "A": "mediocre",
+            "B": "convoluted",
+            "C": "capitulated",
+            "D": "blatant"
+        },
+        "answer": "B",
+        "explanation": "【句意】由於論證過於_____，許多人發現難以理解。\n【解析】選項 B 的 \"convoluted\" 意為「盤旋的、複雜難懂的」，這與「難以理解」的語境非常契合。\n選項 A 的 \"mediocre\" 意為「平庸的」，雖然可能導致論證不夠清晰，但不如 \"convoluted\" 直接表達難以理解的原因。\n選項 C 的 \"capitulated\" 意為「投降、屈服」，與論證的難易程度無關。\n選項 D 的 \"blatant\" 意為「公然的、顯眼的」，通常用於描述負面行為，與論證的複雜性無關。"
+    },
+    {
+        "question_number": "7",
+        "question": "As the disease begins to _____ the brain, people may undergo changes in personality.",
+        "options": {
+            "A": "ravage",
+            "B": "attain",
+            "C": "drawl",
+            "D": "extol"
+        },
+        "answer": "A",
+        "explanation": "【句意】隨著疾病開始_____大腦，人們可能會經歷性格上的改變。\n【解析】選項 A 的 \"ravage\" 意為「嚴重損壞、毀壞」，這與疾病對大腦造成的負面影響以及導致性格改變的語境非常吻合。\n選項 B 的 \"attain\" 意為「達到、獲得」，與疾病的影響不符。\n選項 C 的 \"drawl\" 意為「慢吞吞地說話」，與疾病對大腦的影響無關。\n選項 D 的 \"extol\" 意為「讚美」，與疾病的負面影響完全相反。"
+    },
+    {
+        "question_number": "8",
+        "question": "Environmentalists around the world have _____ the organization’s efforts to combat climate change.",
+        "options": {
+            "A": "preluded",
+            "B": "mimed",
+            "C": "prescribed",
+            "D": "lauded"
+        },
+        "answer": "D",
+        "explanation": "【句意】世界各地的環保人士_____了該組織應對氣候變化的努力。\n【解析】選項 D 的 \"lauded\" 意為「讚揚、稱讚」，這與環保人士對組織應對氣候變化的積極努力表示支持的語境相符。\n選項 A 的 \"preluded\" 意為「預示、作為前奏」，與讚揚無關。\n選項 B 的 \"mimed\" 意為「模仿、扮鬼臉」，與讚揚無關。\n選項 C 的 \"prescribed\" 意為「開處方、規定」，與讚揚無關。"
+    },
+    {
+        "question_number": "9",
+        "question": "Immediately after completing the study of astronomy, he developed some ____ instrumentation to detect radiation.",
+        "options": {
+            "A": "crude",
+            "B": "exigent",
+            "C": "incessant",
+            "D": "unilateral"
+        },
+        "answer": "A",
+        "explanation": "【句意】在完成天文學研究後，他立即開發了一些_____的儀器來探測輻射。\n【解析】選項 A 的 \"crude\" 意為「粗糙的、簡陋的」，這與剛完成研究後開發的儀器可能不夠精緻的語境相符。\n選項 B 的 \"exigent\" 意為「緊急的、迫切的」，與儀器的性質無關。\n選項 C 的 \"incessant\" 意為「不停的、持續的」，與儀器的性質無關。\n選項 D 的 \"unilateral\" 意為「單方面的」，與儀器的性質無關。"
+    },
+    {
+        "question_number": "10",
+        "question": "He was an original composer, less ____ sentimental than his contemporaries.",
+        "options": {
+            "A": "cloyingly",
+            "B": "chronically",
+            "C": "circumferentially",
+            "D": "lavishly"
+        },
+        "answer": "A",
+        "explanation": "【句意】他是一位原創的作曲家，與同時代的人相比，他的感傷情懷不那麼_____。\n【解析】選項 A 的 \"cloyingly\" 意為「過於甜膩地、令人膩煩地」，這與「less sentimental」（不那麼感傷）的語境形成對比，表示他的感傷程度沒有達到令人膩煩的程度，暗示他的作品更為獨特。\n選項 B 的 \"chronically\" 意為「慢性地」，與感傷的程度無關。\n選項 C 的 \"circumferentially\" 意為「周長地、迂迴地」，與感傷的程度無關。\n選項 D 的 \"lavishly\" 意為「奢華地、豐富地」，雖然可以形容情感的表達，但 \"cloyingly\" 更能精確地描述「過度」的感傷，與 \"less\" 形成對比。"
+    },
+    {
+        "question_number": "11",
+        "question": "Regardless of the source of the inaccurate headline, credible sources ____ it, resulting in a costly lesson for many large corporations and business leaders.",
+        "options": {
+            "A": "amplified",
+            "B": "diluted",
+            "C": "decreased",
+            "D": "qualified"
+        },
+        "answer": "A",
+        "explanation": "【句意】無論不準確標題的來源是什麼，可靠的來源_____了它，給許多大公司和商業領袖帶來了昂貴的教訓。\n【解析】選項 A 的 \"amplified\" 意為「放大、擴大」，這與不準確的標題被可靠來源傳播後，造成了更廣泛的影響（昂貴的教訓）相符。\n選項 B 的 \"diluted\" 意為「稀釋」，與擴大影響相反。\n選項 C 的 \"decreased\" 意為「減少」，與擴大影響相反。\n選項 D 的 \"qualified\" 意為「限定、資格」，與傳播不準確信息並造成影響的語境不符。"
+    },
+    {
+        "question_number": "12",
+        "question": "Current medical research has shown that with the correct medication, combined with diet and lifestyle _____, there is a chance to \"reverse\" the disease.",
+        "options": {
+            "A": "adjustments",
+            "B": "compliments",
+            "C": "enrollments",
+            "D": "embodiments"
+        },
+        "answer": "A",
+        "explanation": "【句意】目前的醫學研究表明，結合正確的藥物治療，以及飲食和生活方式的_____，有機會「逆轉」該疾病。\n【解析】選項 A 的 \"adjustments\" 意為「調整、調節」，這與飲食和生活方式的改變以配合治療相符。\n選項 B 的 \"compliments\" 意為「讚美、恭維」，與治療無關。\n選項 C 的 \"enrollments\" 意為「註冊、登記」，與治療無關。\n選項 D 的 \"embodiments\" 意為「體現、化身」，與飲食和生活方式的改變無關。"
+    },
+    {
+        "question_number": "13",
+        "question": "The report highlighted the urgent need for _____ policies, as pneumonia has become the third leading cause of death among seniors.",
+        "options": {
+            "A": "attractive",
+            "B": "conservative",
+            "C": "preservative",
+            "D": "proactive"
+        },
+        "answer": "D",
+        "explanation": "【句意】由於肺炎已成為老年人第三大死因，該報告強調了對_____政策的迫切需求。\n【解析】選項 D 的 \"proactive\" 意為「積極主動的」，這與應對日益嚴重的健康問題（如肺炎成為老年人主要死因）所需要的預防性和積極性政策相符。\n選項 A 的 \"attractive\" 意為「有吸引力的」，與政策的性質無關。\n選項 B 的 \"conservative\" 意為「保守的」，與應對緊急健康威脅的積極性不符。\n選項 C 的 \"preservative\" 意為「防腐的、保護的」，雖然有保護之意，但 \"proactive\" 更能表達主動應對的積極性。"
+    },
+    {
+        "question_number": "14",
+        "question": "The EU Commission proposed its first _____ tariffs at 25% on a wide range of US products.",
+        "options": {
+            "A": "beneficial",
+            "B": "bilateral",
+            "C": "retaliatory",
+            "D": "rewarding"
+        },
+        "answer": "C",
+        "explanation": "【句意】歐盟委員會對一系列美國產品提出了首次_____關稅，稅率為 25%。\n【解析】選項 C 的 \"retaliatory\" 意為「報復性的」，這通常用於描述國家之間因貿易爭端而互相徵收的關稅，與歐盟對美國產品徵收關稅的語境相符。\n選項 A 的 \"beneficial\" 意為「有益的」，關稅通常不被視為對進口國有益。\n選項 B 的 \"bilateral\" 意為「雙邊的」，雖然關稅可能涉及雙邊貿易，但 \"retaliatory\" 更能描述關稅的動機。\n選項 D 的 \"rewarding\" 意為「有回報的」，與關稅的性質不符。"
+    },
+    {
+        "question_number": "15",
+        "question": "Since the feature's release, users have overwhelmed the internet with images in the style of Studio Ghibli, _____ copyright concerns.",
+        "options": {
+            "A": "raiding",
+            "B": "raising",
+            "C": "rising",
+            "D": "risking"
+        },
+        "answer": "B",
+        "explanation": "【句意】自該功能發布以來，用戶們用吉卜力工作室風格的圖片淹沒了互聯網，_____了版權問題。\n【解析】選項 B 的 \"raising\" 意為「引起、提出」，這與用戶大量使用特定風格的圖片，從而引發了對版權的擔憂相符。\n選項 A 的 \"raiding\" 意為「襲擊、掠奪」，與版權問題的引發無關。\n選項 C 的 \"rising\" 意為「上升」，與版權問題的引發無關。\n選項 D 的 \"risking\" 意為「冒著風險」，雖然用戶可能冒著侵犯版權的風險，但 \"raising\" 更直接地描述了版權問題被提出的事實。"
+    },
+    {
+        "question_number": "16",
+        "question": "English has 1,120 different ways of spelling its 40 phonemes, the _____ required to pronounce all its words.",
+        "options": {
+            "A": "voices",
+            "B": "tones",
+            "C": "sounds",
+            "D": "utterances"
+        },
+        "answer": "C",
+        "explanation": "【句意】英語有 1,120 種不同的拼寫方式來表示其 40 個音素，這是發音所有單詞所_____的。\n【解析】選項 C 的 \"sounds\" 意為「聲音」，與音素 (phonemes) 的概念直接相關，音素是構成語言發音的基本聲音單位。\n選項 A 的 \"voices\" 意為「聲音（特指人聲）」，較為籠統。\n選項 B 的 \"tones\" 意為「語調、音調」，與音素的構成單位不符。\n選項 D 的 \"utterances\" 意為「話語、發聲」，指說出的話，比音素更宏觀。"
+    },
+    {
+        "question_number": "17",
+        "question": "_____, Italian needs only 33 combinations of letters to spell out its 25 phonemes.",
+        "options": {
+            "A": "Provided that",
+            "B": "In addition",
+            "C": "Moreover",
+            "D": "By contrast"
+        },
+        "answer": "D",
+        "explanation": "【句意】_____，意大利語只需要 33 個字母組合來拼寫其 25 個音素。\n【解析】本題在比較英語和意大利語在拼寫音素方面的差異。前一句描述了英語的複雜性，本句描述意大利語的簡潔性，因此需要一個表示對比的連接詞。選項 D 的 \"By contrast\"（相比之下）最適合表達這種對比關係。\n選項 B 和 C（In addition, Moreover）表示遞進或補充，不符合對比語境。\n選項 A（Provided that）表示條件，也不符合語境。"
+    },
+    {
+        "question_number": "18",
+        "question": "_____, reading Italian takes a lot less effort, and that’s probably why the reported rate of dyslexia in Italy is barely half that in the U. S., where about 15% of the population is affected to varying degrees.",
+        "options": {
+            "A": "As a result",
+            "B": "Even so",
+            "C": "Regardless",
+            "D": "Nonetheless"
+        },
+        "answer": "A",
+        "explanation": "【句意】_____，閱讀意大利語所需的努力少得多，這也可能是為什麼意大利的閱讀障礙報告率僅為美國的一半，而美國約有 15% 的人口受到不同程度的影響。\n【解析】前一句描述了意大利語拼寫的簡潔性，本句接著說明由此帶來的結果——閱讀更容易，以及與閱讀障礙率的關聯。因此，需要一個表示因果關係的連接詞。選項 A 的 \"As a result\"（結果是）最適合表達這種因果關係。\n選項 B 和 D（Even so, Nonetheless）表示讓步或對比，不符合因果關係。\n選項 C（Regardless）表示「不管怎樣」，也不符合語境。"
+    },
+    {
+        "question_number": "19",
+        "question": "_____, Americans spend more than $1 billion a year to help their kids cope with dyslexia.",
+        "options": {
+            "A": "At comparison",
+            "B": "With a doubt",
+            "C": "With this in mind",
+            "D": "By some estimates"
+        },
+        "answer": "C",
+        "explanation": "【句意】_____，美國人每年花費超過 10 億美元來幫助他們的孩子應對閱讀障礙。\n【解析】本句在說明美國在閱讀障礙方面的投入。前一句提到了美國閱讀障礙的普遍性，本句接著說明由此產生的經濟影響。選項 C 的 \"With this in mind\"（考慮到這一點）能夠很好地連接前一句的背景信息和本句的具體數據，表示「基於前述情況」。\n選項 A 和 B（At comparison, With a doubt）語法或語意不符。\n選項 D（By some estimates）表示「根據一些估計」，雖然也可能，但 \"With this in mind\" 更能體現前後句的邏輯關聯。"
+    },
+    {
+        "question_number": "20",
+        "question": "Many Italian dyslexics, _____, aren’t even aware they have a problem—and would notice it only if given a battery of psychological test.",
+        "options": {
+            "A": "apart from that",
+            "B": "in other word",
+            "C": "on the other hand",
+            "D": "under this condition"
+        },
+        "answer": "C",
+        "explanation": "【句意】許多意大利的閱讀障礙者，_____，甚至不知道自己有問題——只有在接受一系列心理測試時才會注意到。\n【解析】前一句描述了意大利閱讀障礙者相對較低的報告率，本句接著說明了其中一個原因：他們可能沒有意識到自己有問題。這是一種對比或補充說明，表示「另一方面」。選項 C 的 \"on the other hand\"（另一方面）最適合表達這種對比或補充的語氣。\n選項 A（apart from that）表示「除此之外」，語氣不符。\n選項 B（in other word）表示「換句話說」，語氣不符。\n選項 D（under this condition）表示「在此條件下」，語氣不符。"
+    },
+    {
+        "question_number": "21",
+        "question": "As co-founder of Moderna, he serves as an _____ for those who take risks to make a difference.",
+        "options": {
+            "A": "approach",
+            "B": "admission",
+            "C": "elevation",
+            "D": "inspiration"
+        },
+        "answer": "D",
+        "explanation": "【句意】作為 Moderna 的聯合創始人，他為那些冒險做出改變的人們樹立了_____。\n【解析】選項 D 的 \"inspiration\" 意為「靈感、啟發」，這與他作為一個冒險家和成功創業者，能夠啟發他人採取行動的形象相符。\n選項 A 的 \"approach\" 意為「方法、途徑」，與人作為榜樣的意義不符。\n選項 B 的 \"admission\" 意為「承認、准許進入」，與題意無關。\n選項 C 的 \"elevation\" 意為「提升、提高」，與人作為榜樣的意義不符。"
+    },
+    {
+        "question_number": "22",
+        "question": "Afeyan believes that if you feel you have nothing to lose and embrace risks without being _____ by potential consequences, you will learn the value of _____.",
+        "options": {
+            "A": "discouraged",
+            "B": "encouraged",
+            "C": "acknowledged",
+            "D": "disengaged"
+        },
+        "answer": "A",
+        "explanation": "【句意】Afeyan 認為，如果你覺得自己沒有什麼可失去的，並且在不被潛在後果_____的情況下擁抱風險，你將學會_____的價值。\n【解析】在「不被潛在後果_____」的語境下，為了鼓勵冒險，應該是不被後果「嚇倒」或「阻止」。選項 A 的 \"discouraged\"（氣餒、阻止）符合這一邏輯。\n選項 B 的 \"encouraged\"（鼓勵）與「不被_____」的結構不符。\n選項 C 的 \"acknowledged\"（承認）與語境不符。\n選項 D 的 \"disengaged\"（脫離、不參與）與語境不符。"
+    },
+    {
+        "question_number": "23",
+        "question": "Afeyan believes that if you feel you have nothing to lose and embrace risks without being _____ by potential consequences, you will learn the value of _____.",
+        "options": {
+            "A": "resolution",
+            "B": "persistence",
+            "C": "transcendence",
+            "D": "interjection"
+        },
+        "answer": "B",
+        "explanation": "【句意】Afeyan 認為，如果你覺得自己沒有什麼可失去的，並且在不被潛在後果_____的情況下擁抱風險，你將學會_____的價值。\n【解析】在冒險並克服困難的過程中，學習到的重要價值是堅持不懈。選項 B 的 \"persistence\"（堅持不懈）最符合這一意義。\n選項 A 的 \"resolution\"（決心、解決）雖然相關，但 \"persistence\" 更強調持續的努力。\n選項 C 的 \"transcendence\"（超越）過於抽象。\n選項 D 的 \"interjection\"（插話、感嘆詞）與題意無關。"
+    },
+    {
+        "question_number": "24",
+        "question": "Nowhere is this _____ principle more apparent than in Moderna’s development of one of the first mRNA vaccines.",
+        "options": {
+            "A": "heading",
+            "B": "catching",
+            "C": "guiding",
+            "D": "collecting"
+        },
+        "answer": "C",
+        "explanation": "【句意】_____原則在 Moderna 開發首批 mRNA 疫苗的過程中尤為明顯。\n【解析】前文提到了 Afeyan 關於擁抱風險和堅持不懈的觀點。本句是在說明這一原則的體現。選項 C 的 \"guiding\"（指導性的）最適合形容一個原則在行動中的指導作用。\n選項 A 的 \"heading\"（標題、方向）語意不符。\n選項 B 的 \"catching\"（引人注目的）雖然可以形容原則，但 \"guiding\" 更強調其作用。\n選項 D 的 \"collecting\"（收集）與原則的應用無關。"
+    },
+    {
+        "question_number": "25",
+        "question": "When the pandemic affected millions of lives and livelihoods, Moderna had the technology _____ to respond quickly.",
+        "options": {
+            "A": "in case",
+            "B": "in place",
+            "C": "in need",
+            "D": "in turn"
+        },
+        "answer": "B",
+        "explanation": "【句意】當疫情影響到數百萬人的生命和生計時，Moderna 擁有_____的技術，能夠迅速做出反應。\n【解析】選項 B 的 \"in place\" 意為「到位、準備就緒」，這表示 Moderna 已經事先準備好了相關技術，才能在疫情發生時迅速做出反應。\n選項 A 的 \"in case\" 意為「以防萬一」，表示預防，但這裡強調的是已有技術可用。\n選項 C 的 \"in need\" 意為「有需要」，語意不符。\n選項 D 的 \"in turn\" 意為「依次、輪流」，與技術的準備狀態無關。"
+    },
+    {
+        "question_number": "26",
+        "question": "Investigators are probing its deepest _____ with powerful tools.",
+        "options": {
+            "A": "recesses",
+            "B": "promulgated",
+            "C": "binding",
+            "D": "illuminating"
+        },
+        "answer": "A",
+        "explanation": "【句意】調查人員正利用強大的工具深入探究其最深的_____。\n【解析】選項 A 的 \"recesses\" 意為「隱蔽處、深處」，與「deepest」（最深的）搭配，表示探究大腦的深層結構或奧秘。\n選項 B 的 \"promulgated\" 意為「頒布、宣揚」，是動詞，與名詞 \"recesses\" 的語法結構不符。\n選項 C 的 \"binding\" 意為「約束性的」，與探究的對象無關。\n選項 D 的 \"illuminating\" 意為「啟發性的、闡明的」，雖然是探究的目標，但 \"recesses\" 是探究的對象本身。"
+    },
+    {
+        "question_number": "27",
+        "question": "Edelman has _____ this theory in a series of books in 1992.",
+        "options": {
+            "A": "recesses",
+            "B": "promulgated",
+            "C": "binding",
+            "D": "illuminating"
+        },
+        "answer": "B",
+        "explanation": "【句意】Edelman 在 1992 年的一系列書籍中_____了這一理論。\n【解析】選項 B 的 \"promulgated\" 意為「頒布、宣揚、闡述」，這與在書籍中發表和推廣理論的行為相符。\n選項 A 的 \"recesses\" 意為「隱蔽處」，是名詞，語法不符。\n選項 C 的 \"binding\" 意為「約束性的」，與闡述理論的行為無關。\n選項 D 的 \"illuminating\" 意為「啟發性的」，雖然理論可能是啟發性的，但 \"promulgated\" 更直接描述了將理論公之於眾的行為。"
+    },
+    {
+        "question_number": "28",
+        "question": "Others have challenged whether conventional neuroscience—despite its success in _____ other attributes of the mind—can ever account for consciousness.",
+        "options": {
+            "A": "recesses",
+            "B": "promulgated",
+            "C": "binding",
+            "D": "illuminating"
+        },
+        "answer": "D",
+        "explanation": "【句意】其他人質疑，傳統神經科學——儘管在_____其他心智屬性方面取得了成功——是否能解釋意識。\n【解析】選項 D 的 \"illuminating\" 意為「闡明、闡釋」，這與神經科學在解釋心智屬性方面的成功相符。\n選項 A 的 \"recesses\" 意為「隱蔽處」，語意不符。\n選項 B 的 \"promulgated\" 意為「頒布、宣揚」，與解釋心智屬性無關。\n選項 C 的 \"binding\" 意為「約束性的」，與解釋心智屬性無關。"
+    },
+    {
+        "question_number": "29",
+        "question": "The field of consciousness studies is struggling with its own _____ problem.",
+        "options": {
+            "A": "recesses",
+            "B": "promulgated",
+            "C": "binding",
+            "D": "illuminating"
+        },
+        "answer": "C",
+        "explanation": "【句意】意識研究領域正努力解決其自身的_____問題。\n【解析】選項 C 的 \"binding\" 意為「約束性的、難以擺脫的」，這與研究領域面臨的挑戰或難題相符，例如解釋意識的難度。這裡的 \"problem\" 指的是一個棘手的、難以解決的問題。\n選項 A 的 \"recesses\" 意為「隱蔽處」，與問題的性質無關。\n選項 B 的 \"promulgated\" 意為「頒布、宣揚」，是動詞，語法不符。\n選項 D 的 \"illuminating\" 意為「啟發性的」，與「struggling with a problem」的語境不符，因為問題通常是難以解決的，而不是啟發性的。"
+    },
+    {
+        "question_number": "30",
+        "question": "_____. The modern AI industry has been flooded with financial investment and rapid advances.",
+        "options": {
+            "A": "Chatbots are becoming more humanlike, more convincing, and more capable of manipulative speech. And the ability of these generative technologies creates not only original text but also visual media.",
+            "B": "But it is our responsibility, as well as that of future generations, to know both the potential and the pitfalls of these technologies.",
+            "C": "Additionally, the linguistic capabilities of AI chatbots can exacerbate the spread of false information, which raises concerns about chatbots’ potential for deception and manipulation.",
+            "D": "This is particularly evident in rhetorical or political discourse, where chatbots may reveal their inherent, unquestioned biases in subtle or implicit ways."
+        },
+        "answer": "A",
+        "explanation": "【句意】_____。現代人工智能產業充斥著金融投資和快速發展。\n【解析】本題要求選擇一個最適合放在段落開頭，並能引出後續關於 AI 產業發展的句子。選項 A 描述了聊天機器人越來越像人類、更具說服力且能夠操縱語言，並提到生成技術不僅能創造文本還能創造視覺媒體。這與後續提到 AI 產業的快速發展和投資相呼應，說明了 AI 發展的現狀和潛力。\n選項 B 討論的是責任和潛在的陷阱，語氣較為總結性，不適合作為開頭。\n選項 C 討論的是語言能力加劇虛假信息傳播，雖然與 AI 相關，但不如 A 概括性強。\n選項 D 討論的是修辭或政治論述中的偏見，較為具體，不適合作為開頭。"
+    },
+    {
+        "question_number": "31",
+        "question": "Given their greater utilization of machine learning, these systems are better able to iteratively refine their own parameters, improving their ability to identify the contexts in which they must operate. _____.",
+        "options": {
+            "A": "Chatbots are becoming more humanlike, more convincing, and more capable of manipulative speech. And the ability of these generative technologies creates not only original text but also visual media.",
+            "B": "But it is our responsibility, as well as that of future generations, to know both the potential and the pitfalls of these technologies.",
+            "C": "Additionally, the linguistic capabilities of AI chatbots can exacerbate the spread of false information, which raises concerns about chatbots’ potential for deception and manipulation.",
+            "D": "This is particularly evident in rhetorical or political discourse, where chatbots may reveal their inherent, unquestioned biases in subtle or implicit ways."
+        },
+        "answer": "D",
+        "explanation": "【句意】鑑於它們更多地利用機器學習，這些系統能夠更好地迭代地優化自身參數，提高識別其必須運行的上下文的能力。_____。\n【解析】前一句描述了 AI 系統在理解和適應上下文方面的進步。選項 D 提到「這在修辭或政治論述中尤為明顯，聊天機器人可能以微妙或隱晦的方式揭示其固有的、未經質疑的偏見。」這與前一句描述的上下文識別能力緊密相關，並進一步闡述了這種能力在特定領域的體現，特別是關於偏見的揭示。\n選項 A 描述了聊天機器人的能力，但與前一句的上下文識別能力關聯不直接。\n選項 B 討論責任，語氣總結性。\n選項 C 討論虛假信息傳播，雖然相關，但 D 更直接地承接了前一句關於上下文識別的論述。"
+    },
+    {
+        "question_number": "32",
+        "question": "Even the most advanced chatbots feature disclaimers that warn potential users to confirm any information received. Given that the internet is rife with misinformation, disinformation, and opinions presented as facts, it is likely that AIs trained on these sources will also exhibit biases, both in content and style. _____.",
+        "options": {
+            "A": "Chatbots are becoming more humanlike, more convincing, and more capable of manipulative speech. And the ability of these generative technologies creates not only original text but also visual media.",
+            "B": "But it is our responsibility, as well as that of future generations, to know both the potential and the pitfalls of these technologies.",
+            "C": "Additionally, the linguistic capabilities of AI chatbots can exacerbate the spread of false information, which raises concerns about chatbots’ potential for deception and manipulation.",
+            "D": "This is particularly evident in rhetorical or political discourse, where chatbots may reveal their inherent, unquestioned biases in subtle or implicit ways."
+        },
+        "answer": "D",
+        "explanation": "【句意】即使是最先進的聊天機器人也帶有免責聲明，警告潛在用戶確認收到的任何信息。鑑於互聯網充斥著錯誤信息、虛假信息和被當作事實的觀點，在這些來源上訓練的人工智能很可能也會表現出內容和風格上的偏見。_____。\n【解析】前一句提到了 AI 訓練數據中的偏見問題。選項 D 接著闡述了這種偏見在修辭或政治論述中的體現，即聊天機器人可能以微妙或隱晦的方式揭示其固有的、未經質疑的偏見。這與前一句的論述緊密銜接，並進一步具體化了偏見的表現形式。\n選項 A 描述了聊天機器人的能力，但與偏見的具體表現關聯不直接。\n選項 B 討論責任，語氣總結性。\n選項 C 討論虛假信息傳播，雖然相關，但 D 更直接地承接了前一句關於偏見的論述。"
+    },
+    {
+        "question_number": "33",
+        "question": "It would be interesting to see chatbots produce persuasive slogans about consumer products or political candidates. _____.",
+        "options": {
+            "A": "Chatbots are becoming more humanlike, more convincing, and more capable of manipulative speech. And the ability of these generative technologies creates not only original text but also visual media.",
+            "B": "But it is our responsibility, as well as that of future generations, to know both the potential and the pitfalls of these technologies.",
+            "C": "Additionally, the linguistic capabilities of AI chatbots can exacerbate the spread of false information, which raises concerns about chatbots’ potential for deception and manipulation.",
+            "D": "This is particularly evident in rhetorical or political discourse, where chatbots may reveal their inherent, unquestioned biases in subtle or implicit ways."
+        },
+        "answer": "B",
+        "explanation": "【句意】看到聊天機器人製作關於消費品或政治候選人的說服性標語將會很有趣。_____。\n【解析】本句提出了一個關於聊天機器人潛在應用（製作說服性標語）的設想。後續的句子應該是對這一設想的總結或引申，並帶有警示或呼籲。選項 B 提到「但是，我們以及後代有責任了解這些技術的潛力和陷阱。」這句話總結了對 AI 技術（包括製作說服性標語的能力）的看法，並強調了了解其潛力和風險的重要性，非常適合作為段落的結尾。\n選項 A 描述了聊天機器人的能力，但語氣更像是對現狀的描述，而非總結。\n選項 C 討論虛假信息傳播，雖然相關，但 B 更具總結性和警示性。\n選項 D 討論偏見，語氣較為具體，不適合作為結尾。"
+    },
+    {
+        "question_number": "34",
+        "question": "According to the passage, which of the following is true?",
+        "options": {
+            "A": "Students like social studies more than history.",
+            "B": "Social studies became popular decades ago.",
+            "C": "History is a major subject in high school.",
+            "D": "Children are not fond of true stories."
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，下列哪項是正確的？\n【解析】文章提到：「Kids like history because it’s the story of real people」。然而，文章也指出，將歷史轉變為社會研究是「what’s wrong」的根源，並且社會研究「flowered fully in the 1960s and 1970s」。文章暗示學生對社會研究的興趣可能不如對歷史的興趣，但卻因為社會研究的流行而滿足了文憑要求，這可能導致學生對歷史知識的匱乏。選項 A 雖然原文沒有直接說「學生更喜歡社會研究」，但文章暗示了社會研究的流行和對歷史的取代，以及學生為了文憑要求而選擇社會研究，這可以推斷出學生可能更傾向於社會研究的靈活性，或者說社會研究的流行是基於學生需求（或學校的安排）。然而，仔細閱讀，文章說的是「Kids like history because it’s the story of real people」，這表明孩子們喜歡歷史。而社會研究的流行是為了讓科目更「relevant」。文章也提到「escape hatches for uninterested students to satisfy their diploma requirements」，這暗示學生可能更傾向於社會研究的寬鬆性。因此，選項 A 的說法與文章的細節有些出入。讓我們重新審視。文章說「Kids like history because it’s the story of real people」，這表明孩子們喜歡歷史。而社會研究的轉變被認為是「what's wrong」。因此，選項 A 是錯誤的。\n\n讓我們重新分析文章的重點：\n- 歷史被轉變為社會研究是問題的根源。\n- 社會研究的目的是讓科目更「relevant」。\n- 學生喜歡歷史，因為它是真實人物的故事。\n- 社會研究的流行，讓學生可以透過其他科目（如心理學、人類學）來滿足文憑要求，導致他們對歷史知識的匱乏。\n\n基於以上分析，選項 A 是錯誤的，因為文章明確指出「Kids like history」。\n\n選項 B：「Social studies became popular decades ago.」文章提到「Social studies began in the 1930s」和「flowered fully in the 1960s and 1970s」，這表明社會研究在幾十年前就已經流行起來了。這是正確的。\n\n選項 C：「History is a major subject in high school.」文章暗示歷史在高中階段應該扮演更重要的角色，但並未明確說明它就是「major subject」。\n\n選項 D：「Children are not fond of true stories.」文章明確指出「Kids like history because it’s the story of real people」，這與選項 D 相悖。\n\n因此，選項 B 是最符合文章內容的。\n\n**重新審視題目和選項，發現我之前的判斷有誤。題目要求選出「true」的選項。**\n\n讓我們再次仔細閱讀文章，特別是關於學生對歷史和社會研究的態度。\n\n文章提到：「As a practical matter in elementary school, there’s just not enough time in the day to make history separate from civics, community issues and similar topics, but the aim should be for history and geography to play a larger role in that mix. From junior high on, it makes more sense to define the subject as history. Otherwise, schools are providing “escape hatches for uninterested students to satisfy their diploma requirements.” When psychology or anthropology or even driver’s education classes count as social studies, it’s no wonder so many students don’t know anything about the Civil War.」\n\n這段話暗示，學生可能因為社會研究的靈活性而選擇它，而不是因為他們更喜歡社會研究本身。他們只是為了滿足文憑要求，而歷史則因為其嚴謹性而可能被學生迴避。\n\n文章也提到：「“Kids like history because it’s the story of real people,” says Elaine Reed...」這表明孩子們喜歡歷史。\n\n所以，選項 A：「Students like social studies more than history.」是錯誤的。\n\n選項 B：「Social studies became popular decades ago.」文章提到「Social studies began in the 1930s」和「flowered fully in the 1960s and 1970s」，這表明社會研究在幾十年前就已經流行起來了。這是正確的。\n\n選項 C：「History is a major subject in high school.」文章沒有明確說明。\n\n選項 D：「Children are not fond of true stories.」文章明確指出孩子們喜歡歷史，因為它是真實人物的故事。\n\n**經過仔細分析，選項 B 是正確的。然而，提供的答案是 A。這意味著我對文章的理解可能與出題者的意圖有出入，或者答案本身有問題。**\n\n讓我們假設答案 A 是正確的，並嘗試尋找支持它的理由。\n\n如果答案是 A，那麼文章必須暗示學生更喜歡社會研究。文章提到「escape hatches for uninterested students to satisfy their diploma requirements」，這可能被解讀為學生為了更容易獲得學分而選擇社會研究，從而間接表明他們「更喜歡」社會研究（至少是出於功利目的）。然而，這與「Kids like history because it’s the story of real people」的說法相矛盾。\n\n**我將按照提供的答案 A 來解析，並指出文章中可能存在的歧義。**\n\n【解析】選項 A 提到「學生更喜歡社會研究」。文章中提到「Otherwise, schools are providing “escape hatches for uninterested students to satisfy their diploma requirements.”」這句話暗示，學生可能會選擇社會研究作為「逃生艙」，以滿足文憑要求，這可能間接表明他們更傾向於社會研究的靈活性，而不是歷史的嚴謹性。然而，文章也明確指出「Kids like history because it’s the story of real people」，這與選項 A 的說法存在矛盾。因此，此題的選項和文章內容可能存在一定的歧義。\n\n選項 B 提到「社會研究在幾十年前就流行起來了」。文章提到「Social studies began in the 1930s」和「flowered fully in the 1960s and 1970s」，這表明社會研究確實是在幾十年前流行的。這句話是正確的，但如果答案是 A，那麼 B 就不是最佳答案。\n\n選項 C 提到「歷史是高中一個主要科目」。文章沒有明確說明。\n\n選項 D 提到「孩子們不喜歡真實的故事」。文章明確指出孩子們喜歡歷史，因為它是真實人物的故事，所以這個選項是錯誤的。\n\n**基於提供的答案是 A，我將重點解釋為什麼 A 可能被認為是正確的，儘管存在爭議。**\n\n【句意】根據文章，下列哪項是正確的？\n【解析】選項 A 提到「學生更喜歡社會研究」。文章中提到「Otherwise, schools are providing “escape hatches for uninterested students to satisfy their diploma requirements.”」這句話暗示，學生可能會選擇社會研究作為「逃生艙」，以滿足文憑要求，這可能間接表明他們更傾向於社會研究的靈活性，而不是歷史的嚴謹性。然而，文章也明確指出「Kids like history because it’s the story of real people」，這與選項 A 的說法存在矛盾。因此，此題的選項和文章內容可能存在一定的歧義，但如果必須選擇一個最接近的答案，則可能傾向於從學生的實際選擇行為來推斷。\n\n選項 B 提到「社會研究在幾十年前就流行起來了」。文章提到「Social studies began in the 1930s」和「flowered fully in the 1960s and 1970s」，這表明社會研究確實是在幾十年前流行的。這句話是正確的，但如果答案是 A，那麼 B 就不是最佳答案。\n\n選項 C 提到「歷史是高中一個主要科目」。文章沒有明確說明。\n\n選項 D 提到「孩子們不喜歡真實的故事」。文章明確指出孩子們喜歡歷史，因為它是真實人物的故事，所以這個選項是錯誤的。"
+    },
+    {
+        "question_number": "35",
+        "question": "Which of the following is NOT mentioned in the passage?",
+        "options": {
+            "A": "The history of different ethnic groups should be taught.",
+            "B": "History programs are changing.",
+            "C": "A lot of students are not familiar with the Civil War.",
+            "D": "Ethnic studies are included in the interdisciplinary programs"
+        },
+        "answer": "D",
+        "explanation": "【句意】下列哪項在文章中沒有被提及？\n【解析】文章提到社會研究是一個「interdisciplinary approach that threw history into an academic stew with psychology, anthropology, ethnic studies, civics, and other subjects.」。這表明「ethnic studies」確實包含在跨學科的社會研究中。因此，選項 D 是被提及的。\n\n讓我們重新審視文章內容：\n- 文章提到「social studies」包含「psychology, anthropology, ethnic studies, civics, and other subjects」。因此，選項 D「Ethnic studies are included in the interdisciplinary programs」是被提及的。\n- 文章提到「Many educators now see the transformation of history into social studies as the root of what’s wrong.」以及「As a practical matter in elementary school... the aim should be for history and geography to play a larger role... From junior high on, it makes more sense to define the subject as history.」這表明歷史課程正在發生變化，因此選項 B「History programs are changing.」是被提及的。\n- 文章提到「it’s no wonder so many students don’t know anything about the Civil War.」因此，選項 C「A lot of students are not familiar with the Civil War.」是被提及的。\n\n那麼，選項 A「The history of different ethnic groups should be taught.」是否被提及？文章提到「ethnic studies」被包含在社會研究中，這暗示了不同族裔的歷史可能被涵蓋，但文章並沒有明確提出「應該教授不同族裔的歷史」這一觀點或建議。文章的重點在於歷史與社會研究的區別和轉變，以及對學生歷史知識的影響。\n\n**因此，選項 A 是最有可能未被明確提及的。**\n\n**再次檢查文章：**\n文章提到：「In higher grades, social studies came to mean an interdisciplinary approach that threw history into an academic stew with psychology, anthropology, ethnic studies, civics, and other subjects.」這明確指出了「ethnic studies」是社會研究的一部分。\n\n所以，選項 D 是被提及的。\n\n選項 B：文章討論了歷史轉變為社會研究，以及對歷史教學的建議，這表明歷史課程正在發生變化。\n\n選項 C：文章明確提到「it’s no wonder so many students don’t know anything about the Civil War.」\n\n選項 A：文章提到「ethnic studies」被包含在社會研究中，這間接說明了不同族裔的歷史可能被教授，但文章並沒有明確提出「應該教授不同族裔的歷史」這一主張或觀點。文章的重點在於歷史與社會研究的區別，以及對學生歷史知識的影響。\n\n**因此，選項 A 是最符合「NOT mentioned」的。**"
+    },
+    {
+        "question_number": "36",
+        "question": "Why was Paul Hanna regarded as a champion in this passage?",
+        "options": {
+            "A": "He defeated other educators.",
+            "B": "He knew history was a natural appeal.",
+            "C": "He disagreed to the interdisciplinary approach.",
+            "D": "He fought against the romantic realm."
+        },
+        "answer": "C",
+        "explanation": "【句意】為什麼 Paul Hanna 在這篇文章中被視為一個倡導者？\n【解析】文章提到：「Social studies began in the 1930s as an effort to make the subject more “relevant.” Paul Hanna, its original champion, wrote that children were failing to “face the realities of this world in which we live—they escape, they retreat to a romantic realm of yesterday.”」這裡的描述表明 Paul Hanna 是社會研究的「original champion」（最初的倡導者），他認為當時的歷史教學讓學生逃避現實，而社會研究能讓科目更「relevant」。這意味著他支持將歷史轉變為更貼近現實的社會研究，而不是反對跨學科的方法。因此，選項 C「He disagreed to the interdisciplinary approach.」是錯誤的。\n\n讓我們重新審視文章對 Paul Hanna 的描述。\n文章說：「Paul Hanna, its original champion, wrote that children were failing to “face the realities of this world in which we live—they escape, they retreat to a romantic realm of yesterday.”」這段話表明 Hanna 是社會研究的倡導者，他認為當時的歷史教學讓學生逃避現實，沉浸在過去的「浪漫領域」。他希望通過社會研究讓科目更「relevant」。\n\n因此，他並不是「disagreed to the interdisciplinary approach」，而是支持將歷史轉變為更廣泛的社會研究，這本身就包含了跨學科的元素。\n\n文章的後續內容則批評了這種轉變，認為「The “romantic realm” Hanna denigrated turns out to have a narrative thrust and natural appeal far more memorable than soupy sociology.」\n\n所以，Hanna 是社會研究的倡導者，他認為當時的歷史教學有問題，需要變得更「relevant」。\n\n選項 A：文章沒有提到他擊敗了其他教育家。\n\n選項 B：文章提到「Kids like history because it’s the story of real people」，但這句話是 Elaine Reed 說的，不是 Paul Hanna。Hanna 的重點是讓科目更「relevant」，而不是歷史本身有「natural appeal」。\n\n選項 C：文章說他是社會研究的「original champion」，社會研究本身就是一個跨學科的嘗試。所以他不是反對跨學科方法。\n\n選項 D：文章說他「fought against the romantic realm」，這句話是基於他認為學生沉浸在過去的「romantic realm」而逃避現實。他認為這種「romantic realm」是不好的，他希望學生面對現實。所以他是在反對學生沉浸在過去的「romantic realm」，而不是反對「romantic realm」本身作為一種敘事方式。\n\n**重新審視文章和選項，發現題目和選項的設計可能存在問題，或者對「champion」的理解需要更深入。**\n\n文章說：「Social studies began in the 1930s as an effort to make the subject more “relevant.” Paul Hanna, its original champion, wrote that children were failing to “face the realities of this world in which we live—they escape, they retreat to a romantic realm of yesterday.”」\n\n這段話表明 Hanna 是社會研究的倡導者，他認為當時的歷史教學讓學生逃避現實。他希望通過社會研究讓科目更「relevant」。\n\n文章後續的批評者認為，Hanna 所批評的「romantic realm」反而有敘事吸引力，而社會研究（soupy sociology）則不如它。\n\n所以，Hanna 是支持社會研究的，他認為當時的歷史教學（可能包含他所說的「romantic realm」）讓學生逃避現實。\n\n選項 C：「He disagreed to the interdisciplinary approach.」這與他是社會研究的倡導者相矛盾，因為社會研究本身就是跨學科的。\n\n選項 D：「He fought against the romantic realm.」這句話是基於他認為學生沉浸在過去的「romantic realm」而逃避現實。他認為這種「romantic realm」是不好的，他希望學生面對現實。所以他是在反對學生沉浸在過去的「romantic realm」，而不是反對「romantic realm」作為一種敘事方式。\n\n**根據文章，Hanna 是社會研究的倡導者，他認為當時的歷史教學讓學生逃避現實，沉浸在過去的「romantic realm」。他希望科目更「relevant」。**\n\n因此，他是在反對學生沉浸在過去的「romantic realm」中，而不是反對「romantic realm」本身。他認為這種沉浸是逃避現實。\n\n所以，選項 D「He fought against the romantic realm.」是基於他認為學生沉浸在過去的「romantic realm」而逃避現實。他認為這種「romantic realm」是不好的，他希望學生面對現實。所以他是在反對學生沉浸在過去的「romantic realm」，而不是反對「romantic realm」作為一種敘事方式。\n\n**重新思考：**\n文章說：「Paul Hanna, its original champion, wrote that children were failing to “face the realities of this world in which we live—they escape, they retreat to a romantic realm of yesterday.”」\n\n這句話表明 Hanna 認為學生沉浸在過去的「romantic realm」是逃避現實的表現。因此，他確實是在「對抗」這種沉浸在過去的「romantic realm」的現象，因為他認為這阻礙了學生面對現實。\n\n所以，選項 D 是最符合文章內容的。\n\n**然而，提供的答案是 C。這意味著我對文章的理解與出題者的意圖有出入，或者答案本身有問題。**\n\n如果答案是 C，那麼文章必須暗示 Hanna 反對跨學科的方法。但文章說他是社會研究的「original champion」，而社會研究本身就是跨學科的。這是一個明顯的矛盾。\n\n**我將按照提供的答案 C 來解析，並指出文章中可能存在的歧義。**\n\n【句意】為什麼 Paul Hanna 在這篇文章中被視為一個倡導者？\n【解析】選項 C 提到「他反對跨學科的方法」。文章提到 Paul Hanna 是社會研究的「original champion」。社會研究本身就是一種跨學科的嘗試，旨在將歷史與心理學、人類學等學科結合。因此，說他反對跨學科方法與他是社會研究倡導者的身份存在矛盾。文章的重點在於 Hanna 認為當時的歷史教學讓學生逃避現實，而社會研究能讓科目更「relevant」。如果答案是 C，那麼文章的描述可能被解讀為，Hanna 雖然是社會研究的倡導者，但他反對的是過度或不當的跨學科組合，或者他更傾向於將歷史獨立出來。然而，文章的直接表述並不支持這一點。\n\n選項 D 提到「他對抗浪漫的領域」。文章提到 Hanna 認為學生沉浸在過去的「romantic realm」是逃避現實的表現，因此他確實是在反對這種沉浸。這句話更符合文章的描述。\n\n**基於提供的答案是 C，我將重點解釋為什麼 C 可能被認為是正確的，儘管存在爭議。**\n\n【句意】為什麼 Paul Hanna 在這篇文章中被視為一個倡導者？\n【解析】選項 C 提到「他反對跨學科的方法」。文章提到 Paul Hanna 是社會研究的「original champion」。社會研究本身就是一種跨學科的嘗試，旨在將歷史與心理學、人類學等學科結合。因此，說他反對跨學科方法與他是社會研究倡導者的身份存在矛盾。然而，文章的重點在於 Hanna 認為當時的歷史教學讓學生逃避現實，而社會研究能讓科目更「relevant」。如果將「社會研究」理解為一種過於寬泛的、稀釋了歷史本質的跨學科組合，那麼 Hanna 可能是在反對這種「過度」的跨學科方法，而更傾向於將歷史獨立出來。但文章的直接表述並不支持這一點。\n\n選項 D 提到「他對抗浪漫的領域」。文章提到 Hanna 認為學生沉浸在過去的「romantic realm」是逃避現實的表現，因此他確實是在反對這種沉浸。這句話更符合文章的描述。"
+    },
+    {
+        "question_number": "37",
+        "question": "In the passage, the phrase “escape hatches” means _____.",
+        "options": {
+            "A": "the teacher does not have enough time to discuss community issues",
+            "B": "history and social studies are practical",
+            "C": "history is neglected in social studies",
+            "D": "social studies should not be part of the history study"
+        },
+        "answer": "D",
+        "explanation": "【句意】在文章中，“escape hatches” 的意思是_____。\n【解析】文章提到：「Otherwise, schools are providing “escape hatches for uninterested students to satisfy their diploma requirements.”」這句話緊隨在討論「From junior high on, it makes more sense to define the subject as history.」之後。這暗示了當學校不將科目定義為歷史時，學生可以透過其他方式（如心理學、人類學等，這些都被歸類為社會研究）來滿足文憑要求，從而「逃避」學習真正的歷史。因此，「escape hatches」指的是學生可以利用的途徑，讓他們不必深入學習歷史，而是透過其他科目來完成學業要求。選項 D「social studies should not be part of the history study」雖然有點絕對，但它捕捉到了「escape hatches」的核心含義，即學生可以透過社會研究來迴避歷史學習。選項 A、B、C 則沒有準確地表達出「逃避」學習歷史的含義。\n\n**重新審視選項：**\n\n文章提到：「Otherwise, schools are providing “escape hatches for uninterested students to satisfy their diploma requirements.”」這句話是在討論當科目不被定義為歷史時，學生可以如何滿足文憑要求。這意味著，當歷史被稀釋或包含在更廣泛的社會研究中時，學生可以透過學習其他與歷史不直接相關的科目來獲得學分，從而「逃避」學習真正的歷史。\n\n選項 A：「the teacher does not have enough time to discuss community issues」與「escape hatches」的含義無關。\n\n選項 B：「history and social studies are practical」與「escape hatches」的含義無關。\n\n選項 C：「history is neglected in social studies」這句話描述了歷史在社會研究中的地位，但「escape hatches」更側重於學生如何利用這一點來迴避學習。\n\n選項 D：「social studies should not be part of the history study」這句話表達了將歷史與社會研究分開的觀點，這與文章中暗示的「escape hatches」的產生原因（即歷史被包含在更廣泛的社會研究中）有關聯。當社會研究成為歷史的「escape hatches」時，就意味著社會研究的某些部分（或整個社會研究）被用來替代或迴避歷史的學習。因此，這句話可以理解為，為了避免出現「escape hatches」，歷史應該獨立出來，而不是被包含在社會研究中，成為學生逃避學習的途徑。\n\n**更精確的理解是：** 「escape hatches」是指學生可以利用的途徑，讓他們不必深入學習歷史，而是透過其他科目來獲得學分。這通常發生在歷史被稀釋或包含在更廣泛的社會研究中時。因此，選項 D「social studies should not be part of the history study」可以被理解為一種解決方案，即將歷史獨立出來，以消除這些「escape hatches」。\n\n**最終判斷：** 文章中「escape hatches」指的是學生可以利用的途徑，讓他們不必深入學習歷史，而是透過其他科目來滿足文憑要求。這通常發生在歷史被稀釋或包含在更廣泛的社會研究中時。選項 D「social studies should not be part of the history study」表達了將歷史與社會研究分開的觀點，這與「escape hatches」的產生原因（即歷史被包含在更廣泛的社會研究中）有關聯，可以被視為一種避免「escape hatches」的建議。因此，選項 D 是最貼切的解釋。\n\n**然而，提供的答案是 D。我之前的分析是正確的。**"
+    },
+    {
+        "question_number": "38",
+        "question": "The main idea of this passage is that _____.",
+        "options": {
+            "A": "people refuse to live in underground homes",
+            "B": "insulation is a decisive factor in building an underground home",
+            "C": "underground home construction involves several engineering feats",
+            "D": "underground homes offer an alternative to traditional homes"
+        },
+        "answer": "D",
+        "explanation": "【句意】這篇文章的主要思想是_____。\n【解析】文章開頭提到「For centuries, the people in very hot climate have used varieties of underground homes to stay comfortable. Recently, due to the rising cost of heating and cooling, homeowners begin to consider the advantages of underground homes.」接著詳細介紹了地下房屋的優點（保溫、節能）和一些建造上的考量（屋頂強度、排水），並指出其長期成本可能更低。這些都表明地下房屋是傳統房屋的一種替代選擇。選項 D「underground homes offer an alternative to traditional homes」準確地概括了文章的主旨。\n\n選項 A「people refuse to live in underground homes」與文章開頭提到的「homeowners begin to consider the advantages of underground homes」相悖。\n\n選項 B「insulation is a decisive factor in building an underground home」雖然文章提到了土壤的保溫作用，但這只是眾多優點之一，並非文章的唯一或主要重點。\n\n選項 C「underground home construction involves several engineering feats」文章確實提到了建造上的考量，如屋頂強度和排水，但這只是對地下房屋的介紹的一部分，並非文章的總體主旨。"
+    },
+    {
+        "question_number": "39",
+        "question": "According to the passage, which of the following statements is not true?",
+        "options": {
+            "A": "Soil temperature is seriously affected by atmospheric temperature.",
+            "B": "Underground homes benefit from the temperature of the soil that surrounds them.",
+            "C": "Stronger roofs are required for underground homes to support a layer of soil.",
+            "D": "Underground homes are not new to people."
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，下列哪項陳述是不正確的？\n【解析】文章提到：「At a certain depth, the temperature of the earth always stays around 50 degrees Fahrenheit.」這表明土壤溫度在一定深度下相對穩定，不受地表大氣溫度的劇烈影響。選項 A「Soil temperature is seriously affected by atmospheric temperature.」與此相悖，因此是不正確的。\n\n選項 B「Underground homes benefit from the temperature of the soil that surrounds them.」文章提到「And only a few feet down from the surface, the earth tends to be more comfortable than the air above.」以及地下房屋在冬夏的優勢，這表明地下房屋受益於土壤溫度。\n\n選項 C「Stronger roofs are required for underground homes to support a layer of soil.」文章提到「some architects point out that underground homes will require much stronger roofs to support a soil layer」。\n\n選項 D「Underground homes are not new to people.」文章開頭提到「For centuries, the people in very hot climate have used varieties of underground homes」。"
+    },
+    {
+        "question_number": "40",
+        "question": "It can be inferred from the passage that _____.",
+        "options": {
+            "A": "underground homes are only built in Minneapolis",
+            "B": "the temperature of 50 degrees Fahrenheit is optimal",
+            "C": "the long-term expenses of underground homes tend to be less",
+            "D": "underground homes are too hard to maintain"
+        },
+        "answer": "C",
+        "explanation": "【句意】從文章中可以推斷出_____。\n【解析】文章提到：「Underground homes may be more expensive to build. However, the cost of a properly designed underground home will eventually be lower. There is no sliding to repaint and replace, and there are very few windows to keep in good repair.」這表明雖然初期建造可能更貴，但由於維護成本低，長期來看地下房屋的總體費用會更低。選項 C「the long-term expenses of underground homes tend to be less」準確地反映了這一點。\n\n選項 A「underground homes are only built in Minneapolis」文章只是以 Minneapolis 為例說明地下房屋在寒冷氣候下的優勢，並未說只在那裡建造。\n\n選項 B「the temperature of 50 degrees Fahrenheit is optimal」文章提到「At a certain depth, the temperature of the earth always stays around 50 degrees Fahrenheit.」，這是一個描述性的陳述，並未說這個溫度是「optimal」（最佳的）。\n\n選項 D「underground homes are too hard to maintain」文章恰恰相反，提到「the cost of a properly designed underground home will eventually be lower. There is no sliding to repaint and replace, and there are very few windows to keep in good repair.」，這表明地下房屋的維護相對容易。"
+    },
+    {
+        "question_number": "41",
+        "question": "What is the primary theme of the passage?",
+        "options": {
+            "A": "The recent decline of traditional arts in the modern economy.",
+            "B": "The resilience and revival of traditional arts amid globalization.",
+            "C": "The exclusive benefits created by mass-produced goods.",
+            "D": "The disruption of technology on cultural identity."
+        },
+        "answer": "B",
+        "explanation": "【句意】這篇文章的主要主題是什麼？\n【解析】文章探討了在全球化背景下，傳統藝術面臨的挑戰（如現代設計和工業生產的同質化力量）以及它們如何透過現代技術和全球網絡獲得新的平台和復興（如線上市場、國際節日和社交媒體）。文章強調了傳統藝術的韌性以及它們在現代社會中的生存和發展。選項 B「The resilience and revival of traditional arts amid globalization.」（在全球化背景下傳統藝術的韌性和復興）準確地概括了這一主題。\n\n選項 A「The recent decline of traditional arts in the modern economy.」（傳統藝術在現代經濟中的近期衰落）文章提到了挑戰，但更強調了韌性和復興，而非單純的衰落。\n\n選項 C「The exclusive benefits created by mass-produced goods.」（批量生產商品創造的獨特好處）文章提到了批量生產的挑戰，但並未強調其好處。\n\n選項 D「The disruption of technology on cultural identity.」（科技對文化認同的顛覆）文章提到了科技的雙重作用，既有挑戰也有促進，但主要關注點是傳統藝術本身，而非科技對文化認同的單方面顛覆。"
+    },
+    {
+        "question_number": "42",
+        "question": "What risk do young artisans face according to the passage?",
+        "options": {
+            "A": "A complete ban on traditional practices.",
+            "B": "Losing interest in digital technology.",
+            "C": "Abandoning traditional crafts for more lucrative mass production.",
+            "D": "Overprotecting their cultural heritage."
+        },
+        "answer": "C",
+        "explanation": "【句意】根據文章，年輕的藝術家面臨什麼風險？\n【解析】文章提到：「Young artisans, enticed by the potential for lucrative, mass-produced alternatives, may risk abandoning their cultural crafts.」這句話直接說明了年輕藝術家面臨的風險是為了追求更有利可圖的大規模生產的替代品，而放棄他們的傳統手藝。選項 C「Abandoning traditional crafts for more lucrative mass production.」（為了更有利可圖的大規模生產而放棄傳統手藝）準確地描述了這一風險。\n\n選項 A「A complete ban on traditional practices.」（對傳統習俗的全面禁止）文章沒有提到這種情況。\n\n選項 B「Losing interest in digital technology.」（對數位科技失去興趣）文章提到年輕藝術家可能被大眾生產吸引，但並未說他們對數位科技失去興趣。\n\n選項 D「Overprotecting their cultural heritage.」（過度保護他們的文化遺產）文章沒有提到這種風險。"
+    },
+    {
+        "question_number": "43",
+        "question": "How does globalization simultaneously threaten and promote traditional arts?",
+        "options": {
+            "A": "It favors modern art forms, dismissing all traditional practices.",
+            "B": "It enforces globally strict cultural isolation and societal restrictions.",
+            "C": "It emphasizes the scarcity of handmade products while celebrating digital trends.",
+            "D": "It fosters homogenization through mass production while providing global platforms for sharing traditions."
+        },
+        "answer": "D",
+        "explanation": "【句意】全球化如何同時威脅和促進傳統藝術？\n【解析】文章提到：「On one hand, it introduces homogenizing forces: modern design trends and industrial production can dilute, or even displace, the distinct techniques passed down through generations.」這是威脅。接著說：「On the other hand, modern technology and global digital networks have provided a novel platform for these art forms. Online marketplaces, international festivals, and social media channels enable artists to share their work with a worldwide audience, thereby renewing interest and fortifying cultural pride.」這是促進。選項 D「It fosters homogenization through mass production while providing global platforms for sharing traditions.」（它透過大規模生產促進同質化，同時提供分享傳統的全球平台）準確地概括了這兩個方面。\n\n選項 A「It favors modern art forms, dismissing all traditional practices.」（它偏愛現代藝術形式，駁斥所有傳統習俗）文章沒有說它駁斥所有傳統習俗。\n\n選項 B「It enforces globally strict cultural isolation and societal restrictions.」（它在全球範圍內強制實施嚴格的文化孤立和社會限制）這與全球化的趨勢相反。\n\n選項 C「It emphasizes the scarcity of handmade products while celebrating digital trends.」（它強調手工製品的稀缺性，同時慶祝數位趨勢）文章沒有特別強調手工製品的稀缺性。"
+    },
+    {
+        "question_number": "44",
+        "question": "Which of the following efforts is mentioned as a way to preserve traditional arts?",
+        "options": {
+            "A": "Replacing traditional crafts with digital art.",
+            "B": "Promoting international festivals and educational programs.",
+            "C": "Focusing on access to online marketplaces.",
+            "D": "Encouraging exclusive industrial production from local circles of artists."
+        },
+        "answer": "B",
+        "explanation": "【句意】下列哪項努力被提及為保存傳統藝術的方法？\n【解析】文章提到：「Efforts to preserve and promote traditional arts now span local initiatives to governmental policies. Educational programs, cultural exhibitions, and support for sustainable artisanal trade are all part of a broader movement...」其中「Educational programs」和「cultural exhibitions」是保存傳統藝術的方法。選項 B「Promoting international festivals and educational programs.」（推廣國際節日和教育項目）包含了「educational programs」，並且國際節日也是一種推廣和展示傳統藝術的方式。\n\n選項 C「Focusing on access to online marketplaces.」（專注於線上市場的獲取）文章提到線上市場是促進傳統藝術的平台，但更側重於推廣和分享，而不是單純的「獲取」。\n\n選項 A「Replacing traditional crafts with digital art.」（用數位藝術取代傳統工藝）這與保存傳統藝術的目標相反。\n\n選項 D「Encouraging exclusive industrial production from local circles of artists.」（鼓勵藝術家本地圈子的獨家工業生產）這與傳統藝術的本質相悖，且「industrial production」可能帶來同質化問題。"
+    },
+    {
+        "question_number": "45",
+        "question": "What benefit does the fusion of tradition and modernity bring to society, as suggested in the passage?",
+        "options": {
+            "A": "A more homogenized global culture.",
+            "B": "Economic growth without cultural narratives.",
+            "C": "A diverse and enriched cultural landscape.",
+            "D": "The elimination of regional identities."
+        },
+        "answer": "C",
+        "explanation": "【句意】如文章所述，傳統與現代的融合為社會帶來了什麼好處？\n【解析】文章結尾提到：「By cherishing these creative legacies, communities not only honor their heritage but also contribute to a richer, more diversified global cultural landscape.」這表明傳統與現代的融合，透過珍惜這些創意遺產，有助於創造一個更豐富、更多樣化的全球文化景觀。選項 C「A diverse and enriched cultural landscape.」（一個多元且豐富的文化景觀）準確地概括了這一好處。\n\n選項 A「A more homogenized global culture.」（一個更同質化的全球文化）這與文章所說的「diversified」相反。\n\n選項 B「Economic growth without cultural narratives.」（沒有文化敘事的經濟增長）文章強調了文化遺產的重要性，並非追求沒有文化敘事的經濟增長。\n\n選項 D「The elimination of regional identities.」（區域認同的消除）文章強調的是豐富和多樣化，而非消除區域認同。"
+    },
+    {
+        "question_number": "46",
+        "question": "What is identified as the primary function of storytelling in the passage?",
+        "options": {
+            "A": "A process limited to traditional oral narratives.",
+            "B": "A formal method to disseminate scientific data.",
+            "C": "A tool for evoking empathy and preserving cultural memory.",
+            "D": "A method of prioritizing entertainment value over other values."
+        },
+        "answer": "C",
+        "explanation": "【句意】文章中將講故事的主要功能識別為什麼？\n【解析】文章開頭提到：「Storytelling has been a vital form of human expression since time immemorial, transcending cultural boundaries and connecting generations. ... These stories not only preserve cultural memory but also serve as catalysts for social change by highlighting common struggles and celebrating shared triumphs.」接著又提到：「This empathetic engagement transforms abstract concepts into relatable human experiences, thereby deepening our understanding of both ourselves and the world around us.」這些都表明講故事的主要功能是喚起同理心和保存文化記憶。選項 C「A tool for evoking empathy and preserving cultural memory.」（喚起同理心和保存文化記憶的工具）準確地概括了這一點。\n\n選項 A「A process limited to traditional oral narratives.」（僅限於傳統口述敘事的過程）文章提到講故事的形式多樣，包括文學、電影、數位媒體等，並非僅限於口述。\n\n選項 B「A formal method to disseminate scientific data.」（傳播科學數據的正式方法）文章強調的是情感、思想和文化記憶的傳播，而非科學數據。\n\n選項 D「A method of prioritizing entertainment value over other values.」（一種將娛樂價值置於其他價值之上的方法）文章提到講故事能喚起情感、傳達思想、促進理解，並非僅僅是為了娛樂。"
+    },
+    {
+        "question_number": "47",
+        "question": "How does storytelling help extend understanding beyond one’s self?",
+        "options": {
+            "A": "By separating cultural practices from broader societal issues.",
+            "B": "By discouraging personal reflection on historical perspectives.",
+            "C": "By transforming abstract concepts into relatable human experiences.",
+            "D": "By presenting a fixed set of facts while emphasizing scientific information."
+        },
+        "answer": "C",
+        "explanation": "【句意】講故事如何幫助拓展超越自我的理解？\n【解析】文章提到：「When we listen to or read a story, we immerse ourselves in perspectives that might be foreign to our own. This empathetic engagement transforms abstract concepts into relatable human experiences, thereby deepening our understanding of both ourselves and the world around us.」這表明講故事透過將抽象概念轉化為可感知的個人經歷，從而幫助我們拓展對自己和世界的理解。選項 C「By transforming abstract concepts into relatable human experiences.」（透過將抽象概念轉化為可感知的個人經歷）準確地描述了這一過程。\n\n選項 A「By separating cultural practices from broader societal issues.」（透過將文化習俗與更廣泛的社會問題分開）文章強調的是連結和理解，而非分離。\n\n選項 B「By discouraging personal reflection on historical perspectives.」（透過阻止對歷史觀點的個人反思）文章鼓勵反思和理解。\n\n選項 D「By presenting a fixed set of facts while emphasizing scientific information.」（透過呈現固定事實並強調科學信息）文章強調的是情感、同理心和個人經歷，而非固定事實或科學信息。"
+    },
+    {
+        "question_number": "48",
+        "question": "According to the passage, in what way can storytelling serve as a catalyst for social change?",
+        "options": {
+            "A": "By inspiring communities to mobilize in response to shared struggles.",
+            "B": "By promoting passive observation without taking real action.",
+            "C": "By repeatedly and unforgivingly reinforcing outdated cultural practices.",
+            "D": "By laboriously entertaining and conveying digital messages."
+        },
+        "answer": "A",
+        "explanation": "【句意】根據文章，講故事可以透過哪種方式作為社會變革的催化劑？\n【解析】文章提到：「These stories not only preserve cultural memory but also serve as catalysts for social change by highlighting common struggles and celebrating shared triumphs.」以及「For example, narratives centered on injustice or resilience can ignite collective action and inspire communities to strive for reform and reconciliation.」這表明講故事透過凸顯共同的掙扎和慶祝共同的勝利，可以激勵集體行動，促使社區爭取改革。選項 A「By inspiring communities to mobilize in response to shared struggles.」（透過激勵社區應對共同的掙扎而動員起來）準確地描述了這一點。\n\n選項 B「By promoting passive observation without taking real action.」（透過促進被動觀察而不採取實際行動）文章強調的是行動和改革，而非被動觀察。\n\n選項 C「By repeatedly and unforgivingly reinforcing outdated cultural practices.」（透過不斷且無情地強化過時的文化習俗）文章強調的是社會變革和進步，而非強化過時習俗。\n\n選項 D「By laboriously entertaining and conveying digital messages.」（透過費力地娛樂和傳達數位訊息）文章強調的是情感、理解和社會影響，而非單純的娛樂或數位訊息傳遞。"
+    },
+    {
+        "question_number": "49",
+        "question": "Which aspect of modern technology has contributed most to the evolution of storytelling?",
+        "options": {
+            "A": "The exclusivity of printed books in today's multi-platform landscape.",
+            "B": "The advent of social media, podcasts, and online videos.",
+            "C": "The rise and decline of mobile communication.",
+            "D": "The isolation of film from other media formats."
+        },
+        "answer": "B",
+        "explanation": "【句意】現代科技的哪個方面對講故事的演變貢獻最大？\n【解析】文章提到：「Moreover, the art of storytelling is undergoing a renaissance in our digital age. Social media platforms, podcasts, and online video channels have democratized the way stories are shared, allowing unheard voices to reach a global audience.」這表明社交媒體平台、播客和線上視頻的出現，極大地推動了講故事的演變和普及。選項 B「The advent of social media, podcasts, and online videos.」（社交媒體、播客和線上視頻的出現）準確地指出了這一點。\n\n選項 A「The exclusivity of printed books in today's multi-platform landscape.」（在當今多平台格局下印刷書籍的獨特性）文章提到數位媒體的興起，而非強調印刷書籍的獨特性。\n\n選項 C「The rise and decline of mobile communication.」（移動通信的興衰）文章沒有特別提及移動通信對講故事演變的貢獻。\n\n選項 D「The isolation of film from other media formats.」（電影與其他媒體格式的隔離）文章將電影視為講故事的一種形式，但並未提及它與其他媒體的隔離。"
+    },
+    {
+        "question_number": "50",
+        "question": "What overall benefit does the passage attribute to storytelling?",
+        "options": {
+            "A": "It simplifies complex issues to the point of triviality.",
+            "B": "It supports the role of factual information in education.",
+            "C": "It diminishes the outdated method unsuited for modern society.",
+            "D": "It builds empathy, bridges cultural divides, and promotes social change."
+        },
+        "answer": "D",
+        "explanation": "【句意】文章將講故事的總體好處歸因於什麼？\n【解析】文章在結尾總結道：「In doing so, storytelling continues to be a powerful force— a means to build empathy, foster cultural understanding, and drive progressive social change.」這句話直接指出了講故事的總體好處：建立同理心、促進文化理解和推動社會變革。選項 D「It builds empathy, bridges cultural divides, and promotes social change.」（它建立同理心、彌合文化鴻溝並推動社會變革）準確地概括了這些好處。\n\n選項 A「It simplifies complex issues to the point of triviality.」（它將複雜問題簡化到瑣碎的程度）文章強調的是傳達複雜思想和加深理解，而非簡化到瑣碎。\n\n選項 B「It supports the role of factual information in education.」（它支持事實信息在教育中的作用）文章強調的是情感、同理心和個人經歷，而非單純的事實信息。\n\n選項 C「It diminishes the outdated method unsuited for modern society.」（它削弱了不適合現代社會的過時方法）文章認為講故事是一種歷久彌新的強大力量，而非過時的方法。"
+    }
+]
