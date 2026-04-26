@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英語精選題庫練習系統</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --glass-bg: rgba(30, 41, 59, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --correct: #10b981;
+            --correct-bg: rgba(16, 185, 129, 0.1);
+            --incorrect: #ef4444;
+            --incorrect-bg: rgba(239, 68, 68, 0.1);
+            --option-bg: rgba(255, 255, 255, 0.05);
+            --option-hover: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', 'Noto Sans TC', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+            background: rgba(15, 23, 42, 0.5);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        select, button {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            padding: 0.75rem 1.5rem;
+            border-radius: 999px;
+            font-size: 1rem;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        select {
+            appearance: none;
+            padding-right: 2.5rem;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1rem;
+            min-width: 250px;
+        }
+
+        select:hover, button:hover {
+            border-color: var(--accent);
+            background: var(--option-hover);
+        }
+
+        select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+        }
+
+        button.primary {
+            background: var(--accent);
+            border-color: var(--accent);
+            font-weight: 600;
+        }
+
+        button.primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .welcome-state {
+            text-align: center;
+            margin: auto 0;
+            color: var(--text-secondary);
+        }
+
+        .welcome-state svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1.5rem;
+            opacity: 0.5;
+        }
+
+        .quiz-container {
+            display: none;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .score-badge {
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            padding: 0.4rem 1rem;
+            border-radius: 999px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+            line-height: 1.7;
+        }
+
+        .options-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .option-btn {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            text-align: left;
+            padding: 1.25rem;
+            background: var(--option-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 1rem;
+            font-size: 1.1rem;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .option-btn .label {
+            font-weight: 700;
+            margin-right: 1rem;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.1);
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .option-btn .text {
+            flex: 1;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background: var(--option-hover);
+            border-color: var(--text-secondary);
+            transform: scale(1.01);
+        }
+
+        .option-btn.correct {
+            background: var(--correct-bg);
+            border-color: var(--correct);
+            color: var(--correct);
+        }
+
+        .option-btn.correct .label {
+            background: var(--correct);
+            color: white;
+        }
+
+        .option-btn.incorrect {
+            background: var(--incorrect-bg);
+            border-color: var(--incorrect);
+            color: var(--incorrect);
+        }
+
+        .option-btn.incorrect .label {
+            background: var(--incorrect);
+            color: white;
+        }
+
+        .option-btn:disabled {
+            cursor: default;
+            opacity: 0.7;
+        }
+
+        .option-btn.correct:disabled, .option-btn.incorrect:disabled {
+            opacity: 1;
+        }
+
+        .explanation {
+            display: none;
+            margin-top: 1.5rem;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 4px solid var(--accent);
+            border-radius: 0.5rem 1rem 1rem 0.5rem;
+            animation: slideDown 0.3s ease-out;
+            white-space: pre-wrap;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            color: #cbd5e1;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .actions {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        #next-btn {
+            display: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        @media (max-width: 600px) {
+            .quiz-container {
+                padding: 1.5rem;
+            }
+            .option-btn {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>英語精選題庫練習系統</h1>
+        <div class="controls">
+            <select id="paper-select">
+                <option value="" disabled selected>請選擇一份試卷...</option>
+                <!-- 檔案列表 -->
+                <option value="114中區_單題解析.json">114中區</option>
+                <option value="114中興附中_單題解析.json">114中興附中</option>
+                <option value="114台北國中_單題解析.json">114台北國中</option>
+                <option value="114台南國中_單題解析.json">114台南國中</option>
+                <option value="114台南女中_單題解析.json">114台南女中</option>
+                <option value="114基隆_單題解析.json">114基隆</option>
+                <option value="114師大附中_單題解析.json">114師大附中</option>
+                <option value="114新北國中_單題解析.json">114新北國中</option>
+                <option value="114桃園國中_單題解析.json">114桃園國中</option>
+                <option value="115台中一中_單題解析.json">115台中一中</option>
+                <option value="115嘉科實中_單題解析.json">115嘉科實中</option>
+                <option value="115成德高中_單題解析.json">115成德高中</option>
+                <option value="115松山家商_單題解析.json">115松山家商</option>
+                <option value="115陽明交大_單題解析.json">115陽明交大</option>
+                <option value="115麗山高中_單題解析.json">115麗山高中</option>
+            </select>
+            <button id="start-btn" class="primary">開始練習</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="welcome-state" id="welcome-state">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            <h2>歡迎來到英語精選題庫練習</h2>
+            <p>請在上方選擇一份試卷以開始學習。系統將為您提供即時解答與詳細解析。</p>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>正在載入題目，請稍後...</p>
+        </div>
+
+        <div class="quiz-container" id="quiz-container">
+            <div class="progress-header">
+                <span id="question-counter">Question 1 / 10</span>
+                <span class="score-badge" id="score-display">得分: 0 / 0</span>
+            </div>
+
+            <div class="question-text" id="question-text">
+                Loading question...
+            </div>
+
+            <div class="options-grid" id="options-grid">
+                <!-- Options will be injected here -->
+            </div>
+
+            <div class="explanation" id="explanation">
+                <!-- Explanation injected here -->
+            </div>
+
+            <div class="actions">
+                <button id="next-btn" class="primary">下一題 ➔</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 英語精選題庫系統・Designed for Learning
+    </footer>
+
+    <script>
+        const paperSelect = document.getElementById('paper-select');
+        const startBtn = document.getElementById('start-btn');
+        const welcomeState = document.getElementById('welcome-state');
+        const loadingState = document.getElementById('loading');
+        const quizContainer = document.getElementById('quiz-container');
+        
+        const questionCounter = document.getElementById('question-counter');
+        const scoreDisplay = document.getElementById('score-display');
+        const questionText = document.getElementById('question-text');
+        const optionsGrid = document.getElementById('options-grid');
+        const explanationDiv = document.getElementById('explanation');
+        const nextBtn = document.getElementById('next-btn');
+
+        let currentQuestions = [];
+        let currentIndex = 0;
+        let score = 0;
+        let answered = 0;
+
+        startBtn.addEventListener('click', loadQuiz);
+        nextBtn.addEventListener('click', showNextQuestion);
+
+        async function loadQuiz() {
+            const fileName = paperSelect.value;
+            if (!fileName) {
+                alert('請先選擇一份試卷！');
+                return;
+            }
+
+            welcomeState.style.display = 'none';
+            quizContainer.style.display = 'none';
+            loadingState.style.display = 'block';
+
+            try {
+                // Ensure the fetch path correctly points to the directory where JSON files are located
+                const response = await fetch(`./extracted_single_questions/${fileName}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                if (data && data.length > 0) {
+                    currentQuestions = data;
+                    currentIndex = 0;
+                    score = 0;
+                    answered = 0;
+                    
+                    loadingState.style.display = 'none';
+                    quizContainer.style.display = 'block';
+                    renderQuestion();
+                } else {
+                    throw new Error('試卷資料為空');
+                }
+            } catch (error) {
+                console.error("載入失敗:", error);
+                loadingState.style.display = 'none';
+                welcomeState.style.display = 'block';
+                alert('載入資料失敗，請確認該 JSON 檔案存在且格式正確。');
+            }
+        }
+
+        function renderQuestion() {
+            const currentQ = currentQuestions[currentIndex];
+            
+            // Reset UI
+            explanationDiv.style.display = 'none';
+            nextBtn.style.display = 'none';
+            optionsGrid.innerHTML = '';
+            
+            // Update Headers
+            questionCounter.textContent = `Question ${currentIndex + 1} / ${currentQuestions.length}`;
+            scoreDisplay.textContent = `得分: ${score} / ${answered}`;
+            
+            // Update Question
+            questionText.textContent = `${currentQ.question_number}. ${currentQ.question}`;
+            
+            // Create Option Buttons dynamically based on the keys in currentQ.options
+            Object.entries(currentQ.options).forEach(([key, value]) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerHTML = `<span class="label">${key}</span> <span class="text">${value}</span>`;
+                btn.addEventListener('click', () => handleOptionClick(key, currentQ.answer, btn, currentQ.explanation));
+                optionsGrid.appendChild(btn);
+            });
+        }
+
+        function handleOptionClick(selectedKey, correctKey, clickedBtn, explanation) {
+            // Disable all buttons once an option is selected
+            const allBtns = document.querySelectorAll('.option-btn');
+            allBtns.forEach(btn => {
+                btn.disabled = true;
+                const btnLabel = btn.querySelector('.label').textContent;
+                
+                // Highlight the correct answer no matter what the user selected
+                if (btnLabel === correctKey) {
+                    btn.classList.add('correct');
+                }
+            });
+
+            answered++;
+            
+            // Handle incorrect selection
+            if (selectedKey !== correctKey) {
+                clickedBtn.classList.add('incorrect');
+            } else {
+                score++;
+            }
+            
+            // Update score
+            scoreDisplay.textContent = `得分: ${score} / ${answered}`;
+
+            // Show explanation
+            explanationDiv.textContent = explanation;
+            explanationDiv.style.display = 'block';
+            
+            // Show next button (or end text)
+            if (currentIndex < currentQuestions.length - 1) {
+                nextBtn.style.display = 'inline-block';
+                nextBtn.textContent = '下一題 ➔';
+            } else {
+                nextBtn.style.display = 'inline-block';
+                nextBtn.textContent = '完成練習，重新開始';
+                nextBtn.onclick = () => {
+                    alert(`恭喜完成！總得分：${score} / ${currentQuestions.length}`);
+                    loadQuiz(); // Restart the same quiz
+                    nextBtn.onclick = showNextQuestion; // Reset onclick
+                };
+            }
+        }
+
+        function showNextQuestion() {
+            currentIndex++;
+            if (currentIndex < currentQuestions.length) {
+                renderQuestion();
+            }
+        }
+    </script>
+</body>
+</html>
