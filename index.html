@@ -1,165 +1,833 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>英語教甄考古題測驗系統 Pro版</title>
-<style>
-body{font-family:Arial,"Microsoft JhengHei",sans-serif;background:#f4f6f9;margin:0;padding:20px;color:#333}
-.container{max-width:950px;margin:auto;background:#fff;padding:30px;border-radius:20px;box-shadow:0 4px 15px rgba(0,0,0,.08)}
-h1{text-align:center;margin-bottom:10px}
-#topbar{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:20px;font-size:14px}
-select,button{padding:10px;border-radius:10px;border:1px solid #ccc;font-size:14px}
-#questionBox{font-size:20px;line-height:1.7;margin:20px 0}
-.option{display:block;width:100%;margin:10px 0;padding:15px;border:none;border-radius:12px;background:#eef2f7;font-size:17px;cursor:pointer;text-align:left}
-.option:hover{background:#dde7f3}
-.correct{background:#c8f7c5!important}
-.wrong{background:#ffc9c9!important}
-#result,#explanation{margin-top:20px;padding:15px;border-radius:12px;display:none}
-#result{font-weight:bold}
-#explanation{background:#f7f7f7;line-height:1.7}
-#loading{text-align:center;font-size:18px;padding:40px}
-#wrongBox{margin-top:30px;padding:15px;background:#fff4e5;border-radius:15px;display:none}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>英語教甄考古題練習</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --good: #16a34a;
+      --bad: #dc2626;
+      --warning: #f59e0b;
+      --border: #e5e7eb;
+      --soft-blue: #eff6ff;
+      --soft-green: #ecfdf5;
+      --soft-red: #fef2f2;
+      --shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+      background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 45%, #f0fdf4 100%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .app {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .title {
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      margin: 0 0 8px;
+      color: #111827;
+      letter-spacing: 0.04em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .panel,
+    .question-card,
+    .result-card {
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(229, 231, 235, 0.9);
+      box-shadow: var(--shadow);
+      border-radius: 24px;
+    }
+
+    .panel {
+      padding: 22px;
+      margin-bottom: 22px;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr auto;
+      gap: 16px;
+      align-items: end;
+    }
+
+    .field label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #374151;
+    }
+
+    select,
+    button {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      font-size: 1rem;
+      padding: 12px 14px;
+      background: white;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: var(--primary);
+      color: white;
+      font-weight: 800;
+      transition: 0.2s ease;
+    }
+
+    button:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+      transform: none;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 18px 0;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .progress-wrap {
+      height: 12px;
+      background: #e5e7eb;
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 12px 0 20px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #2563eb, #22c55e);
+      transition: width 0.25s ease;
+    }
+
+    .question-card {
+      padding: 28px;
+      margin-bottom: 22px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--soft-blue);
+      color: #1d4ed8;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+
+    .question-text {
+      font-size: 1.15rem;
+      line-height: 1.75;
+      margin: 0 0 20px;
+      white-space: pre-wrap;
+    }
+
+    .options {
+      display: grid;
+      gap: 12px;
+    }
+
+    .option {
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--text);
+      text-align: left;
+      font-weight: 650;
+      line-height: 1.5;
+      padding: 14px 16px;
+    }
+
+    .option:hover:not(:disabled) {
+      background: #f8fafc;
+      border-color: #bfdbfe;
+      color: var(--text);
+    }
+
+    .option.correct {
+      background: var(--soft-green);
+      color: #166534;
+      border: 2px solid #22c55e;
+    }
+
+    .option.wrong {
+      background: var(--soft-red);
+      color: #991b1b;
+      border: 2px solid #ef4444;
+    }
+
+    .feedback {
+      margin-top: 20px;
+      padding: 18px;
+      border-radius: 18px;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      line-height: 1.75;
+    }
+
+    .feedback.good {
+      background: var(--soft-green);
+      border-color: #86efac;
+    }
+
+    .feedback.bad {
+      background: var(--soft-red);
+      border-color: #fecaca;
+    }
+
+    .feedback h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+
+    .answer-line {
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .secondary {
+      background: #374151;
+    }
+
+    .secondary:hover {
+      background: #111827;
+    }
+
+    .ghost {
+      background: white;
+      color: var(--primary);
+      border: 1px solid #bfdbfe;
+    }
+
+    .ghost:hover {
+      background: #eff6ff;
+      color: var(--primary-dark);
+    }
+
+    .result-card {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .result-title {
+      font-size: 2rem;
+      margin: 0 0 14px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .stat {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .stat-number {
+      font-size: 1.7rem;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .stat-label {
+      color: var(--muted);
+      margin-top: 4px;
+      font-weight: 700;
+    }
+
+    .review-list {
+      margin-top: 24px;
+      text-align: left;
+    }
+
+    .review-item {
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: #fff;
+      margin-bottom: 12px;
+      line-height: 1.65;
+    }
+
+    .review-item.correct-review {
+      border-left: 6px solid var(--good);
+    }
+
+    .review-item.wrong-review {
+      border-left: 6px solid var(--bad);
+    }
+
+    .notice {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      color: #92400e;
+      border-radius: 18px;
+      padding: 16px;
+      line-height: 1.7;
+      margin-top: 16px;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 760px) {
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .question-card,
+      .panel,
+      .result-card {
+        padding: 18px;
+        border-radius: 18px;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .navigation {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>英語教甄考古題測驗系統 Pro版</h1>
-<div id="loading">題庫載入中，請稍候...</div>
-<div id="quizArea" style="display:none;">
-<div id="topbar">
-<div id="stats">已做：0 題｜答對：0 題｜正確率：0%</div>
-<div>
-<select id="schoolFilter" onchange="applyFilter()">
-<option value="all">全部題庫</option>
-<option value="wrong">只做錯題</option>
-</select>
-<button onclick="nextQuestion()">換一題</button>
-</div>
-</div>
-<div id="sourceTag"></div>
-<div id="questionBox"></div>
-<div id="optionsBox"></div>
-<div id="result"></div>
-<div id="explanation"></div>
-<button id="nextBtn" onclick="nextQuestion()">下一題</button>
-<div id="wrongBox"></div>
-</div>
-</div>
-<script>
-const BASE_URL='https://edwina-english-class.github.io/past-papers-teacher-english/';
-const PAPERS=[
-{file:'paper1.json',name:'英語教甄考古題1'},
-{file:'paper2.json',name:'英語教甄考古題2'}
-];
-let allQuestions=[];
-let filteredQuestions=[];
-let currentQuestion=null;
-let doneCount=0;
-let correctCount=0;
-let wrongQuestions=[];
+  <main class="app">
+    <header>
+      <h1 class="title">英語教甄考古題練習</h1>
+      <p class="subtitle">依校名練習，或不分校隨機刷題。每題作答後立即顯示答案與解析。</p>
+    </header>
 
-function shuffleArray(arr){return [...arr].sort(()=>Math.random()-0.5);}
+    <section class="panel">
+      <div class="controls">
+        <div class="field">
+          <label for="schoolSelect">選擇學校</label>
+          <select id="schoolSelect">
+            <option value="">題庫載入中...</option>
+          </select>
+        </div>
 
-async function loadAllPapers(){
-try{
-const responses=await Promise.all(PAPERS.map(async p=>{
-const res=await fetch(BASE_URL+p.file);
-if(!res.ok) throw new Error(p.file+'載入失敗');
-const data=await res.json();
-return data.map(q=>({...q,_source:p.name}));
-}));
-allQuestions=responses.flat();
-makeSchoolOptions();
-filteredQuestions=allQuestions;
-document.getElementById('loading').style.display='none';
-document.getElementById('quizArea').style.display='block';
-nextQuestion();
-}catch(err){
-document.getElementById('loading').innerHTML='載入失敗，請確認GitHub已上傳完整檔案';
-console.error(err);
-}
-}
+        <div class="field" id="countField">
+          <label for="countSelect">不分校隨機題數</label>
+          <select id="countSelect">
+            <option value="10">10 題</option>
+            <option value="20">20 題</option>
+            <option value="30">30 題</option>
+          </select>
+        </div>
 
-function makeSchoolOptions(){
-const select=document.getElementById('schoolFilter');
-const schools=[...new Set(allQuestions.map(q=>q.school).filter(Boolean))];
-schools.forEach(s=>{
-const op=document.createElement('option');
-op.value=s;
-op.textContent=s;
-select.appendChild(op);
-});
-}
+        <button id="startBtn">開始練習</button>
+      </div>
 
-function applyFilter(){
-const val=document.getElementById('schoolFilter').value;
-if(val==='all') filteredQuestions=allQuestions;
-else if(val==='wrong') filteredQuestions=wrongQuestions.length?wrongQuestions:allQuestions;
-else filteredQuestions=allQuestions.filter(q=>q.school===val);
-nextQuestion();
-}
+      <div class="notice" id="loadNotice">
+        請確認本 HTML 檔案旁邊有一個 <code>questions.json</code>。若在本機直接雙擊 HTML 無法讀取 JSON，請改用 GitHub Pages 或 VS Code Live Server 開啟。
+      </div>
+    </section>
 
-function updateStats(){
-const rate=doneCount===0?0:Math.round(correctCount/doneCount*100);
-document.getElementById('stats').textContent=`已做：${doneCount} 題｜答對：${correctCount} 題｜正確率：${rate}%`;
-}
+    <section id="practiceArea" class="hidden">
+      <div class="status-row">
+        <div id="questionCounter">第 1 題 / 共 10 題</div>
+        <div id="scoreCounter">目前答對：0 題</div>
+        <div id="timer">練習時間：00:00</div>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
 
-function nextQuestion(){
-if(filteredQuestions.length===0) filteredQuestions=allQuestions;
-currentQuestion=filteredQuestions[Math.floor(Math.random()*filteredQuestions.length)];
-document.getElementById('sourceTag').textContent=`來源：${currentQuestion.school||currentQuestion._source||'—'}`;
-document.getElementById('questionBox').innerHTML=`<b>第${currentQuestion.question_number}題：</b><br>${currentQuestion.question}`;
-const optionsBox=document.getElementById('optionsBox');
-optionsBox.innerHTML='';
-shuffleArray(Object.entries(currentQuestion.options)).forEach(([key,val])=>{
-const btn=document.createElement('button');
-btn.className='option';
-btn.innerHTML=`<b>${key}.</b> ${val}`;
-btn.onclick=()=>checkAnswer(key,btn);
-optionsBox.appendChild(btn);
-});
-document.getElementById('result').style.display='none';
-document.getElementById('explanation').style.display='none';
-document.getElementById('nextBtn').style.display='none';
-}
+      <article class="question-card">
+        <div class="meta" id="meta"></div>
+        <p class="question-text" id="questionText"></p>
+        <div class="options" id="options"></div>
+        <div class="feedback hidden" id="feedback"></div>
+        <div class="navigation">
+          <button class="ghost" id="quitBtn">結束本次練習</button>
+          <button class="secondary hidden" id="nextBtn">下一題</button>
+        </div>
+      </article>
+    </section>
 
-function checkAnswer(selected,btn){
-doneCount++;
-const correct=currentQuestion.answer;
-const buttons=document.querySelectorAll('.option');
-buttons.forEach(b=>b.disabled=true);
-buttons.forEach(b=>{if(b.innerHTML.includes(`<b>${correct}.`)) b.classList.add('correct');});
-const resultDiv=document.getElementById('result');
-if(selected===correct){
-correctCount++;
-btn.classList.add('correct');
-resultDiv.textContent='✔ 答對了！';
-resultDiv.style.background='#dff0d8';
-}else{
-btn.classList.add('wrong');
-resultDiv.textContent=`✘ 答錯了！正確答案是 ${correct}`;
-resultDiv.style.background='#f2dede';
-if(!wrongQuestions.includes(currentQuestion)) wrongQuestions.push(currentQuestion);
-}
-resultDiv.style.display='block';
-const explanation=currentQuestion.explanation||currentQuestion.grammar_explanation||'本題尚未提供解析。';
-const expDiv=document.getElementById('explanation');
-expDiv.innerHTML=`<b>解析：</b><br>${explanation}`;
-expDiv.style.display='block';
-document.getElementById('nextBtn').style.display='inline-block';
-updateStats();
-updateWrongBox();
-}
+    <section id="resultArea" class="result-card hidden"></section>
+  </main>
 
-function updateWrongBox(){
-const box=document.getElementById('wrongBox');
-if(wrongQuestions.length===0){box.style.display='none';return;}
-box.style.display='block';
-box.innerHTML=`<b>目前錯題累積：</b> ${wrongQuestions.length} 題（可從上方切換「只做錯題」複習）`;
-}
+  <script>
+    // =====================================================
+    // 使用方式：
+    // 1. 把本檔命名為 index.html。
+    // 2. 把你的題庫 JSON 命名為 questions.json。
+    // 3. 兩個檔案放在同一層，上傳 GitHub Pages。
+    // =====================================================
 
-loadAllPapers();
-</script>
+    const JSON_FILE = "questions.json";
+    const RANDOM_ALL = "__RANDOM_ALL__";
+
+    let allQuestions = [];
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let correctCount = 0;
+    let startTime = null;
+    let timerInterval = null;
+    let userRecords = [];
+    let hasAnswered = false;
+
+    const schoolSelect = document.getElementById("schoolSelect");
+    const countField = document.getElementById("countField");
+    const countSelect = document.getElementById("countSelect");
+    const startBtn = document.getElementById("startBtn");
+    const practiceArea = document.getElementById("practiceArea");
+    const resultArea = document.getElementById("resultArea");
+    const questionCounter = document.getElementById("questionCounter");
+    const scoreCounter = document.getElementById("scoreCounter");
+    const timer = document.getElementById("timer");
+    const progressBar = document.getElementById("progressBar");
+    const meta = document.getElementById("meta");
+    const questionText = document.getElementById("questionText");
+    const options = document.getElementById("options");
+    const feedback = document.getElementById("feedback");
+    const nextBtn = document.getElementById("nextBtn");
+    const quitBtn = document.getElementById("quitBtn");
+    const loadNotice = document.getElementById("loadNotice");
+
+    document.addEventListener("DOMContentLoaded", init);
+    schoolSelect.addEventListener("change", toggleCountField);
+    startBtn.addEventListener("click", startPractice);
+    nextBtn.addEventListener("click", goNext);
+    quitBtn.addEventListener("click", finishPractice);
+
+    async function init() {
+      try {
+        const response = await fetch(JSON_FILE);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const rawData = await response.json();
+        allQuestions = normalizeQuestionList(rawData);
+
+        if (!allQuestions.length) {
+          throw new Error("JSON 中找不到可用題目");
+        }
+
+        buildSchoolOptions();
+        loadNotice.innerHTML = `題庫已載入：共 <strong>${allQuestions.length}</strong> 題。請選擇學校或不分校隨機出題。`;
+      } catch (error) {
+        schoolSelect.innerHTML = `<option value="">題庫載入失敗</option>`;
+        startBtn.disabled = true;
+        loadNotice.innerHTML = `
+          <strong>題庫載入失敗。</strong><br>
+          請確認：<br>
+          1. 題庫檔名是 <code>${JSON_FILE}</code>。<br>
+          2. <code>index.html</code> 與 <code>${JSON_FILE}</code> 放在同一層。<br>
+          3. 不要直接雙擊 HTML 測試，請用 GitHub Pages 或 Live Server。<br>
+          錯誤訊息：<code>${escapeHTML(error.message)}</code>
+        `;
+      }
+    }
+
+    function normalizeQuestionList(rawData) {
+      let list = [];
+
+      if (Array.isArray(rawData)) {
+        list = rawData;
+      } else if (Array.isArray(rawData.questions)) {
+        list = rawData.questions;
+      } else if (Array.isArray(rawData.data)) {
+        list = rawData.data;
+      } else if (Array.isArray(rawData.schools)) {
+        // 支援格式一：{ schools: [ { school, academic_year/year, questions: [...] } ] }
+        rawData.schools.forEach(schoolBlock => {
+          const inheritedSchool = schoolBlock.school || schoolBlock.schoolName || schoolBlock.校名 || "未分類";
+          const inheritedYear = schoolBlock.year || schoolBlock.academic_year || schoolBlock.學年度 || "";
+
+          if (Array.isArray(schoolBlock.questions)) {
+            schoolBlock.questions.forEach(q => {
+              list.push({
+                ...q,
+                school: q.school || q.schoolName || q.校名 || inheritedSchool,
+                year: q.year || q.academic_year || q.學年度 || inheritedYear
+              });
+            });
+          }
+        });
+      } else if (typeof rawData === "object" && rawData !== null) {
+        // 支援格式二：{ "學校A": [題目], "學校B": [題目] }
+        Object.entries(rawData).forEach(([schoolName, questions]) => {
+          if (Array.isArray(questions)) {
+            questions.forEach(q => list.push({ ...q, school: q.school || q.schoolName || q.校名 || schoolName }));
+          }
+        });
+      }
+
+      return list.map((item, index) => normalizeQuestion(item, index)).filter(Boolean);
+    }
+
+    function normalizeQuestion(item, index) {
+      const school = item.school || item.schoolName || item.校名 || item.source || item.來源 || "未分類";
+      const year = item.year || item.academic_year || item.年度 || item.學年度 || item.examYear || "";
+      const number = item.question_number || item.questionNumber || item.number || item.no || item.id || item.題號 || index + 1;
+      const question = item.question || item.question_text || item.stem || item.title || item.題目 || item.題幹 || item.text || "";
+      const translation = item.translation || item.sentence_translation_zh || item.translation_zh || item.中文翻譯 || item.整句中文意思 || "";
+      const explanation = item.explanation || item.explanation_zh || item.analysis || item.解析 || item.詳解 || item.reason || "";
+      const answer = normalizeAnswer(item.answer || item.correctAnswer || item.答案 || item.correct || item.key);
+      const optionsObj = normalizeOptions(item.options || item.choices || item.選項 || item);
+
+      if (!question || !answer || !optionsObj || Object.keys(optionsObj).length < 2) {
+        return null;
+      }
+
+      return {
+        school: String(school),
+        year: String(year),
+        number: String(number),
+        question: String(question),
+        translation: String(translation),
+        options: optionsObj,
+        answer,
+        explanation: String(explanation || "未提供解析")
+      };
+    }
+
+    function normalizeOptions(optionsInput) {
+      const labels = ["A", "B", "C", "D", "E"];
+      const output = {};
+
+      if (Array.isArray(optionsInput)) {
+        optionsInput.forEach((value, index) => {
+          const label = normalizeAnswer(value?.label) || labels[index];
+          const text = value?.text ?? value?.word ?? value?.option ?? value?.選項 ?? value;
+          const meaning = value?.meaning_zh ?? value?.meaning ?? value?.中文意思 ?? value?.translation ?? "";
+
+          if (text !== undefined && text !== null && String(text).trim() !== "") {
+            output[label] = meaning ? `${String(text)}｜${String(meaning)}` : String(text);
+          }
+        });
+        return output;
+      }
+
+      if (typeof optionsInput === "object" && optionsInput !== null) {
+        labels.forEach(label => {
+          const possibleKeys = [
+            label,
+            label.toLowerCase(),
+            `option${label}`,
+            `option_${label}`,
+            `選項${label}`,
+            `(${label})`,
+            `choice${label}`
+          ];
+
+          for (const key of possibleKeys) {
+            if (optionsInput[key] !== undefined && optionsInput[key] !== null && String(optionsInput[key]).trim() !== "") {
+              output[label] = String(optionsInput[key]);
+              break;
+            }
+          }
+        });
+      }
+
+      return output;
+    }
+
+    function normalizeAnswer(answerInput) {
+      if (answerInput === undefined || answerInput === null) return "";
+      const text = String(answerInput).trim().toUpperCase();
+      const match = text.match(/[A-E]/);
+      return match ? match[0] : "";
+    }
+
+    function buildSchoolOptions() {
+      const schools = [...new Set(allQuestions.map(q => q.school))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+
+      schoolSelect.innerHTML = `
+        <option value="${RANDOM_ALL}">不分校隨機出題</option>
+        ${schools.map(school => `<option value="${escapeHTML(school)}">${escapeHTML(school)}</option>`).join("")}
+      `;
+
+      toggleCountField();
+    }
+
+    function toggleCountField() {
+      countField.classList.toggle("hidden", schoolSelect.value !== RANDOM_ALL);
+    }
+
+    function startPractice() {
+      const selectedSchool = schoolSelect.value;
+      if (!selectedSchool) return;
+
+      let pool = [];
+
+      if (selectedSchool === RANDOM_ALL) {
+        pool = shuffle([...allQuestions]);
+        const selectedCount = Number(countSelect.value);
+        currentQuestions = pool.slice(0, Math.min(selectedCount, pool.length));
+      } else {
+        pool = allQuestions.filter(q => q.school === selectedSchool);
+        currentQuestions = shuffle(pool);
+      }
+
+      if (!currentQuestions.length) {
+        alert("此選項目前沒有可練習的題目。請檢查 JSON 題庫資料。");
+        return;
+      }
+
+      currentIndex = 0;
+      correctCount = 0;
+      userRecords = [];
+      hasAnswered = false;
+      startTime = Date.now();
+
+      practiceArea.classList.remove("hidden");
+      resultArea.classList.add("hidden");
+      nextBtn.classList.add("hidden");
+
+      startTimer();
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      hasAnswered = false;
+      const q = currentQuestions[currentIndex];
+      const total = currentQuestions.length;
+
+      questionCounter.textContent = `第 ${currentIndex + 1} 題 / 共 ${total} 題`;
+      scoreCounter.textContent = `目前答對：${correctCount} 題`;
+      progressBar.style.width = `${(currentIndex / total) * 100}%`;
+
+      meta.innerHTML = `
+        <span class="tag">${escapeHTML(q.school)}</span>
+        ${q.year ? `<span class="tag">${escapeHTML(q.year)}</span>` : ""}
+        <span class="tag">題號 ${escapeHTML(q.number)}</span>
+      `;
+
+      questionText.textContent = q.question;
+      options.innerHTML = "";
+      feedback.className = "feedback hidden";
+      feedback.innerHTML = "";
+      nextBtn.classList.add("hidden");
+
+      Object.entries(q.options).forEach(([label, text]) => {
+        const button = document.createElement("button");
+        button.className = "option";
+        button.dataset.label = label;
+        button.innerHTML = `<strong>(${label})</strong> ${escapeHTML(text)}`;
+        button.addEventListener("click", () => chooseAnswer(label));
+        options.appendChild(button);
+      });
+    }
+
+    function chooseAnswer(selectedLabel) {
+      if (hasAnswered) return;
+      hasAnswered = true;
+
+      const q = currentQuestions[currentIndex];
+      const isCorrect = selectedLabel === q.answer;
+
+      if (isCorrect) correctCount++;
+
+      document.querySelectorAll(".option").forEach(btn => {
+        const label = btn.dataset.label;
+        btn.disabled = true;
+        if (label === q.answer) btn.classList.add("correct");
+        if (label === selectedLabel && !isCorrect) btn.classList.add("wrong");
+      });
+
+      userRecords.push({
+        question: q,
+        selected: selectedLabel,
+        isCorrect
+      });
+
+      feedback.className = `feedback ${isCorrect ? "good" : "bad"}`;
+      feedback.innerHTML = `
+        <h3>${isCorrect ? "答對了！" : "這題答錯了，再看一次重點。"}</h3>
+        <div class="answer-line">正確答案：${q.answer}　${escapeHTML(q.options[q.answer] || "")}</div>
+        <div><strong>你的答案：</strong>${selectedLabel}　${escapeHTML(q.options[selectedLabel] || "")}</div>
+        ${q.translation ? `<div><strong>整句中文意思：</strong>${formatText(q.translation)}</div>` : ""}
+        <div><strong>解析：</strong>${formatText(q.explanation)}</div>
+      `;
+
+      scoreCounter.textContent = `目前答對：${correctCount} 題`;
+      nextBtn.textContent = currentIndex === currentQuestions.length - 1 ? "查看結果" : "下一題";
+      nextBtn.classList.remove("hidden");
+    }
+
+    function goNext() {
+      if (currentIndex < currentQuestions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        finishPractice();
+      }
+    }
+
+    function finishPractice() {
+      stopTimer();
+      progressBar.style.width = "100%";
+      practiceArea.classList.add("hidden");
+      resultArea.classList.remove("hidden");
+
+      const totalAnswered = userRecords.length;
+      const totalQuestions = currentQuestions.length;
+      const accuracy = totalAnswered ? Math.round((correctCount / totalAnswered) * 100) : 0;
+      const practiceTime = formatDuration(Date.now() - startTime);
+
+      resultArea.innerHTML = `
+        <h2 class="result-title">本次練習完成</h2>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-number">${practiceTime}</div>
+            <div class="stat-label">練習時間</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">${correctCount} / ${totalAnswered}</div>
+            <div class="stat-label">答對題數</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">${accuracy}%</div>
+            <div class="stat-label">答對率</div>
+          </div>
+        </div>
+
+        ${totalAnswered < totalQuestions ? `<p class="notice">你提前結束練習，因此答對率以已作答的 ${totalAnswered} 題計算。</p>` : ""}
+
+        <button onclick="restartFromResult()">再練一次</button>
+
+        <div class="review-list">
+          <h3>作答紀錄與解析</h3>
+          ${userRecords.map((record, index) => renderReviewItem(record, index)).join("")}
+        </div>
+      `;
+    }
+
+    function renderReviewItem(record, index) {
+      const q = record.question;
+      return `
+        <div class="review-item ${record.isCorrect ? "correct-review" : "wrong-review"}">
+          <strong>第 ${index + 1} 題｜${escapeHTML(q.school)}｜題號 ${escapeHTML(q.number)}</strong><br>
+          <strong>結果：</strong>${record.isCorrect ? "答對" : "答錯"}<br>
+          <strong>你的答案：</strong>${record.selected}　${escapeHTML(q.options[record.selected] || "")}<br>
+          <strong>正確答案：</strong>${q.answer}　${escapeHTML(q.options[q.answer] || "")}<br>
+          <strong>題目：</strong>${formatText(q.question)}<br>
+          ${q.translation ? `<strong>整句中文意思：</strong>${formatText(q.translation)}<br>` : ""}
+          <strong>解析：</strong>${formatText(q.explanation)}
+        </div>
+      `;
+    }
+
+    function restartFromResult() {
+      resultArea.classList.add("hidden");
+      startPractice();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function startTimer() {
+      stopTimer();
+      timerInterval = setInterval(() => {
+        timer.textContent = `練習時間：${formatDuration(Date.now() - startTime)}`;
+      }, 500);
+    }
+
+    function stopTimer() {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+      }
+    }
+
+    function formatDuration(ms) {
+      const totalSeconds = Math.floor(ms / 1000);
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+    }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function escapeHTML(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatText(value) {
+      return escapeHTML(value).replace(/\n/g, "<br>");
+    }
+  </script>
 </body>
 </html>
