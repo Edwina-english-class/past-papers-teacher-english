@@ -451,14 +451,14 @@
     <section class="panel">
       <div class="controls">
         <div class="field">
-          <label for="schoolSelect">選擇學校</label>
+          <label for="schoolSelect">選擇年份／學校</label>
           <select id="schoolSelect">
             <option value="">題庫載入中...</option>
           </select>
         </div>
 
         <div class="field" id="countField">
-          <label for="countSelect">不分校隨機題數</label>
+          <label for="countSelect">不分年份不分學校隨機題數</label>
           <select id="countSelect">
             <option value="10">10 題</option>
             <option value="20">20 題</option>
@@ -509,6 +509,14 @@
 
     const JSON_FILE = "questions.json";
     const RANDOM_ALL = "__RANDOM_ALL__";
+
+    function getGroupKey(question) {
+      return `${question.school}__${question.year || "未標示學年"}`;
+    }
+
+    function getGroupLabel(question) {
+      return `${question.year || "未標示學年"}｜${question.school}`;
+    }
 
     let allQuestions = [];
     let currentQuestions = [];
@@ -714,11 +722,31 @@
     }
 
     function buildSchoolOptions() {
-      const schools = [...new Set(allQuestions.map(q => q.school))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+      const groupMap = new Map();
+
+      allQuestions.forEach(q => {
+        const key = getGroupKey(q);
+        if (!groupMap.has(key)) {
+          groupMap.set(key, {
+            key,
+            label: getGroupLabel(q),
+            school: q.school,
+            year: q.year || "未標示學年",
+            count: 0
+          });
+        }
+        groupMap.get(key).count++;
+      });
+
+      const groups = [...groupMap.values()].sort((a, b) => {
+        const yearCompare = b.year.localeCompare(a.year, "zh-Hant", { numeric: true });
+        if (yearCompare !== 0) return yearCompare;
+        return a.school.localeCompare(b.school, "zh-Hant");
+      });
 
       schoolSelect.innerHTML = `
-        <option value="${RANDOM_ALL}">不分校隨機出題</option>
-        ${schools.map(school => `<option value="${escapeHTML(school)}">${escapeHTML(school)}</option>`).join("")}
+        <option value="${RANDOM_ALL}">不分年份不分學校隨機出題</option>
+        ${groups.map(group => `<option value="${escapeHTML(group.key)}">${escapeHTML(group.label)}（${group.count} 題）</option>`).join("")}
       `;
 
       toggleCountField();
@@ -739,7 +767,7 @@
         const selectedCount = Number(countSelect.value);
         currentQuestions = pool.slice(0, Math.min(selectedCount, pool.length));
       } else {
-        pool = allQuestions.filter(q => q.school === selectedSchool);
+        pool = allQuestions.filter(q => getGroupKey(q) === selectedSchool);
         currentQuestions = shuffle(pool);
       }
 
