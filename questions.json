@@ -11674,25 +11674,25 @@
           "options": [
             {
               "label": "A",
-              "text": "supposed to（缺 be）",
+              "text": "supposed to",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "was supposed to（過去被動語態，應該）",
+              "text": "was supposed to",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "C",
-              "text": "supposing to（分詞，用法錯誤）",
+              "text": "supposing to",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "was supposing to（進行式，用法錯誤）",
+              "text": "was supposing to",
               "meaning_zh": "",
               "is_correct": false
             }
@@ -14220,25 +14220,25 @@
           "options": [
             {
               "label": "A",
-              "text": "preview（預習）",
+              "text": "preview",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "B",
-              "text": "presentations（呈現）",
+              "text": "presentations",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "practice（練習）",
+              "text": "practice",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "production（產出）",
+              "text": "production",
               "meaning_zh": "",
               "is_correct": false
             }
