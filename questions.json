@@ -15108,25 +15108,25 @@
           "options": [
             {
               "label": "A",
-              "text": "will turn（直述語氣）",
+              "text": "will turn",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "will be able to turn（直述語氣）",
+              "text": "will be able to turn",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "would have turned（過去假設）",
+              "text": "would have turned",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "would be able to turn（現在/未來假設）",
+              "text": "would be able to turn",
               "meaning_zh": "",
               "is_correct": true
             }
