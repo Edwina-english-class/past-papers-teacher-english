@@ -16002,7 +16002,7 @@
           "year": "114學年",
           "question_number": 11,
           "question_id": "Q11",
-          "question_text": "Whenever Amanda and I embark on our journey to the Golden Coast, we enthusiastically capture countless photographs as the breathtaking shoreline unfolds before us, showcasing skilled surfers.",
+          "question_text": "Whenever Amanda and I embark on our journey to the Golden Coast, we enthusiastically capture countless photographs ____ the breathtaking shoreline unfolds before us, showcasing skilled surfers.",
           "sentence_translation_zh": "每當 Amanda 和我踏上前往黃金海岸的旅程，當壯麗的海岸線在我們眼前展開時（as），我們都熱情地拍攝無數的照片，記錄下技術高超的衝浪者。",
           "answer": "B",
           "options": [
