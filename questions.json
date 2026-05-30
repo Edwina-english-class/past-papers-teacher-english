@@ -11563,25 +11563,25 @@
           "options": [
             {
               "label": "A",
-              "text": "is（現在簡單式）",
+              "text": "is",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "was（過去式）",
+              "text": "was",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "being（現在分詞）",
+              "text": "being",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "has been（現在完成式）",
+              "text": "has been",
               "meaning_zh": "",
               "is_correct": true
             }
@@ -11600,25 +11600,25 @@
           "options": [
             {
               "label": "A",
-              "text": "Founded（過去分詞，分詞構句）",
+              "text": "Founded",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "B",
-              "text": "Founding（現在分詞，主詞需是施事者）",
+              "text": "Founding",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "That was founded（that 引導的子句不能作分詞構句）",
+              "text": "That was founded",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "Found（與 Founded 同形，但常混淆）",
+              "text": "Found",
               "meaning_zh": "",
               "is_correct": false
             }
@@ -11637,25 +11637,25 @@
           "options": [
             {
               "label": "A",
-              "text": "changing（分詞，缺主要動詞）",
+              "text": "changing",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "which has changed（現在完成，時態不對）",
+              "text": "which has changed",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "was changing（過去進行，強調動作進行中）",
+              "text": "was changing",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "changed（過去簡單式，陳述事實）",
+              "text": "changed",
               "meaning_zh": "",
               "is_correct": true
             }
@@ -11711,25 +11711,25 @@
           "options": [
             {
               "label": "A",
-              "text": "Know（原形動詞，不能作主詞）",
+              "text": "Know",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "Known（過去分詞，語意不符）",
+              "text": "Known",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "Knowing（動名詞，作主詞）",
+              "text": "Knowing",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "D",
-              "text": "To know（不定詞，作主詞，但此語境偏向動名詞）",
+              "text": "To know",
               "meaning_zh": "",
               "is_correct": false
             }
