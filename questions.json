@@ -14257,25 +14257,25 @@
           "options": [
             {
               "label": "A",
-              "text": "/p/（雙唇塞音，清音）",
+              "text": "/p/",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "B",
-              "text": "/k/（軟顎塞音，清音）",
+              "text": "/k/",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "/f/（唇齒擦音，清音）",
+              "text": "/f/",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "/l/（齒槽邊音）",
+              "text": "/l/",
               "meaning_zh": "",
               "is_correct": false
             }
@@ -14331,25 +14331,25 @@
           "options": [
             {
               "label": "A",
-              "text": "Activities are cognitively demanding, while tasks are cognitive simple.（錯誤）",
+              "text": "Activities are cognitively demanding, while tasks are cognitive simple.",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "B",
-              "text": "Activities provide controlled, guided practice, while tasks encourage production and creative use of language.（正確）",
+              "text": "Activities provide controlled, guided practice, while tasks encourage production and creative use of language.",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "C",
-              "text": "Activities but not tasks can be personalized according to pupil's interests.（錯誤）",
+              "text": "Activities but not tasks can be personalized according to pupil's interests.",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "Both activities and tasks are contextualized with a real purpose and audience.（錯誤）",
+              "text": "Both activities and tasks are contextualized with a real purpose and audience.",
               "meaning_zh": "",
               "is_correct": false
             }
@@ -15071,25 +15071,25 @@
           "options": [
             {
               "label": "A",
-              "text": "half of whom are（關係子句，正確）",
+              "text": "half of whom are",
               "meaning_zh": "",
               "is_correct": true
             },
             {
               "label": "B",
-              "text": "half of them（缺動詞）",
+              "text": "half of them",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "C",
-              "text": "half of them are（代名詞用法不當）",
+              "text": "half of them are",
               "meaning_zh": "",
               "is_correct": false
             },
             {
               "label": "D",
-              "text": "and half of whom（缺動詞）",
+              "text": "and half of whom",
               "meaning_zh": "",
               "is_correct": false
             }
